@@ -1,0 +1,4 @@
+Din cauza ca atat RandomBot.py cat si playgame.py depind de fisierul ants.py care este diferit, botul dezvoltat pe baza acestui starter bot trebuie pus intr-un director diferit fata de playgame.py. De exemplu /dev
+Exemplu de rulare:
+./playgame.py --verbose --log_dir game_logs --map_file maps/maze/maze_p02_01.map "python dev/RandomBot.py" "python dev/RandomBot.py"
+

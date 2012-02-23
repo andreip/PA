@@ -1,0 +1,6 @@
+Pentru compilare este necesara instalarea unui compilator de java.
+De exemplu: sudo apt-get install openjdk-6-jdk
+Compilarea tuturor botilor se realizeaza cu "make".
+Exemplu de rulare:
+./playgame.py --verbose --map_file maps/maze/maze_02p_01.map "java -cp sample_bots/java RandomBot" "java -cp sample_bots/java RandomBot"
+(classpath nu trebuie sa aiba trailing slash).

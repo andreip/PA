@@ -1,0 +1,6 @@
+Compilare botului se realizeaza cu "make".
+Exemple de rulare:
+1) MyBot.class se afla in directorul "dev" de pe acelasi nivel cu playgame.py
+./playgame.py --verbose --map_file maps/maze/maze_02p_01.map "/dev/MyBot" "/dev/MyBot"
+2) MyBot se afla pe acelasi nivel cu playgame.py:
+./playgame.py --verbose --map_file maps/maze/maze_02p_01.map "./MyBot" "./MyBot"

@@ -1,0 +1,9 @@
+Pentru compilare este necesara instalarea unui compilator de java.
+De exemplu: sudo apt-get install openjdk-6-jdk
+Compilare botului se realizeaza cu "make".
+Exemple de rulare:
+1) MyBot.class se afla in directorul "dev" de pe acelasi nivel cu playgame.py
+./playgame.py --verbose --map_file maps/maze/maze_02p_01.map "java -cp dev MyBot" "java -cp dev MyBot"
+(classpath nu trebuie sa aiba trailing slash, deci "dev" in loc de "dev/").
+2) MyBot.class impreuna cu toate .class-urile dependente se afla pe acelasi nivel cu playgame.py:
+./playgame.py --verbose --map_file maps/maze/maze_02p_01.map "java MyBot" "java MyBot"
