@@ -107,4 +107,3 @@ if __name__ == '__main__':
         Ants.run(RandomBot())
     except KeyboardInterrupt:
         print('ctrl-c, leaving ...')
-        k 
