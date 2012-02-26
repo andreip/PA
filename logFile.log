@@ -1,0 +1,3500 @@
+2012-02-25 22:14:57,765 INFO Starting game
+2012-02-25 22:14:57,765 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,766 INFO A trecut de else
+2012-02-25 22:14:57,766 INFO A gasit closest_food
+2012-02-25 22:14:57,766 INFO Intra in Astar
+2012-02-25 22:14:57,766 INFO Trece de passable test
+2012-02-25 22:14:57,766 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,766 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,766 INFO 4
+2012-02-25 22:14:57,766 INFO Ajunge inainte de while
+2012-02-25 22:14:57,766 INFO Intra in while
+2012-02-25 22:14:57,767 INFO Intra inainte de if
+2012-02-25 22:14:57,767 INFO Ajunge inainte de for
+2012-02-25 22:14:57,767 INFO Intra in for
+2012-02-25 22:14:57,767 INFO Intra in primul if
+2012-02-25 22:14:57,767 INFO Intra in for
+2012-02-25 22:14:57,767 INFO Intra in primul if
+2012-02-25 22:14:57,767 INFO Intra in for
+2012-02-25 22:14:57,767 INFO Intra in primul if
+2012-02-25 22:14:57,767 INFO Intra in for
+2012-02-25 22:14:57,767 INFO Intra in primul if
+2012-02-25 22:14:57,768 INFO Intra in for
+2012-02-25 22:14:57,768 INFO Intra in primul if
+2012-02-25 22:14:57,768 INFO Intra in for
+2012-02-25 22:14:57,768 INFO Intra in primul if
+2012-02-25 22:14:57,768 INFO Intra in for
+2012-02-25 22:14:57,768 INFO Intra in primul if
+2012-02-25 22:14:57,768 INFO Intra in for
+2012-02-25 22:14:57,768 INFO Intra in primul if
+2012-02-25 22:14:57,768 INFO Ajunge la finalul for
+2012-02-25 22:14:57,769 INFO Ajunge la finalul while
+2012-02-25 22:14:57,769 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,769 INFO A mers Astar
+2012-02-25 22:14:57,769 INFO Mergeee
+2012-02-25 22:14:57,769 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,797 INFO Starting game
+2012-02-25 22:14:57,797 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,797 INFO A trecut de else
+2012-02-25 22:14:57,797 INFO A gasit closest_food
+2012-02-25 22:14:57,797 INFO Intra in Astar
+2012-02-25 22:14:57,797 INFO Trece de passable test
+2012-02-25 22:14:57,797 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,798 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,798 INFO 4
+2012-02-25 22:14:57,798 INFO Ajunge inainte de while
+2012-02-25 22:14:57,798 INFO Intra in while
+2012-02-25 22:14:57,798 INFO Intra inainte de if
+2012-02-25 22:14:57,798 INFO Ajunge inainte de for
+2012-02-25 22:14:57,798 INFO Intra in for
+2012-02-25 22:14:57,798 INFO Intra in primul if
+2012-02-25 22:14:57,798 INFO Intra in for
+2012-02-25 22:14:57,798 INFO Intra in primul if
+2012-02-25 22:14:57,798 INFO Intra in for
+2012-02-25 22:14:57,798 INFO Intra in primul if
+2012-02-25 22:14:57,798 INFO Intra in for
+2012-02-25 22:14:57,798 INFO Intra in primul if
+2012-02-25 22:14:57,798 INFO Intra in for
+2012-02-25 22:14:57,798 INFO Intra in primul if
+2012-02-25 22:14:57,799 INFO Intra in for
+2012-02-25 22:14:57,799 INFO Intra in primul if
+2012-02-25 22:14:57,799 INFO Intra in for
+2012-02-25 22:14:57,799 INFO Intra in primul if
+2012-02-25 22:14:57,799 INFO Intra in for
+2012-02-25 22:14:57,799 INFO Intra in primul if
+2012-02-25 22:14:57,799 INFO Ajunge la finalul for
+2012-02-25 22:14:57,799 INFO Ajunge la finalul while
+2012-02-25 22:14:57,799 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,799 INFO A mers Astar
+2012-02-25 22:14:57,799 INFO Mergeee
+2012-02-25 22:14:57,799 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,827 INFO Starting game
+2012-02-25 22:14:57,827 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,827 INFO A trecut de else
+2012-02-25 22:14:57,827 INFO A gasit closest_food
+2012-02-25 22:14:57,827 INFO Intra in Astar
+2012-02-25 22:14:57,827 INFO Trece de passable test
+2012-02-25 22:14:57,827 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,827 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,827 INFO 4
+2012-02-25 22:14:57,827 INFO Ajunge inainte de while
+2012-02-25 22:14:57,827 INFO Intra in while
+2012-02-25 22:14:57,827 INFO Intra inainte de if
+2012-02-25 22:14:57,827 INFO Ajunge inainte de for
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,828 INFO Intra in primul if
+2012-02-25 22:14:57,828 INFO Intra in for
+2012-02-25 22:14:57,829 INFO Intra in primul if
+2012-02-25 22:14:57,829 INFO Ajunge la finalul for
+2012-02-25 22:14:57,829 INFO Ajunge la finalul while
+2012-02-25 22:14:57,829 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,829 INFO A mers Astar
+2012-02-25 22:14:57,829 INFO Mergeee
+2012-02-25 22:14:57,829 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,855 INFO Starting game
+2012-02-25 22:14:57,855 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,856 INFO A trecut de else
+2012-02-25 22:14:57,856 INFO A gasit closest_food
+2012-02-25 22:14:57,856 INFO Intra in Astar
+2012-02-25 22:14:57,856 INFO Trece de passable test
+2012-02-25 22:14:57,856 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,856 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,856 INFO 4
+2012-02-25 22:14:57,856 INFO Ajunge inainte de while
+2012-02-25 22:14:57,856 INFO Intra in while
+2012-02-25 22:14:57,856 INFO Intra inainte de if
+2012-02-25 22:14:57,856 INFO Ajunge inainte de for
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,857 INFO Intra in for
+2012-02-25 22:14:57,857 INFO Intra in primul if
+2012-02-25 22:14:57,858 INFO Intra in for
+2012-02-25 22:14:57,858 INFO Intra in primul if
+2012-02-25 22:14:57,858 INFO Intra in for
+2012-02-25 22:14:57,858 INFO Intra in primul if
+2012-02-25 22:14:57,858 INFO Ajunge la finalul for
+2012-02-25 22:14:57,858 INFO Ajunge la finalul while
+2012-02-25 22:14:57,858 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,858 INFO A mers Astar
+2012-02-25 22:14:57,858 INFO Mergeee
+2012-02-25 22:14:57,858 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,879 INFO Starting game
+2012-02-25 22:14:57,879 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,879 INFO A trecut de else
+2012-02-25 22:14:57,879 INFO A gasit closest_food
+2012-02-25 22:14:57,879 INFO Intra in Astar
+2012-02-25 22:14:57,879 INFO Trece de passable test
+2012-02-25 22:14:57,879 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,879 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,879 INFO 4
+2012-02-25 22:14:57,879 INFO Ajunge inainte de while
+2012-02-25 22:14:57,879 INFO Intra in while
+2012-02-25 22:14:57,879 INFO Intra inainte de if
+2012-02-25 22:14:57,879 INFO Ajunge inainte de for
+2012-02-25 22:14:57,879 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Intra in for
+2012-02-25 22:14:57,880 INFO Intra in primul if
+2012-02-25 22:14:57,880 INFO Ajunge la finalul for
+2012-02-25 22:14:57,881 INFO Ajunge la finalul while
+2012-02-25 22:14:57,881 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,881 INFO A mers Astar
+2012-02-25 22:14:57,881 INFO Mergeee
+2012-02-25 22:14:57,881 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,902 INFO Starting game
+2012-02-25 22:14:57,902 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,902 INFO A trecut de else
+2012-02-25 22:14:57,902 INFO A gasit closest_food
+2012-02-25 22:14:57,902 INFO Intra in Astar
+2012-02-25 22:14:57,902 INFO Trece de passable test
+2012-02-25 22:14:57,902 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,903 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,903 INFO 4
+2012-02-25 22:14:57,903 INFO Ajunge inainte de while
+2012-02-25 22:14:57,903 INFO Intra in while
+2012-02-25 22:14:57,903 INFO Intra inainte de if
+2012-02-25 22:14:57,903 INFO Ajunge inainte de for
+2012-02-25 22:14:57,903 INFO Intra in for
+2012-02-25 22:14:57,903 INFO Intra in primul if
+2012-02-25 22:14:57,903 INFO Intra in for
+2012-02-25 22:14:57,903 INFO Intra in primul if
+2012-02-25 22:14:57,903 INFO Intra in for
+2012-02-25 22:14:57,903 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Intra in for
+2012-02-25 22:14:57,904 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Intra in for
+2012-02-25 22:14:57,904 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Intra in for
+2012-02-25 22:14:57,904 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Intra in for
+2012-02-25 22:14:57,904 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Intra in for
+2012-02-25 22:14:57,904 INFO Intra in primul if
+2012-02-25 22:14:57,904 INFO Ajunge la finalul for
+2012-02-25 22:14:57,905 INFO Ajunge la finalul while
+2012-02-25 22:14:57,905 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,905 INFO A mers Astar
+2012-02-25 22:14:57,905 INFO Mergeee
+2012-02-25 22:14:57,905 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,922 INFO Starting game
+2012-02-25 22:14:57,922 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,922 INFO A trecut de else
+2012-02-25 22:14:57,922 INFO A gasit closest_food
+2012-02-25 22:14:57,923 INFO Intra in Astar
+2012-02-25 22:14:57,923 INFO Trece de passable test
+2012-02-25 22:14:57,923 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,923 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,923 INFO 4
+2012-02-25 22:14:57,923 INFO Ajunge inainte de while
+2012-02-25 22:14:57,923 INFO Intra in while
+2012-02-25 22:14:57,923 INFO Intra inainte de if
+2012-02-25 22:14:57,923 INFO Ajunge inainte de for
+2012-02-25 22:14:57,923 INFO Intra in for
+2012-02-25 22:14:57,923 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,924 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,924 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,924 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,924 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,924 INFO Intra in primul if
+2012-02-25 22:14:57,924 INFO Intra in for
+2012-02-25 22:14:57,925 INFO Intra in primul if
+2012-02-25 22:14:57,925 INFO Intra in for
+2012-02-25 22:14:57,925 INFO Intra in primul if
+2012-02-25 22:14:57,925 INFO Ajunge la finalul for
+2012-02-25 22:14:57,925 INFO Ajunge la finalul while
+2012-02-25 22:14:57,925 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,925 INFO A mers Astar
+2012-02-25 22:14:57,925 INFO Mergeee
+2012-02-25 22:14:57,925 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,944 INFO Starting game
+2012-02-25 22:14:57,944 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,944 INFO A trecut de else
+2012-02-25 22:14:57,944 INFO A gasit closest_food
+2012-02-25 22:14:57,944 INFO Intra in Astar
+2012-02-25 22:14:57,944 INFO Trece de passable test
+2012-02-25 22:14:57,944 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,944 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,944 INFO 4
+2012-02-25 22:14:57,944 INFO Ajunge inainte de while
+2012-02-25 22:14:57,945 INFO Intra in while
+2012-02-25 22:14:57,945 INFO Intra inainte de if
+2012-02-25 22:14:57,945 INFO Ajunge inainte de for
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,945 INFO Intra in primul if
+2012-02-25 22:14:57,945 INFO Intra in for
+2012-02-25 22:14:57,946 INFO Intra in primul if
+2012-02-25 22:14:57,946 INFO Intra in for
+2012-02-25 22:14:57,946 INFO Intra in primul if
+2012-02-25 22:14:57,946 INFO Ajunge la finalul for
+2012-02-25 22:14:57,946 INFO Ajunge la finalul while
+2012-02-25 22:14:57,946 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,946 INFO A mers Astar
+2012-02-25 22:14:57,946 INFO Mergeee
+2012-02-25 22:14:57,946 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:57,968 INFO Starting game
+2012-02-25 22:14:57,968 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:57,968 INFO A trecut de else
+2012-02-25 22:14:57,968 INFO A gasit closest_food
+2012-02-25 22:14:57,968 INFO Intra in Astar
+2012-02-25 22:14:57,968 INFO Trece de passable test
+2012-02-25 22:14:57,969 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:57,969 INFO Intra in heuristic_estimate
+2012-02-25 22:14:57,969 INFO 4
+2012-02-25 22:14:57,969 INFO Ajunge inainte de while
+2012-02-25 22:14:57,969 INFO Intra in while
+2012-02-25 22:14:57,969 INFO Intra inainte de if
+2012-02-25 22:14:57,969 INFO Ajunge inainte de for
+2012-02-25 22:14:57,969 INFO Intra in for
+2012-02-25 22:14:57,969 INFO Intra in primul if
+2012-02-25 22:14:57,969 INFO Intra in for
+2012-02-25 22:14:57,970 INFO Intra in primul if
+2012-02-25 22:14:57,970 INFO Intra in for
+2012-02-25 22:14:57,970 INFO Intra in primul if
+2012-02-25 22:14:57,970 INFO Intra in for
+2012-02-25 22:14:57,970 INFO Intra in primul if
+2012-02-25 22:14:57,970 INFO Intra in for
+2012-02-25 22:14:57,970 INFO Intra in primul if
+2012-02-25 22:14:57,970 INFO Intra in for
+2012-02-25 22:14:57,970 INFO Intra in primul if
+2012-02-25 22:14:57,970 INFO Intra in for
+2012-02-25 22:14:57,971 INFO Intra in primul if
+2012-02-25 22:14:57,971 INFO Intra in for
+2012-02-25 22:14:57,971 INFO Intra in primul if
+2012-02-25 22:14:57,971 INFO Ajunge la finalul for
+2012-02-25 22:14:57,971 INFO Ajunge la finalul while
+2012-02-25 22:14:57,971 INFO Ajunge la finalul Astar
+2012-02-25 22:14:57,971 INFO A mers Astar
+2012-02-25 22:14:57,971 INFO Mergeee
+2012-02-25 22:14:57,971 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,010 INFO Starting game
+2012-02-25 22:14:58,010 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,010 INFO A trecut de else
+2012-02-25 22:14:58,010 INFO A gasit closest_food
+2012-02-25 22:14:58,011 INFO Intra in Astar
+2012-02-25 22:14:58,011 INFO Trece de passable test
+2012-02-25 22:14:58,011 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,011 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,011 INFO 4
+2012-02-25 22:14:58,011 INFO Ajunge inainte de while
+2012-02-25 22:14:58,011 INFO Intra in while
+2012-02-25 22:14:58,011 INFO Intra inainte de if
+2012-02-25 22:14:58,011 INFO Ajunge inainte de for
+2012-02-25 22:14:58,011 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,012 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,012 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,012 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,012 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,012 INFO Intra in for
+2012-02-25 22:14:58,012 INFO Intra in primul if
+2012-02-25 22:14:58,013 INFO Intra in for
+2012-02-25 22:14:58,013 INFO Intra in primul if
+2012-02-25 22:14:58,013 INFO Intra in for
+2012-02-25 22:14:58,013 INFO Intra in primul if
+2012-02-25 22:14:58,013 INFO Ajunge la finalul for
+2012-02-25 22:14:58,013 INFO Ajunge la finalul while
+2012-02-25 22:14:58,013 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,013 INFO A mers Astar
+2012-02-25 22:14:58,013 INFO Mergeee
+2012-02-25 22:14:58,013 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,037 INFO Starting game
+2012-02-25 22:14:58,038 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,038 INFO A trecut de else
+2012-02-25 22:14:58,038 INFO A gasit closest_food
+2012-02-25 22:14:58,038 INFO Intra in Astar
+2012-02-25 22:14:58,038 INFO Trece de passable test
+2012-02-25 22:14:58,038 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,038 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,038 INFO 4
+2012-02-25 22:14:58,039 INFO Ajunge inainte de while
+2012-02-25 22:14:58,039 INFO Intra in while
+2012-02-25 22:14:58,039 INFO Intra inainte de if
+2012-02-25 22:14:58,039 INFO Ajunge inainte de for
+2012-02-25 22:14:58,039 INFO Intra in for
+2012-02-25 22:14:58,039 INFO Intra in primul if
+2012-02-25 22:14:58,039 INFO Intra in for
+2012-02-25 22:14:58,039 INFO Intra in primul if
+2012-02-25 22:14:58,039 INFO Intra in for
+2012-02-25 22:14:58,039 INFO Intra in primul if
+2012-02-25 22:14:58,040 INFO Intra in for
+2012-02-25 22:14:58,040 INFO Intra in primul if
+2012-02-25 22:14:58,040 INFO Intra in for
+2012-02-25 22:14:58,040 INFO Intra in primul if
+2012-02-25 22:14:58,040 INFO Intra in for
+2012-02-25 22:14:58,040 INFO Intra in primul if
+2012-02-25 22:14:58,040 INFO Intra in for
+2012-02-25 22:14:58,040 INFO Intra in primul if
+2012-02-25 22:14:58,040 INFO Intra in for
+2012-02-25 22:14:58,041 INFO Intra in primul if
+2012-02-25 22:14:58,041 INFO Ajunge la finalul for
+2012-02-25 22:14:58,041 INFO Ajunge la finalul while
+2012-02-25 22:14:58,041 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,041 INFO A mers Astar
+2012-02-25 22:14:58,041 INFO Mergeee
+2012-02-25 22:14:58,041 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,080 INFO Starting game
+2012-02-25 22:14:58,080 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,080 INFO A trecut de else
+2012-02-25 22:14:58,080 INFO A gasit closest_food
+2012-02-25 22:14:58,080 INFO Intra in Astar
+2012-02-25 22:14:58,081 INFO Trece de passable test
+2012-02-25 22:14:58,081 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,081 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,081 INFO 4
+2012-02-25 22:14:58,081 INFO Ajunge inainte de while
+2012-02-25 22:14:58,081 INFO Intra in while
+2012-02-25 22:14:58,081 INFO Intra inainte de if
+2012-02-25 22:14:58,081 INFO Ajunge inainte de for
+2012-02-25 22:14:58,081 INFO Intra in for
+2012-02-25 22:14:58,081 INFO Intra in primul if
+2012-02-25 22:14:58,082 INFO Intra in for
+2012-02-25 22:14:58,082 INFO Intra in primul if
+2012-02-25 22:14:58,082 INFO Intra in for
+2012-02-25 22:14:58,082 INFO Intra in primul if
+2012-02-25 22:14:58,082 INFO Intra in for
+2012-02-25 22:14:58,082 INFO Intra in primul if
+2012-02-25 22:14:58,082 INFO Intra in for
+2012-02-25 22:14:58,082 INFO Intra in primul if
+2012-02-25 22:14:58,082 INFO Intra in for
+2012-02-25 22:14:58,082 INFO Intra in primul if
+2012-02-25 22:14:58,083 INFO Intra in for
+2012-02-25 22:14:58,083 INFO Intra in primul if
+2012-02-25 22:14:58,083 INFO Intra in for
+2012-02-25 22:14:58,083 INFO Intra in primul if
+2012-02-25 22:14:58,083 INFO Ajunge la finalul for
+2012-02-25 22:14:58,083 INFO Ajunge la finalul while
+2012-02-25 22:14:58,083 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,083 INFO A mers Astar
+2012-02-25 22:14:58,083 INFO Mergeee
+2012-02-25 22:14:58,083 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,108 INFO Starting game
+2012-02-25 22:14:58,108 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,108 INFO A trecut de else
+2012-02-25 22:14:58,108 INFO A gasit closest_food
+2012-02-25 22:14:58,108 INFO Intra in Astar
+2012-02-25 22:14:58,108 INFO Trece de passable test
+2012-02-25 22:14:58,109 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,109 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,109 INFO 4
+2012-02-25 22:14:58,109 INFO Ajunge inainte de while
+2012-02-25 22:14:58,109 INFO Intra in while
+2012-02-25 22:14:58,109 INFO Intra inainte de if
+2012-02-25 22:14:58,109 INFO Ajunge inainte de for
+2012-02-25 22:14:58,109 INFO Intra in for
+2012-02-25 22:14:58,109 INFO Intra in primul if
+2012-02-25 22:14:58,109 INFO Intra in for
+2012-02-25 22:14:58,110 INFO Intra in primul if
+2012-02-25 22:14:58,110 INFO Intra in for
+2012-02-25 22:14:58,110 INFO Intra in primul if
+2012-02-25 22:14:58,110 INFO Intra in for
+2012-02-25 22:14:58,110 INFO Intra in primul if
+2012-02-25 22:14:58,110 INFO Intra in for
+2012-02-25 22:14:58,110 INFO Intra in primul if
+2012-02-25 22:14:58,110 INFO Intra in for
+2012-02-25 22:14:58,110 INFO Intra in primul if
+2012-02-25 22:14:58,110 INFO Intra in for
+2012-02-25 22:14:58,111 INFO Intra in primul if
+2012-02-25 22:14:58,111 INFO Intra in for
+2012-02-25 22:14:58,111 INFO Intra in primul if
+2012-02-25 22:14:58,111 INFO Ajunge la finalul for
+2012-02-25 22:14:58,111 INFO Ajunge la finalul while
+2012-02-25 22:14:58,111 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,111 INFO A mers Astar
+2012-02-25 22:14:58,111 INFO Mergeee
+2012-02-25 22:14:58,111 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,143 INFO Starting game
+2012-02-25 22:14:58,143 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,143 INFO A trecut de else
+2012-02-25 22:14:58,143 INFO A gasit closest_food
+2012-02-25 22:14:58,143 INFO Intra in Astar
+2012-02-25 22:14:58,143 INFO Trece de passable test
+2012-02-25 22:14:58,143 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,143 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,144 INFO 4
+2012-02-25 22:14:58,144 INFO Ajunge inainte de while
+2012-02-25 22:14:58,144 INFO Intra in while
+2012-02-25 22:14:58,144 INFO Intra inainte de if
+2012-02-25 22:14:58,144 INFO Ajunge inainte de for
+2012-02-25 22:14:58,144 INFO Intra in for
+2012-02-25 22:14:58,144 INFO Intra in primul if
+2012-02-25 22:14:58,144 INFO Intra in for
+2012-02-25 22:14:58,144 INFO Intra in primul if
+2012-02-25 22:14:58,145 INFO Intra in for
+2012-02-25 22:14:58,145 INFO Intra in primul if
+2012-02-25 22:14:58,145 INFO Intra in for
+2012-02-25 22:14:58,145 INFO Intra in primul if
+2012-02-25 22:14:58,145 INFO Intra in for
+2012-02-25 22:14:58,145 INFO Intra in primul if
+2012-02-25 22:14:58,145 INFO Intra in for
+2012-02-25 22:14:58,145 INFO Intra in primul if
+2012-02-25 22:14:58,145 INFO Intra in for
+2012-02-25 22:14:58,145 INFO Intra in primul if
+2012-02-25 22:14:58,146 INFO Intra in for
+2012-02-25 22:14:58,146 INFO Intra in primul if
+2012-02-25 22:14:58,146 INFO Ajunge la finalul for
+2012-02-25 22:14:58,146 INFO Ajunge la finalul while
+2012-02-25 22:14:58,146 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,146 INFO A mers Astar
+2012-02-25 22:14:58,146 INFO Mergeee
+2012-02-25 22:14:58,146 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,175 INFO Starting game
+2012-02-25 22:14:58,176 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,176 INFO A trecut de else
+2012-02-25 22:14:58,176 INFO A gasit closest_food
+2012-02-25 22:14:58,176 INFO Intra in Astar
+2012-02-25 22:14:58,176 INFO Trece de passable test
+2012-02-25 22:14:58,176 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,176 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,176 INFO 4
+2012-02-25 22:14:58,176 INFO Ajunge inainte de while
+2012-02-25 22:14:58,176 INFO Intra in while
+2012-02-25 22:14:58,177 INFO Intra inainte de if
+2012-02-25 22:14:58,177 INFO Ajunge inainte de for
+2012-02-25 22:14:58,177 INFO Intra in for
+2012-02-25 22:14:58,177 INFO Intra in primul if
+2012-02-25 22:14:58,177 INFO Intra in for
+2012-02-25 22:14:58,177 INFO Intra in primul if
+2012-02-25 22:14:58,177 INFO Intra in for
+2012-02-25 22:14:58,177 INFO Intra in primul if
+2012-02-25 22:14:58,177 INFO Intra in for
+2012-02-25 22:14:58,177 INFO Intra in primul if
+2012-02-25 22:14:58,177 INFO Intra in for
+2012-02-25 22:14:58,177 INFO Intra in primul if
+2012-02-25 22:14:58,178 INFO Intra in for
+2012-02-25 22:14:58,178 INFO Intra in primul if
+2012-02-25 22:14:58,178 INFO Intra in for
+2012-02-25 22:14:58,178 INFO Intra in primul if
+2012-02-25 22:14:58,178 INFO Intra in for
+2012-02-25 22:14:58,178 INFO Intra in primul if
+2012-02-25 22:14:58,178 INFO Ajunge la finalul for
+2012-02-25 22:14:58,178 INFO Ajunge la finalul while
+2012-02-25 22:14:58,178 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,178 INFO A mers Astar
+2012-02-25 22:14:58,178 INFO Mergeee
+2012-02-25 22:14:58,179 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,201 INFO Starting game
+2012-02-25 22:14:58,201 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,201 INFO A trecut de else
+2012-02-25 22:14:58,202 INFO A gasit closest_food
+2012-02-25 22:14:58,202 INFO Intra in Astar
+2012-02-25 22:14:58,202 INFO Trece de passable test
+2012-02-25 22:14:58,202 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,202 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,202 INFO 4
+2012-02-25 22:14:58,202 INFO Ajunge inainte de while
+2012-02-25 22:14:58,202 INFO Intra in while
+2012-02-25 22:14:58,202 INFO Intra inainte de if
+2012-02-25 22:14:58,202 INFO Ajunge inainte de for
+2012-02-25 22:14:58,202 INFO Intra in for
+2012-02-25 22:14:58,202 INFO Intra in primul if
+2012-02-25 22:14:58,202 INFO Intra in for
+2012-02-25 22:14:58,202 INFO Intra in primul if
+2012-02-25 22:14:58,202 INFO Intra in for
+2012-02-25 22:14:58,202 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Intra in for
+2012-02-25 22:14:58,203 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Intra in for
+2012-02-25 22:14:58,203 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Intra in for
+2012-02-25 22:14:58,203 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Intra in for
+2012-02-25 22:14:58,203 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Intra in for
+2012-02-25 22:14:58,203 INFO Intra in primul if
+2012-02-25 22:14:58,203 INFO Ajunge la finalul for
+2012-02-25 22:14:58,203 INFO Ajunge la finalul while
+2012-02-25 22:14:58,203 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,203 INFO A mers Astar
+2012-02-25 22:14:58,203 INFO Mergeee
+2012-02-25 22:14:58,203 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,221 INFO Starting game
+2012-02-25 22:14:58,221 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,222 INFO A trecut de else
+2012-02-25 22:14:58,222 INFO A gasit closest_food
+2012-02-25 22:14:58,222 INFO Intra in Astar
+2012-02-25 22:14:58,222 INFO Trece de passable test
+2012-02-25 22:14:58,222 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,222 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,222 INFO 4
+2012-02-25 22:14:58,222 INFO Ajunge inainte de while
+2012-02-25 22:14:58,222 INFO Intra in while
+2012-02-25 22:14:58,222 INFO Intra inainte de if
+2012-02-25 22:14:58,222 INFO Ajunge inainte de for
+2012-02-25 22:14:58,222 INFO Intra in for
+2012-02-25 22:14:58,222 INFO Intra in primul if
+2012-02-25 22:14:58,222 INFO Intra in for
+2012-02-25 22:14:58,222 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Intra in for
+2012-02-25 22:14:58,223 INFO Intra in primul if
+2012-02-25 22:14:58,223 INFO Ajunge la finalul for
+2012-02-25 22:14:58,223 INFO Ajunge la finalul while
+2012-02-25 22:14:58,223 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,223 INFO A mers Astar
+2012-02-25 22:14:58,224 INFO Mergeee
+2012-02-25 22:14:58,224 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,242 INFO Starting game
+2012-02-25 22:14:58,242 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,242 INFO A trecut de else
+2012-02-25 22:14:58,242 INFO A gasit closest_food
+2012-02-25 22:14:58,242 INFO Intra in Astar
+2012-02-25 22:14:58,242 INFO Trece de passable test
+2012-02-25 22:14:58,242 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,242 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,242 INFO 4
+2012-02-25 22:14:58,242 INFO Ajunge inainte de while
+2012-02-25 22:14:58,242 INFO Intra in while
+2012-02-25 22:14:58,242 INFO Intra inainte de if
+2012-02-25 22:14:58,242 INFO Ajunge inainte de for
+2012-02-25 22:14:58,242 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,243 INFO Intra in for
+2012-02-25 22:14:58,243 INFO Intra in primul if
+2012-02-25 22:14:58,244 INFO Ajunge la finalul for
+2012-02-25 22:14:58,244 INFO Ajunge la finalul while
+2012-02-25 22:14:58,244 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,244 INFO A mers Astar
+2012-02-25 22:14:58,244 INFO Mergeee
+2012-02-25 22:14:58,244 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,262 INFO Starting game
+2012-02-25 22:14:58,262 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,262 INFO A trecut de else
+2012-02-25 22:14:58,262 INFO A gasit closest_food
+2012-02-25 22:14:58,262 INFO Intra in Astar
+2012-02-25 22:14:58,262 INFO Trece de passable test
+2012-02-25 22:14:58,262 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,262 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,262 INFO 4
+2012-02-25 22:14:58,262 INFO Ajunge inainte de while
+2012-02-25 22:14:58,263 INFO Intra in while
+2012-02-25 22:14:58,263 INFO Intra inainte de if
+2012-02-25 22:14:58,263 INFO Ajunge inainte de for
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,263 INFO Intra in primul if
+2012-02-25 22:14:58,263 INFO Intra in for
+2012-02-25 22:14:58,264 INFO Intra in primul if
+2012-02-25 22:14:58,264 INFO Intra in for
+2012-02-25 22:14:58,264 INFO Intra in primul if
+2012-02-25 22:14:58,264 INFO Ajunge la finalul for
+2012-02-25 22:14:58,264 INFO Ajunge la finalul while
+2012-02-25 22:14:58,264 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,264 INFO A mers Astar
+2012-02-25 22:14:58,264 INFO Mergeee
+2012-02-25 22:14:58,264 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,282 INFO Starting game
+2012-02-25 22:14:58,282 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,282 INFO A trecut de else
+2012-02-25 22:14:58,283 INFO A gasit closest_food
+2012-02-25 22:14:58,283 INFO Intra in Astar
+2012-02-25 22:14:58,283 INFO Trece de passable test
+2012-02-25 22:14:58,283 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,283 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,283 INFO 4
+2012-02-25 22:14:58,283 INFO Ajunge inainte de while
+2012-02-25 22:14:58,283 INFO Intra in while
+2012-02-25 22:14:58,283 INFO Intra inainte de if
+2012-02-25 22:14:58,283 INFO Ajunge inainte de for
+2012-02-25 22:14:58,283 INFO Intra in for
+2012-02-25 22:14:58,283 INFO Intra in primul if
+2012-02-25 22:14:58,283 INFO Intra in for
+2012-02-25 22:14:58,283 INFO Intra in primul if
+2012-02-25 22:14:58,283 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Intra in for
+2012-02-25 22:14:58,284 INFO Intra in primul if
+2012-02-25 22:14:58,284 INFO Ajunge la finalul for
+2012-02-25 22:14:58,284 INFO Ajunge la finalul while
+2012-02-25 22:14:58,284 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,284 INFO A mers Astar
+2012-02-25 22:14:58,285 INFO Mergeee
+2012-02-25 22:14:58,285 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,305 INFO Starting game
+2012-02-25 22:14:58,305 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,305 INFO A trecut de else
+2012-02-25 22:14:58,306 INFO A gasit closest_food
+2012-02-25 22:14:58,306 INFO Intra in Astar
+2012-02-25 22:14:58,306 INFO Trece de passable test
+2012-02-25 22:14:58,306 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,306 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,306 INFO 4
+2012-02-25 22:14:58,306 INFO Ajunge inainte de while
+2012-02-25 22:14:58,306 INFO Intra in while
+2012-02-25 22:14:58,306 INFO Intra inainte de if
+2012-02-25 22:14:58,306 INFO Ajunge inainte de for
+2012-02-25 22:14:58,306 INFO Intra in for
+2012-02-25 22:14:58,306 INFO Intra in primul if
+2012-02-25 22:14:58,306 INFO Intra in for
+2012-02-25 22:14:58,306 INFO Intra in primul if
+2012-02-25 22:14:58,306 INFO Intra in for
+2012-02-25 22:14:58,306 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Intra in for
+2012-02-25 22:14:58,307 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Intra in for
+2012-02-25 22:14:58,307 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Intra in for
+2012-02-25 22:14:58,307 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Intra in for
+2012-02-25 22:14:58,307 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Intra in for
+2012-02-25 22:14:58,307 INFO Intra in primul if
+2012-02-25 22:14:58,307 INFO Ajunge la finalul for
+2012-02-25 22:14:58,307 INFO Ajunge la finalul while
+2012-02-25 22:14:58,307 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,307 INFO A mers Astar
+2012-02-25 22:14:58,307 INFO Mergeee
+2012-02-25 22:14:58,307 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,340 INFO Starting game
+2012-02-25 22:14:58,340 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,340 INFO A trecut de else
+2012-02-25 22:14:58,340 INFO A gasit closest_food
+2012-02-25 22:14:58,340 INFO Intra in Astar
+2012-02-25 22:14:58,340 INFO Trece de passable test
+2012-02-25 22:14:58,340 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,341 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,341 INFO 4
+2012-02-25 22:14:58,341 INFO Ajunge inainte de while
+2012-02-25 22:14:58,341 INFO Intra in while
+2012-02-25 22:14:58,341 INFO Intra inainte de if
+2012-02-25 22:14:58,341 INFO Ajunge inainte de for
+2012-02-25 22:14:58,341 INFO Intra in for
+2012-02-25 22:14:58,341 INFO Intra in primul if
+2012-02-25 22:14:58,341 INFO Intra in for
+2012-02-25 22:14:58,341 INFO Intra in primul if
+2012-02-25 22:14:58,341 INFO Intra in for
+2012-02-25 22:14:58,341 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Intra in for
+2012-02-25 22:14:58,342 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Intra in for
+2012-02-25 22:14:58,342 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Intra in for
+2012-02-25 22:14:58,342 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Intra in for
+2012-02-25 22:14:58,342 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Intra in for
+2012-02-25 22:14:58,342 INFO Intra in primul if
+2012-02-25 22:14:58,342 INFO Ajunge la finalul for
+2012-02-25 22:14:58,342 INFO Ajunge la finalul while
+2012-02-25 22:14:58,343 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,343 INFO A mers Astar
+2012-02-25 22:14:58,343 INFO Mergeee
+2012-02-25 22:14:58,343 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,363 INFO Starting game
+2012-02-25 22:14:58,363 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,363 INFO A trecut de else
+2012-02-25 22:14:58,363 INFO A gasit closest_food
+2012-02-25 22:14:58,363 INFO Intra in Astar
+2012-02-25 22:14:58,364 INFO Trece de passable test
+2012-02-25 22:14:58,364 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,364 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,364 INFO 4
+2012-02-25 22:14:58,364 INFO Ajunge inainte de while
+2012-02-25 22:14:58,364 INFO Intra in while
+2012-02-25 22:14:58,364 INFO Intra inainte de if
+2012-02-25 22:14:58,364 INFO Ajunge inainte de for
+2012-02-25 22:14:58,364 INFO Intra in for
+2012-02-25 22:14:58,364 INFO Intra in primul if
+2012-02-25 22:14:58,364 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,365 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,365 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,365 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,365 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,365 INFO Intra in for
+2012-02-25 22:14:58,365 INFO Intra in primul if
+2012-02-25 22:14:58,366 INFO Intra in for
+2012-02-25 22:14:58,366 INFO Intra in primul if
+2012-02-25 22:14:58,366 INFO Ajunge la finalul for
+2012-02-25 22:14:58,366 INFO Ajunge la finalul while
+2012-02-25 22:14:58,366 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,366 INFO A mers Astar
+2012-02-25 22:14:58,366 INFO Mergeee
+2012-02-25 22:14:58,366 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,396 INFO Starting game
+2012-02-25 22:14:58,396 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,396 INFO A trecut de else
+2012-02-25 22:14:58,396 INFO A gasit closest_food
+2012-02-25 22:14:58,396 INFO Intra in Astar
+2012-02-25 22:14:58,396 INFO Trece de passable test
+2012-02-25 22:14:58,396 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,396 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,397 INFO 4
+2012-02-25 22:14:58,397 INFO Ajunge inainte de while
+2012-02-25 22:14:58,397 INFO Intra in while
+2012-02-25 22:14:58,397 INFO Intra inainte de if
+2012-02-25 22:14:58,397 INFO Ajunge inainte de for
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,397 INFO Intra in primul if
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,397 INFO Intra in primul if
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,397 INFO Intra in primul if
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,397 INFO Intra in primul if
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,397 INFO Intra in primul if
+2012-02-25 22:14:58,397 INFO Intra in for
+2012-02-25 22:14:58,398 INFO Intra in primul if
+2012-02-25 22:14:58,398 INFO Intra in for
+2012-02-25 22:14:58,398 INFO Intra in primul if
+2012-02-25 22:14:58,398 INFO Intra in for
+2012-02-25 22:14:58,398 INFO Intra in primul if
+2012-02-25 22:14:58,398 INFO Ajunge la finalul for
+2012-02-25 22:14:58,398 INFO Ajunge la finalul while
+2012-02-25 22:14:58,398 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,398 INFO A mers Astar
+2012-02-25 22:14:58,398 INFO Mergeee
+2012-02-25 22:14:58,398 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,420 INFO Starting game
+2012-02-25 22:14:58,420 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,420 INFO A trecut de else
+2012-02-25 22:14:58,421 INFO A gasit closest_food
+2012-02-25 22:14:58,421 INFO Intra in Astar
+2012-02-25 22:14:58,421 INFO Trece de passable test
+2012-02-25 22:14:58,421 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,421 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,421 INFO 4
+2012-02-25 22:14:58,421 INFO Ajunge inainte de while
+2012-02-25 22:14:58,421 INFO Intra in while
+2012-02-25 22:14:58,421 INFO Intra inainte de if
+2012-02-25 22:14:58,421 INFO Ajunge inainte de for
+2012-02-25 22:14:58,421 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,422 INFO Intra in primul if
+2012-02-25 22:14:58,422 INFO Intra in for
+2012-02-25 22:14:58,423 INFO Intra in primul if
+2012-02-25 22:14:58,423 INFO Intra in for
+2012-02-25 22:14:58,423 INFO Intra in primul if
+2012-02-25 22:14:58,423 INFO Ajunge la finalul for
+2012-02-25 22:14:58,423 INFO Ajunge la finalul while
+2012-02-25 22:14:58,423 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,423 INFO A mers Astar
+2012-02-25 22:14:58,423 INFO Mergeee
+2012-02-25 22:14:58,423 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,461 INFO Starting game
+2012-02-25 22:14:58,461 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,461 INFO A trecut de else
+2012-02-25 22:14:58,461 INFO A gasit closest_food
+2012-02-25 22:14:58,461 INFO Intra in Astar
+2012-02-25 22:14:58,461 INFO Trece de passable test
+2012-02-25 22:14:58,461 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,462 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,462 INFO 4
+2012-02-25 22:14:58,462 INFO Ajunge inainte de while
+2012-02-25 22:14:58,462 INFO Intra in while
+2012-02-25 22:14:58,462 INFO Intra inainte de if
+2012-02-25 22:14:58,462 INFO Ajunge inainte de for
+2012-02-25 22:14:58,462 INFO Intra in for
+2012-02-25 22:14:58,462 INFO Intra in primul if
+2012-02-25 22:14:58,462 INFO Intra in for
+2012-02-25 22:14:58,462 INFO Intra in primul if
+2012-02-25 22:14:58,462 INFO Intra in for
+2012-02-25 22:14:58,462 INFO Intra in primul if
+2012-02-25 22:14:58,462 INFO Intra in for
+2012-02-25 22:14:58,462 INFO Intra in primul if
+2012-02-25 22:14:58,462 INFO Intra in for
+2012-02-25 22:14:58,463 INFO Intra in primul if
+2012-02-25 22:14:58,463 INFO Intra in for
+2012-02-25 22:14:58,463 INFO Intra in primul if
+2012-02-25 22:14:58,463 INFO Intra in for
+2012-02-25 22:14:58,463 INFO Intra in primul if
+2012-02-25 22:14:58,463 INFO Intra in for
+2012-02-25 22:14:58,463 INFO Intra in primul if
+2012-02-25 22:14:58,463 INFO Ajunge la finalul for
+2012-02-25 22:14:58,463 INFO Ajunge la finalul while
+2012-02-25 22:14:58,463 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,463 INFO A mers Astar
+2012-02-25 22:14:58,463 INFO Mergeee
+2012-02-25 22:14:58,463 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,486 INFO Starting game
+2012-02-25 22:14:58,486 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,486 INFO A trecut de else
+2012-02-25 22:14:58,486 INFO A gasit closest_food
+2012-02-25 22:14:58,486 INFO Intra in Astar
+2012-02-25 22:14:58,486 INFO Trece de passable test
+2012-02-25 22:14:58,486 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,486 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,486 INFO 4
+2012-02-25 22:14:58,486 INFO Ajunge inainte de while
+2012-02-25 22:14:58,486 INFO Intra in while
+2012-02-25 22:14:58,486 INFO Intra inainte de if
+2012-02-25 22:14:58,487 INFO Ajunge inainte de for
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,487 INFO Intra in primul if
+2012-02-25 22:14:58,487 INFO Intra in for
+2012-02-25 22:14:58,488 INFO Intra in primul if
+2012-02-25 22:14:58,488 INFO Ajunge la finalul for
+2012-02-25 22:14:58,488 INFO Ajunge la finalul while
+2012-02-25 22:14:58,488 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,488 INFO A mers Astar
+2012-02-25 22:14:58,488 INFO Mergeee
+2012-02-25 22:14:58,488 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:58,511 INFO Starting game
+2012-02-25 22:14:58,511 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:58,511 INFO A trecut de else
+2012-02-25 22:14:58,511 INFO A gasit closest_food
+2012-02-25 22:14:58,511 INFO Intra in Astar
+2012-02-25 22:14:58,511 INFO Trece de passable test
+2012-02-25 22:14:58,511 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:58,511 INFO Intra in heuristic_estimate
+2012-02-25 22:14:58,511 INFO 4
+2012-02-25 22:14:58,511 INFO Ajunge inainte de while
+2012-02-25 22:14:58,511 INFO Intra in while
+2012-02-25 22:14:58,511 INFO Intra inainte de if
+2012-02-25 22:14:58,512 INFO Ajunge inainte de for
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,512 INFO Intra in for
+2012-02-25 22:14:58,512 INFO Intra in primul if
+2012-02-25 22:14:58,513 INFO Intra in for
+2012-02-25 22:14:58,513 INFO Intra in primul if
+2012-02-25 22:14:58,513 INFO Ajunge la finalul for
+2012-02-25 22:14:58,513 INFO Ajunge la finalul while
+2012-02-25 22:14:58,513 INFO Ajunge la finalul Astar
+2012-02-25 22:14:58,513 INFO A mers Astar
+2012-02-25 22:14:58,513 INFO Mergeee
+2012-02-25 22:14:58,513 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:59,606 INFO Starting game
+2012-02-25 22:14:59,606 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:59,607 INFO A trecut de else
+2012-02-25 22:14:59,607 INFO A gasit closest_food
+2012-02-25 22:14:59,607 INFO Intra in Astar
+2012-02-25 22:14:59,607 INFO Trece de passable test
+2012-02-25 22:14:59,607 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:59,607 INFO Intra in heuristic_estimate
+2012-02-25 22:14:59,607 INFO 4
+2012-02-25 22:14:59,607 INFO Ajunge inainte de while
+2012-02-25 22:14:59,607 INFO Intra in while
+2012-02-25 22:14:59,608 INFO Intra inainte de if
+2012-02-25 22:14:59,608 INFO Ajunge inainte de for
+2012-02-25 22:14:59,608 INFO Intra in for
+2012-02-25 22:14:59,608 INFO Intra in primul if
+2012-02-25 22:14:59,608 INFO Intra in for
+2012-02-25 22:14:59,608 INFO Intra in primul if
+2012-02-25 22:14:59,608 INFO Intra in for
+2012-02-25 22:14:59,608 INFO Intra in primul if
+2012-02-25 22:14:59,608 INFO Intra in for
+2012-02-25 22:14:59,608 INFO Intra in primul if
+2012-02-25 22:14:59,609 INFO Intra in for
+2012-02-25 22:14:59,609 INFO Intra in primul if
+2012-02-25 22:14:59,609 INFO Intra in for
+2012-02-25 22:14:59,609 INFO Intra in primul if
+2012-02-25 22:14:59,609 INFO Intra in for
+2012-02-25 22:14:59,609 INFO Intra in primul if
+2012-02-25 22:14:59,609 INFO Intra in for
+2012-02-25 22:14:59,609 INFO Intra in primul if
+2012-02-25 22:14:59,609 INFO Ajunge la finalul for
+2012-02-25 22:14:59,609 INFO Ajunge la finalul while
+2012-02-25 22:14:59,610 INFO Ajunge la finalul Astar
+2012-02-25 22:14:59,610 INFO A mers Astar
+2012-02-25 22:14:59,610 INFO Mergeee
+2012-02-25 22:14:59,610 INFO Ajunge la ultimul for din program
+2012-02-25 22:14:59,634 INFO Starting game
+2012-02-25 22:14:59,634 INFO I am loooooping, coaieeeee
+2012-02-25 22:14:59,634 INFO A trecut de else
+2012-02-25 22:14:59,634 INFO A gasit closest_food
+2012-02-25 22:14:59,634 INFO Intra in Astar
+2012-02-25 22:14:59,634 INFO Trece de passable test
+2012-02-25 22:14:59,635 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:14:59,635 INFO Intra in heuristic_estimate
+2012-02-25 22:14:59,635 INFO 4
+2012-02-25 22:14:59,635 INFO Ajunge inainte de while
+2012-02-25 22:14:59,635 INFO Intra in while
+2012-02-25 22:14:59,635 INFO Intra inainte de if
+2012-02-25 22:14:59,635 INFO Ajunge inainte de for
+2012-02-25 22:14:59,635 INFO Intra in for
+2012-02-25 22:14:59,635 INFO Intra in primul if
+2012-02-25 22:14:59,635 INFO Intra in for
+2012-02-25 22:14:59,636 INFO Intra in primul if
+2012-02-25 22:14:59,636 INFO Intra in for
+2012-02-25 22:14:59,636 INFO Intra in primul if
+2012-02-25 22:14:59,636 INFO Intra in for
+2012-02-25 22:14:59,636 INFO Intra in primul if
+2012-02-25 22:14:59,636 INFO Intra in for
+2012-02-25 22:14:59,636 INFO Intra in primul if
+2012-02-25 22:14:59,636 INFO Intra in for
+2012-02-25 22:14:59,636 INFO Intra in primul if
+2012-02-25 22:14:59,636 INFO Intra in for
+2012-02-25 22:14:59,637 INFO Intra in primul if
+2012-02-25 22:14:59,637 INFO Intra in for
+2012-02-25 22:14:59,637 INFO Intra in primul if
+2012-02-25 22:14:59,637 INFO Ajunge la finalul for
+2012-02-25 22:14:59,637 INFO Ajunge la finalul while
+2012-02-25 22:14:59,637 INFO Ajunge la finalul Astar
+2012-02-25 22:14:59,637 INFO A mers Astar
+2012-02-25 22:14:59,637 INFO Mergeee
+2012-02-25 22:14:59,637 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,036 INFO Starting game
+2012-02-25 22:15:00,036 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,036 INFO A trecut de else
+2012-02-25 22:15:00,036 INFO A gasit closest_food
+2012-02-25 22:15:00,036 INFO Intra in Astar
+2012-02-25 22:15:00,036 INFO Trece de passable test
+2012-02-25 22:15:00,037 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,037 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,037 INFO 4
+2012-02-25 22:15:00,037 INFO Ajunge inainte de while
+2012-02-25 22:15:00,037 INFO Intra in while
+2012-02-25 22:15:00,037 INFO Intra inainte de if
+2012-02-25 22:15:00,037 INFO Ajunge inainte de for
+2012-02-25 22:15:00,037 INFO Intra in for
+2012-02-25 22:15:00,037 INFO Intra in primul if
+2012-02-25 22:15:00,038 INFO Intra in for
+2012-02-25 22:15:00,038 INFO Intra in primul if
+2012-02-25 22:15:00,038 INFO Intra in for
+2012-02-25 22:15:00,038 INFO Intra in primul if
+2012-02-25 22:15:00,038 INFO Intra in for
+2012-02-25 22:15:00,038 INFO Intra in primul if
+2012-02-25 22:15:00,038 INFO Intra in for
+2012-02-25 22:15:00,038 INFO Intra in primul if
+2012-02-25 22:15:00,038 INFO Intra in for
+2012-02-25 22:15:00,038 INFO Intra in primul if
+2012-02-25 22:15:00,039 INFO Intra in for
+2012-02-25 22:15:00,039 INFO Intra in primul if
+2012-02-25 22:15:00,039 INFO Intra in for
+2012-02-25 22:15:00,039 INFO Intra in primul if
+2012-02-25 22:15:00,039 INFO Ajunge la finalul for
+2012-02-25 22:15:00,039 INFO Ajunge la finalul while
+2012-02-25 22:15:00,039 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,039 INFO A mers Astar
+2012-02-25 22:15:00,039 INFO Mergeee
+2012-02-25 22:15:00,039 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,062 INFO Starting game
+2012-02-25 22:15:00,062 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,062 INFO A trecut de else
+2012-02-25 22:15:00,062 INFO A gasit closest_food
+2012-02-25 22:15:00,062 INFO Intra in Astar
+2012-02-25 22:15:00,063 INFO Trece de passable test
+2012-02-25 22:15:00,063 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,063 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,063 INFO 4
+2012-02-25 22:15:00,063 INFO Ajunge inainte de while
+2012-02-25 22:15:00,063 INFO Intra in while
+2012-02-25 22:15:00,063 INFO Intra inainte de if
+2012-02-25 22:15:00,063 INFO Ajunge inainte de for
+2012-02-25 22:15:00,063 INFO Intra in for
+2012-02-25 22:15:00,063 INFO Intra in primul if
+2012-02-25 22:15:00,064 INFO Intra in for
+2012-02-25 22:15:00,064 INFO Intra in primul if
+2012-02-25 22:15:00,064 INFO Intra in for
+2012-02-25 22:15:00,064 INFO Intra in primul if
+2012-02-25 22:15:00,064 INFO Intra in for
+2012-02-25 22:15:00,064 INFO Intra in primul if
+2012-02-25 22:15:00,064 INFO Intra in for
+2012-02-25 22:15:00,064 INFO Intra in primul if
+2012-02-25 22:15:00,064 INFO Intra in for
+2012-02-25 22:15:00,064 INFO Intra in primul if
+2012-02-25 22:15:00,065 INFO Intra in for
+2012-02-25 22:15:00,065 INFO Intra in primul if
+2012-02-25 22:15:00,065 INFO Intra in for
+2012-02-25 22:15:00,065 INFO Intra in primul if
+2012-02-25 22:15:00,065 INFO Ajunge la finalul for
+2012-02-25 22:15:00,065 INFO Ajunge la finalul while
+2012-02-25 22:15:00,065 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,065 INFO A mers Astar
+2012-02-25 22:15:00,065 INFO Mergeee
+2012-02-25 22:15:00,065 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,317 INFO Starting game
+2012-02-25 22:15:00,317 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,317 INFO A trecut de else
+2012-02-25 22:15:00,317 INFO A gasit closest_food
+2012-02-25 22:15:00,317 INFO Intra in Astar
+2012-02-25 22:15:00,317 INFO Trece de passable test
+2012-02-25 22:15:00,318 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,318 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,318 INFO 4
+2012-02-25 22:15:00,318 INFO Ajunge inainte de while
+2012-02-25 22:15:00,318 INFO Intra in while
+2012-02-25 22:15:00,318 INFO Intra inainte de if
+2012-02-25 22:15:00,318 INFO Ajunge inainte de for
+2012-02-25 22:15:00,318 INFO Intra in for
+2012-02-25 22:15:00,318 INFO Intra in primul if
+2012-02-25 22:15:00,319 INFO Intra in for
+2012-02-25 22:15:00,319 INFO Intra in primul if
+2012-02-25 22:15:00,319 INFO Intra in for
+2012-02-25 22:15:00,319 INFO Intra in primul if
+2012-02-25 22:15:00,319 INFO Intra in for
+2012-02-25 22:15:00,319 INFO Intra in primul if
+2012-02-25 22:15:00,319 INFO Intra in for
+2012-02-25 22:15:00,319 INFO Intra in primul if
+2012-02-25 22:15:00,319 INFO Intra in for
+2012-02-25 22:15:00,320 INFO Intra in primul if
+2012-02-25 22:15:00,320 INFO Intra in for
+2012-02-25 22:15:00,320 INFO Intra in primul if
+2012-02-25 22:15:00,320 INFO Intra in for
+2012-02-25 22:15:00,320 INFO Intra in primul if
+2012-02-25 22:15:00,320 INFO Ajunge la finalul for
+2012-02-25 22:15:00,320 INFO Ajunge la finalul while
+2012-02-25 22:15:00,320 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,320 INFO A mers Astar
+2012-02-25 22:15:00,321 INFO Mergeee
+2012-02-25 22:15:00,321 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,342 INFO Starting game
+2012-02-25 22:15:00,342 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,342 INFO A trecut de else
+2012-02-25 22:15:00,342 INFO A gasit closest_food
+2012-02-25 22:15:00,342 INFO Intra in Astar
+2012-02-25 22:15:00,343 INFO Trece de passable test
+2012-02-25 22:15:00,343 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,343 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,343 INFO 4
+2012-02-25 22:15:00,343 INFO Ajunge inainte de while
+2012-02-25 22:15:00,343 INFO Intra in while
+2012-02-25 22:15:00,343 INFO Intra inainte de if
+2012-02-25 22:15:00,343 INFO Ajunge inainte de for
+2012-02-25 22:15:00,343 INFO Intra in for
+2012-02-25 22:15:00,344 INFO Intra in primul if
+2012-02-25 22:15:00,344 INFO Intra in for
+2012-02-25 22:15:00,344 INFO Intra in primul if
+2012-02-25 22:15:00,344 INFO Intra in for
+2012-02-25 22:15:00,344 INFO Intra in primul if
+2012-02-25 22:15:00,344 INFO Intra in for
+2012-02-25 22:15:00,344 INFO Intra in primul if
+2012-02-25 22:15:00,344 INFO Intra in for
+2012-02-25 22:15:00,344 INFO Intra in primul if
+2012-02-25 22:15:00,345 INFO Intra in for
+2012-02-25 22:15:00,345 INFO Intra in primul if
+2012-02-25 22:15:00,345 INFO Intra in for
+2012-02-25 22:15:00,345 INFO Intra in primul if
+2012-02-25 22:15:00,345 INFO Intra in for
+2012-02-25 22:15:00,345 INFO Intra in primul if
+2012-02-25 22:15:00,345 INFO Ajunge la finalul for
+2012-02-25 22:15:00,345 INFO Ajunge la finalul while
+2012-02-25 22:15:00,345 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,345 INFO A mers Astar
+2012-02-25 22:15:00,346 INFO Mergeee
+2012-02-25 22:15:00,346 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,588 INFO Starting game
+2012-02-25 22:15:00,588 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,588 INFO A trecut de else
+2012-02-25 22:15:00,589 INFO A gasit closest_food
+2012-02-25 22:15:00,589 INFO Intra in Astar
+2012-02-25 22:15:00,589 INFO Trece de passable test
+2012-02-25 22:15:00,589 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,589 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,589 INFO 4
+2012-02-25 22:15:00,589 INFO Ajunge inainte de while
+2012-02-25 22:15:00,589 INFO Intra in while
+2012-02-25 22:15:00,589 INFO Intra inainte de if
+2012-02-25 22:15:00,589 INFO Ajunge inainte de for
+2012-02-25 22:15:00,590 INFO Intra in for
+2012-02-25 22:15:00,590 INFO Intra in primul if
+2012-02-25 22:15:00,590 INFO Intra in for
+2012-02-25 22:15:00,590 INFO Intra in primul if
+2012-02-25 22:15:00,590 INFO Intra in for
+2012-02-25 22:15:00,590 INFO Intra in primul if
+2012-02-25 22:15:00,590 INFO Intra in for
+2012-02-25 22:15:00,590 INFO Intra in primul if
+2012-02-25 22:15:00,590 INFO Intra in for
+2012-02-25 22:15:00,590 INFO Intra in primul if
+2012-02-25 22:15:00,591 INFO Intra in for
+2012-02-25 22:15:00,591 INFO Intra in primul if
+2012-02-25 22:15:00,591 INFO Intra in for
+2012-02-25 22:15:00,591 INFO Intra in primul if
+2012-02-25 22:15:00,591 INFO Intra in for
+2012-02-25 22:15:00,591 INFO Intra in primul if
+2012-02-25 22:15:00,591 INFO Ajunge la finalul for
+2012-02-25 22:15:00,591 INFO Ajunge la finalul while
+2012-02-25 22:15:00,591 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,591 INFO A mers Astar
+2012-02-25 22:15:00,592 INFO Mergeee
+2012-02-25 22:15:00,592 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,613 INFO Starting game
+2012-02-25 22:15:00,613 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,613 INFO A trecut de else
+2012-02-25 22:15:00,613 INFO A gasit closest_food
+2012-02-25 22:15:00,614 INFO Intra in Astar
+2012-02-25 22:15:00,614 INFO Trece de passable test
+2012-02-25 22:15:00,614 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,614 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,614 INFO 4
+2012-02-25 22:15:00,614 INFO Ajunge inainte de while
+2012-02-25 22:15:00,614 INFO Intra in while
+2012-02-25 22:15:00,614 INFO Intra inainte de if
+2012-02-25 22:15:00,614 INFO Ajunge inainte de for
+2012-02-25 22:15:00,614 INFO Intra in for
+2012-02-25 22:15:00,614 INFO Intra in primul if
+2012-02-25 22:15:00,615 INFO Intra in for
+2012-02-25 22:15:00,615 INFO Intra in primul if
+2012-02-25 22:15:00,615 INFO Intra in for
+2012-02-25 22:15:00,615 INFO Intra in primul if
+2012-02-25 22:15:00,615 INFO Intra in for
+2012-02-25 22:15:00,615 INFO Intra in primul if
+2012-02-25 22:15:00,615 INFO Intra in for
+2012-02-25 22:15:00,615 INFO Intra in primul if
+2012-02-25 22:15:00,615 INFO Intra in for
+2012-02-25 22:15:00,615 INFO Intra in primul if
+2012-02-25 22:15:00,616 INFO Intra in for
+2012-02-25 22:15:00,616 INFO Intra in primul if
+2012-02-25 22:15:00,616 INFO Intra in for
+2012-02-25 22:15:00,616 INFO Intra in primul if
+2012-02-25 22:15:00,616 INFO Ajunge la finalul for
+2012-02-25 22:15:00,616 INFO Ajunge la finalul while
+2012-02-25 22:15:00,616 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,616 INFO A mers Astar
+2012-02-25 22:15:00,616 INFO Mergeee
+2012-02-25 22:15:00,616 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,860 INFO Starting game
+2012-02-25 22:15:00,860 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,860 INFO A trecut de else
+2012-02-25 22:15:00,860 INFO A gasit closest_food
+2012-02-25 22:15:00,861 INFO Intra in Astar
+2012-02-25 22:15:00,861 INFO Trece de passable test
+2012-02-25 22:15:00,861 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,861 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,861 INFO 4
+2012-02-25 22:15:00,861 INFO Ajunge inainte de while
+2012-02-25 22:15:00,861 INFO Intra in while
+2012-02-25 22:15:00,861 INFO Intra inainte de if
+2012-02-25 22:15:00,861 INFO Ajunge inainte de for
+2012-02-25 22:15:00,861 INFO Intra in for
+2012-02-25 22:15:00,861 INFO Intra in primul if
+2012-02-25 22:15:00,862 INFO Intra in for
+2012-02-25 22:15:00,862 INFO Intra in primul if
+2012-02-25 22:15:00,862 INFO Intra in for
+2012-02-25 22:15:00,862 INFO Intra in primul if
+2012-02-25 22:15:00,862 INFO Intra in for
+2012-02-25 22:15:00,862 INFO Intra in primul if
+2012-02-25 22:15:00,862 INFO Intra in for
+2012-02-25 22:15:00,862 INFO Intra in primul if
+2012-02-25 22:15:00,862 INFO Intra in for
+2012-02-25 22:15:00,862 INFO Intra in primul if
+2012-02-25 22:15:00,863 INFO Intra in for
+2012-02-25 22:15:00,863 INFO Intra in primul if
+2012-02-25 22:15:00,863 INFO Intra in for
+2012-02-25 22:15:00,863 INFO Intra in primul if
+2012-02-25 22:15:00,863 INFO Ajunge la finalul for
+2012-02-25 22:15:00,863 INFO Ajunge la finalul while
+2012-02-25 22:15:00,863 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,863 INFO A mers Astar
+2012-02-25 22:15:00,863 INFO Mergeee
+2012-02-25 22:15:00,863 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,885 INFO Starting game
+2012-02-25 22:15:00,885 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,886 INFO A trecut de else
+2012-02-25 22:15:00,886 INFO A gasit closest_food
+2012-02-25 22:15:00,886 INFO Intra in Astar
+2012-02-25 22:15:00,886 INFO Trece de passable test
+2012-02-25 22:15:00,886 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,886 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,886 INFO 4
+2012-02-25 22:15:00,886 INFO Ajunge inainte de while
+2012-02-25 22:15:00,886 INFO Intra in while
+2012-02-25 22:15:00,886 INFO Intra inainte de if
+2012-02-25 22:15:00,887 INFO Ajunge inainte de for
+2012-02-25 22:15:00,887 INFO Intra in for
+2012-02-25 22:15:00,887 INFO Intra in primul if
+2012-02-25 22:15:00,887 INFO Intra in for
+2012-02-25 22:15:00,887 INFO Intra in primul if
+2012-02-25 22:15:00,887 INFO Intra in for
+2012-02-25 22:15:00,887 INFO Intra in primul if
+2012-02-25 22:15:00,887 INFO Intra in for
+2012-02-25 22:15:00,887 INFO Intra in primul if
+2012-02-25 22:15:00,887 INFO Intra in for
+2012-02-25 22:15:00,888 INFO Intra in primul if
+2012-02-25 22:15:00,888 INFO Intra in for
+2012-02-25 22:15:00,888 INFO Intra in primul if
+2012-02-25 22:15:00,888 INFO Intra in for
+2012-02-25 22:15:00,888 INFO Intra in primul if
+2012-02-25 22:15:00,888 INFO Intra in for
+2012-02-25 22:15:00,888 INFO Intra in primul if
+2012-02-25 22:15:00,888 INFO Ajunge la finalul for
+2012-02-25 22:15:00,888 INFO Ajunge la finalul while
+2012-02-25 22:15:00,888 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,889 INFO A mers Astar
+2012-02-25 22:15:00,889 INFO Mergeee
+2012-02-25 22:15:00,889 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,929 INFO Starting game
+2012-02-25 22:15:00,929 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,929 INFO A trecut de else
+2012-02-25 22:15:00,929 INFO A gasit closest_food
+2012-02-25 22:15:00,929 INFO Intra in Astar
+2012-02-25 22:15:00,929 INFO Trece de passable test
+2012-02-25 22:15:00,930 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,930 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,930 INFO 4
+2012-02-25 22:15:00,930 INFO Ajunge inainte de while
+2012-02-25 22:15:00,930 INFO Intra in while
+2012-02-25 22:15:00,930 INFO Intra inainte de if
+2012-02-25 22:15:00,930 INFO Ajunge inainte de for
+2012-02-25 22:15:00,930 INFO Intra in for
+2012-02-25 22:15:00,930 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,931 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,931 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,931 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,931 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,931 INFO Intra in primul if
+2012-02-25 22:15:00,931 INFO Intra in for
+2012-02-25 22:15:00,932 INFO Intra in primul if
+2012-02-25 22:15:00,932 INFO Intra in for
+2012-02-25 22:15:00,932 INFO Intra in primul if
+2012-02-25 22:15:00,932 INFO Ajunge la finalul for
+2012-02-25 22:15:00,932 INFO Ajunge la finalul while
+2012-02-25 22:15:00,932 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,932 INFO A mers Astar
+2012-02-25 22:15:00,932 INFO Mergeee
+2012-02-25 22:15:00,932 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:00,957 INFO Starting game
+2012-02-25 22:15:00,957 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:00,957 INFO A trecut de else
+2012-02-25 22:15:00,957 INFO A gasit closest_food
+2012-02-25 22:15:00,957 INFO Intra in Astar
+2012-02-25 22:15:00,957 INFO Trece de passable test
+2012-02-25 22:15:00,957 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:00,957 INFO Intra in heuristic_estimate
+2012-02-25 22:15:00,957 INFO 4
+2012-02-25 22:15:00,958 INFO Ajunge inainte de while
+2012-02-25 22:15:00,958 INFO Intra in while
+2012-02-25 22:15:00,958 INFO Intra inainte de if
+2012-02-25 22:15:00,958 INFO Ajunge inainte de for
+2012-02-25 22:15:00,958 INFO Intra in for
+2012-02-25 22:15:00,958 INFO Intra in primul if
+2012-02-25 22:15:00,958 INFO Intra in for
+2012-02-25 22:15:00,958 INFO Intra in primul if
+2012-02-25 22:15:00,958 INFO Intra in for
+2012-02-25 22:15:00,958 INFO Intra in primul if
+2012-02-25 22:15:00,958 INFO Intra in for
+2012-02-25 22:15:00,959 INFO Intra in primul if
+2012-02-25 22:15:00,959 INFO Intra in for
+2012-02-25 22:15:00,959 INFO Intra in primul if
+2012-02-25 22:15:00,959 INFO Intra in for
+2012-02-25 22:15:00,959 INFO Intra in primul if
+2012-02-25 22:15:00,959 INFO Intra in for
+2012-02-25 22:15:00,959 INFO Intra in primul if
+2012-02-25 22:15:00,959 INFO Intra in for
+2012-02-25 22:15:00,959 INFO Intra in primul if
+2012-02-25 22:15:00,960 INFO Ajunge la finalul for
+2012-02-25 22:15:00,960 INFO Ajunge la finalul while
+2012-02-25 22:15:00,960 INFO Ajunge la finalul Astar
+2012-02-25 22:15:00,960 INFO A mers Astar
+2012-02-25 22:15:00,960 INFO Mergeee
+2012-02-25 22:15:00,960 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,110 INFO Starting game
+2012-02-25 22:15:01,110 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,111 INFO A trecut de else
+2012-02-25 22:15:01,111 INFO A gasit closest_food
+2012-02-25 22:15:01,111 INFO Intra in Astar
+2012-02-25 22:15:01,111 INFO Trece de passable test
+2012-02-25 22:15:01,111 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,111 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,111 INFO 4
+2012-02-25 22:15:01,111 INFO Ajunge inainte de while
+2012-02-25 22:15:01,111 INFO Intra in while
+2012-02-25 22:15:01,111 INFO Intra inainte de if
+2012-02-25 22:15:01,112 INFO Ajunge inainte de for
+2012-02-25 22:15:01,112 INFO Intra in for
+2012-02-25 22:15:01,112 INFO Intra in primul if
+2012-02-25 22:15:01,112 INFO Intra in for
+2012-02-25 22:15:01,112 INFO Intra in primul if
+2012-02-25 22:15:01,112 INFO Intra in for
+2012-02-25 22:15:01,112 INFO Intra in primul if
+2012-02-25 22:15:01,112 INFO Intra in for
+2012-02-25 22:15:01,112 INFO Intra in primul if
+2012-02-25 22:15:01,112 INFO Intra in for
+2012-02-25 22:15:01,113 INFO Intra in primul if
+2012-02-25 22:15:01,113 INFO Intra in for
+2012-02-25 22:15:01,113 INFO Intra in primul if
+2012-02-25 22:15:01,113 INFO Intra in for
+2012-02-25 22:15:01,113 INFO Intra in primul if
+2012-02-25 22:15:01,113 INFO Intra in for
+2012-02-25 22:15:01,113 INFO Intra in primul if
+2012-02-25 22:15:01,113 INFO Ajunge la finalul for
+2012-02-25 22:15:01,113 INFO Ajunge la finalul while
+2012-02-25 22:15:01,113 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,114 INFO A mers Astar
+2012-02-25 22:15:01,114 INFO Mergeee
+2012-02-25 22:15:01,114 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,154 INFO Starting game
+2012-02-25 22:15:01,154 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,154 INFO A trecut de else
+2012-02-25 22:15:01,154 INFO A gasit closest_food
+2012-02-25 22:15:01,154 INFO Intra in Astar
+2012-02-25 22:15:01,155 INFO Trece de passable test
+2012-02-25 22:15:01,155 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,155 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,155 INFO 4
+2012-02-25 22:15:01,155 INFO Ajunge inainte de while
+2012-02-25 22:15:01,155 INFO Intra in while
+2012-02-25 22:15:01,155 INFO Intra inainte de if
+2012-02-25 22:15:01,155 INFO Ajunge inainte de for
+2012-02-25 22:15:01,155 INFO Intra in for
+2012-02-25 22:15:01,155 INFO Intra in primul if
+2012-02-25 22:15:01,156 INFO Intra in for
+2012-02-25 22:15:01,156 INFO Intra in primul if
+2012-02-25 22:15:01,156 INFO Intra in for
+2012-02-25 22:15:01,156 INFO Intra in primul if
+2012-02-25 22:15:01,156 INFO Intra in for
+2012-02-25 22:15:01,156 INFO Intra in primul if
+2012-02-25 22:15:01,156 INFO Intra in for
+2012-02-25 22:15:01,156 INFO Intra in primul if
+2012-02-25 22:15:01,156 INFO Intra in for
+2012-02-25 22:15:01,156 INFO Intra in primul if
+2012-02-25 22:15:01,157 INFO Intra in for
+2012-02-25 22:15:01,157 INFO Intra in primul if
+2012-02-25 22:15:01,157 INFO Intra in for
+2012-02-25 22:15:01,157 INFO Intra in primul if
+2012-02-25 22:15:01,157 INFO Ajunge la finalul for
+2012-02-25 22:15:01,157 INFO Ajunge la finalul while
+2012-02-25 22:15:01,157 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,157 INFO A mers Astar
+2012-02-25 22:15:01,157 INFO Mergeee
+2012-02-25 22:15:01,157 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,187 INFO Starting game
+2012-02-25 22:15:01,187 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,187 INFO A trecut de else
+2012-02-25 22:15:01,187 INFO A gasit closest_food
+2012-02-25 22:15:01,188 INFO Intra in Astar
+2012-02-25 22:15:01,188 INFO Trece de passable test
+2012-02-25 22:15:01,188 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,188 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,188 INFO 4
+2012-02-25 22:15:01,188 INFO Ajunge inainte de while
+2012-02-25 22:15:01,195 INFO Intra in while
+2012-02-25 22:15:01,195 INFO Intra inainte de if
+2012-02-25 22:15:01,195 INFO Ajunge inainte de for
+2012-02-25 22:15:01,195 INFO Intra in for
+2012-02-25 22:15:01,195 INFO Intra in primul if
+2012-02-25 22:15:01,195 INFO Intra in for
+2012-02-25 22:15:01,195 INFO Intra in primul if
+2012-02-25 22:15:01,195 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,196 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,196 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,196 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,196 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,196 INFO Intra in for
+2012-02-25 22:15:01,196 INFO Intra in primul if
+2012-02-25 22:15:01,197 INFO Ajunge la finalul for
+2012-02-25 22:15:01,197 INFO Ajunge la finalul while
+2012-02-25 22:15:01,197 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,197 INFO A mers Astar
+2012-02-25 22:15:01,197 INFO Mergeee
+2012-02-25 22:15:01,197 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,225 INFO Starting game
+2012-02-25 22:15:01,225 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,225 INFO A trecut de else
+2012-02-25 22:15:01,225 INFO A gasit closest_food
+2012-02-25 22:15:01,225 INFO Intra in Astar
+2012-02-25 22:15:01,225 INFO Trece de passable test
+2012-02-25 22:15:01,225 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,225 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,225 INFO 4
+2012-02-25 22:15:01,226 INFO Ajunge inainte de while
+2012-02-25 22:15:01,226 INFO Intra in while
+2012-02-25 22:15:01,226 INFO Intra inainte de if
+2012-02-25 22:15:01,226 INFO Ajunge inainte de for
+2012-02-25 22:15:01,226 INFO Intra in for
+2012-02-25 22:15:01,226 INFO Intra in primul if
+2012-02-25 22:15:01,226 INFO Intra in for
+2012-02-25 22:15:01,226 INFO Intra in primul if
+2012-02-25 22:15:01,226 INFO Intra in for
+2012-02-25 22:15:01,226 INFO Intra in primul if
+2012-02-25 22:15:01,226 INFO Intra in for
+2012-02-25 22:15:01,227 INFO Intra in primul if
+2012-02-25 22:15:01,227 INFO Intra in for
+2012-02-25 22:15:01,227 INFO Intra in primul if
+2012-02-25 22:15:01,227 INFO Intra in for
+2012-02-25 22:15:01,227 INFO Intra in primul if
+2012-02-25 22:15:01,227 INFO Intra in for
+2012-02-25 22:15:01,227 INFO Intra in primul if
+2012-02-25 22:15:01,227 INFO Intra in for
+2012-02-25 22:15:01,227 INFO Intra in primul if
+2012-02-25 22:15:01,227 INFO Ajunge la finalul for
+2012-02-25 22:15:01,227 INFO Ajunge la finalul while
+2012-02-25 22:15:01,227 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,228 INFO A mers Astar
+2012-02-25 22:15:01,228 INFO Mergeee
+2012-02-25 22:15:01,228 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,345 INFO Starting game
+2012-02-25 22:15:01,345 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,345 INFO A trecut de else
+2012-02-25 22:15:01,345 INFO A gasit closest_food
+2012-02-25 22:15:01,346 INFO Intra in Astar
+2012-02-25 22:15:01,346 INFO Trece de passable test
+2012-02-25 22:15:01,346 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,346 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,346 INFO 4
+2012-02-25 22:15:01,346 INFO Ajunge inainte de while
+2012-02-25 22:15:01,346 INFO Intra in while
+2012-02-25 22:15:01,346 INFO Intra inainte de if
+2012-02-25 22:15:01,346 INFO Ajunge inainte de for
+2012-02-25 22:15:01,346 INFO Intra in for
+2012-02-25 22:15:01,346 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,347 INFO Intra in for
+2012-02-25 22:15:01,347 INFO Intra in primul if
+2012-02-25 22:15:01,348 INFO Intra in for
+2012-02-25 22:15:01,348 INFO Intra in primul if
+2012-02-25 22:15:01,348 INFO Ajunge la finalul for
+2012-02-25 22:15:01,348 INFO Ajunge la finalul while
+2012-02-25 22:15:01,348 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,348 INFO A mers Astar
+2012-02-25 22:15:01,348 INFO Mergeee
+2012-02-25 22:15:01,348 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,368 INFO Starting game
+2012-02-25 22:15:01,369 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,369 INFO A trecut de else
+2012-02-25 22:15:01,369 INFO A gasit closest_food
+2012-02-25 22:15:01,369 INFO Intra in Astar
+2012-02-25 22:15:01,369 INFO Trece de passable test
+2012-02-25 22:15:01,369 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,369 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,369 INFO 4
+2012-02-25 22:15:01,369 INFO Ajunge inainte de while
+2012-02-25 22:15:01,369 INFO Intra in while
+2012-02-25 22:15:01,369 INFO Intra inainte de if
+2012-02-25 22:15:01,369 INFO Ajunge inainte de for
+2012-02-25 22:15:01,369 INFO Intra in for
+2012-02-25 22:15:01,369 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Intra in for
+2012-02-25 22:15:01,370 INFO Intra in primul if
+2012-02-25 22:15:01,370 INFO Ajunge la finalul for
+2012-02-25 22:15:01,370 INFO Ajunge la finalul while
+2012-02-25 22:15:01,371 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,371 INFO A mers Astar
+2012-02-25 22:15:01,371 INFO Mergeee
+2012-02-25 22:15:01,371 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,389 INFO Starting game
+2012-02-25 22:15:01,389 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,389 INFO A trecut de else
+2012-02-25 22:15:01,389 INFO A gasit closest_food
+2012-02-25 22:15:01,389 INFO Intra in Astar
+2012-02-25 22:15:01,389 INFO Trece de passable test
+2012-02-25 22:15:01,389 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,389 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,389 INFO 4
+2012-02-25 22:15:01,390 INFO Ajunge inainte de while
+2012-02-25 22:15:01,390 INFO Intra in while
+2012-02-25 22:15:01,390 INFO Intra inainte de if
+2012-02-25 22:15:01,391 INFO Ajunge inainte de for
+2012-02-25 22:15:01,391 INFO Intra in for
+2012-02-25 22:15:01,391 INFO Intra in primul if
+2012-02-25 22:15:01,392 INFO Intra in for
+2012-02-25 22:15:01,392 INFO Intra in primul if
+2012-02-25 22:15:01,392 INFO Intra in for
+2012-02-25 22:15:01,392 INFO Intra in primul if
+2012-02-25 22:15:01,392 INFO Intra in for
+2012-02-25 22:15:01,392 INFO Intra in primul if
+2012-02-25 22:15:01,392 INFO Intra in for
+2012-02-25 22:15:01,392 INFO Intra in primul if
+2012-02-25 22:15:01,392 INFO Intra in for
+2012-02-25 22:15:01,392 INFO Intra in primul if
+2012-02-25 22:15:01,393 INFO Intra in for
+2012-02-25 22:15:01,393 INFO Intra in primul if
+2012-02-25 22:15:01,393 INFO Intra in for
+2012-02-25 22:15:01,393 INFO Intra in primul if
+2012-02-25 22:15:01,393 INFO Ajunge la finalul for
+2012-02-25 22:15:01,393 INFO Ajunge la finalul while
+2012-02-25 22:15:01,393 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,393 INFO A mers Astar
+2012-02-25 22:15:01,393 INFO Mergeee
+2012-02-25 22:15:01,393 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,410 INFO Starting game
+2012-02-25 22:15:01,411 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,411 INFO A trecut de else
+2012-02-25 22:15:01,411 INFO A gasit closest_food
+2012-02-25 22:15:01,411 INFO Intra in Astar
+2012-02-25 22:15:01,411 INFO Trece de passable test
+2012-02-25 22:15:01,411 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,411 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,411 INFO 4
+2012-02-25 22:15:01,411 INFO Ajunge inainte de while
+2012-02-25 22:15:01,412 INFO Intra in while
+2012-02-25 22:15:01,412 INFO Intra inainte de if
+2012-02-25 22:15:01,412 INFO Ajunge inainte de for
+2012-02-25 22:15:01,412 INFO Intra in for
+2012-02-25 22:15:01,412 INFO Intra in primul if
+2012-02-25 22:15:01,412 INFO Intra in for
+2012-02-25 22:15:01,412 INFO Intra in primul if
+2012-02-25 22:15:01,412 INFO Intra in for
+2012-02-25 22:15:01,412 INFO Intra in primul if
+2012-02-25 22:15:01,412 INFO Intra in for
+2012-02-25 22:15:01,412 INFO Intra in primul if
+2012-02-25 22:15:01,413 INFO Intra in for
+2012-02-25 22:15:01,413 INFO Intra in primul if
+2012-02-25 22:15:01,413 INFO Intra in for
+2012-02-25 22:15:01,413 INFO Intra in primul if
+2012-02-25 22:15:01,413 INFO Intra in for
+2012-02-25 22:15:01,413 INFO Intra in primul if
+2012-02-25 22:15:01,413 INFO Intra in for
+2012-02-25 22:15:01,413 INFO Intra in primul if
+2012-02-25 22:15:01,413 INFO Ajunge la finalul for
+2012-02-25 22:15:01,413 INFO Ajunge la finalul while
+2012-02-25 22:15:01,413 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,414 INFO A mers Astar
+2012-02-25 22:15:01,414 INFO Mergeee
+2012-02-25 22:15:01,414 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,527 INFO Starting game
+2012-02-25 22:15:01,527 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,527 INFO A trecut de else
+2012-02-25 22:15:01,527 INFO A gasit closest_food
+2012-02-25 22:15:01,527 INFO Intra in Astar
+2012-02-25 22:15:01,527 INFO Trece de passable test
+2012-02-25 22:15:01,528 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,528 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,528 INFO 4
+2012-02-25 22:15:01,528 INFO Ajunge inainte de while
+2012-02-25 22:15:01,528 INFO Intra in while
+2012-02-25 22:15:01,528 INFO Intra inainte de if
+2012-02-25 22:15:01,528 INFO Ajunge inainte de for
+2012-02-25 22:15:01,528 INFO Intra in for
+2012-02-25 22:15:01,528 INFO Intra in primul if
+2012-02-25 22:15:01,528 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,529 INFO Intra in primul if
+2012-02-25 22:15:01,529 INFO Intra in for
+2012-02-25 22:15:01,530 INFO Intra in primul if
+2012-02-25 22:15:01,530 INFO Ajunge la finalul for
+2012-02-25 22:15:01,530 INFO Ajunge la finalul while
+2012-02-25 22:15:01,530 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,530 INFO A mers Astar
+2012-02-25 22:15:01,530 INFO Mergeee
+2012-02-25 22:15:01,530 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,549 INFO Starting game
+2012-02-25 22:15:01,550 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,550 INFO A trecut de else
+2012-02-25 22:15:01,550 INFO A gasit closest_food
+2012-02-25 22:15:01,550 INFO Intra in Astar
+2012-02-25 22:15:01,550 INFO Trece de passable test
+2012-02-25 22:15:01,550 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,550 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,550 INFO 4
+2012-02-25 22:15:01,550 INFO Ajunge inainte de while
+2012-02-25 22:15:01,551 INFO Intra in while
+2012-02-25 22:15:01,551 INFO Intra inainte de if
+2012-02-25 22:15:01,551 INFO Ajunge inainte de for
+2012-02-25 22:15:01,551 INFO Intra in for
+2012-02-25 22:15:01,551 INFO Intra in primul if
+2012-02-25 22:15:01,551 INFO Intra in for
+2012-02-25 22:15:01,551 INFO Intra in primul if
+2012-02-25 22:15:01,551 INFO Intra in for
+2012-02-25 22:15:01,551 INFO Intra in primul if
+2012-02-25 22:15:01,552 INFO Intra in for
+2012-02-25 22:15:01,552 INFO Intra in primul if
+2012-02-25 22:15:01,552 INFO Intra in for
+2012-02-25 22:15:01,552 INFO Intra in primul if
+2012-02-25 22:15:01,552 INFO Intra in for
+2012-02-25 22:15:01,552 INFO Intra in primul if
+2012-02-25 22:15:01,552 INFO Intra in for
+2012-02-25 22:15:01,560 INFO Intra in primul if
+2012-02-25 22:15:01,560 INFO Intra in for
+2012-02-25 22:15:01,560 INFO Intra in primul if
+2012-02-25 22:15:01,560 INFO Ajunge la finalul for
+2012-02-25 22:15:01,560 INFO Ajunge la finalul while
+2012-02-25 22:15:01,560 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,560 INFO A mers Astar
+2012-02-25 22:15:01,560 INFO Mergeee
+2012-02-25 22:15:01,560 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,597 INFO Starting game
+2012-02-25 22:15:01,597 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,597 INFO A trecut de else
+2012-02-25 22:15:01,597 INFO A gasit closest_food
+2012-02-25 22:15:01,597 INFO Intra in Astar
+2012-02-25 22:15:01,597 INFO Trece de passable test
+2012-02-25 22:15:01,597 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,598 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,598 INFO 4
+2012-02-25 22:15:01,598 INFO Ajunge inainte de while
+2012-02-25 22:15:01,598 INFO Intra in while
+2012-02-25 22:15:01,598 INFO Intra inainte de if
+2012-02-25 22:15:01,598 INFO Ajunge inainte de for
+2012-02-25 22:15:01,598 INFO Intra in for
+2012-02-25 22:15:01,598 INFO Intra in primul if
+2012-02-25 22:15:01,598 INFO Intra in for
+2012-02-25 22:15:01,598 INFO Intra in primul if
+2012-02-25 22:15:01,599 INFO Intra in for
+2012-02-25 22:15:01,599 INFO Intra in primul if
+2012-02-25 22:15:01,599 INFO Intra in for
+2012-02-25 22:15:01,599 INFO Intra in primul if
+2012-02-25 22:15:01,599 INFO Intra in for
+2012-02-25 22:15:01,599 INFO Intra in primul if
+2012-02-25 22:15:01,599 INFO Intra in for
+2012-02-25 22:15:01,599 INFO Intra in primul if
+2012-02-25 22:15:01,599 INFO Intra in for
+2012-02-25 22:15:01,599 INFO Intra in primul if
+2012-02-25 22:15:01,600 INFO Intra in for
+2012-02-25 22:15:01,600 INFO Intra in primul if
+2012-02-25 22:15:01,600 INFO Ajunge la finalul for
+2012-02-25 22:15:01,600 INFO Ajunge la finalul while
+2012-02-25 22:15:01,600 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,600 INFO A mers Astar
+2012-02-25 22:15:01,600 INFO Mergeee
+2012-02-25 22:15:01,600 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,714 INFO Starting game
+2012-02-25 22:15:01,714 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,714 INFO A trecut de else
+2012-02-25 22:15:01,714 INFO A gasit closest_food
+2012-02-25 22:15:01,714 INFO Intra in Astar
+2012-02-25 22:15:01,714 INFO Trece de passable test
+2012-02-25 22:15:01,714 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,714 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,715 INFO 4
+2012-02-25 22:15:01,715 INFO Ajunge inainte de while
+2012-02-25 22:15:01,715 INFO Intra in while
+2012-02-25 22:15:01,715 INFO Intra inainte de if
+2012-02-25 22:15:01,715 INFO Ajunge inainte de for
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,715 INFO Intra in primul if
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,715 INFO Intra in primul if
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,715 INFO Intra in primul if
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,715 INFO Intra in primul if
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,715 INFO Intra in primul if
+2012-02-25 22:15:01,715 INFO Intra in for
+2012-02-25 22:15:01,716 INFO Intra in primul if
+2012-02-25 22:15:01,716 INFO Intra in for
+2012-02-25 22:15:01,716 INFO Intra in primul if
+2012-02-25 22:15:01,716 INFO Intra in for
+2012-02-25 22:15:01,716 INFO Intra in primul if
+2012-02-25 22:15:01,716 INFO Ajunge la finalul for
+2012-02-25 22:15:01,716 INFO Ajunge la finalul while
+2012-02-25 22:15:01,716 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,716 INFO A mers Astar
+2012-02-25 22:15:01,716 INFO Mergeee
+2012-02-25 22:15:01,716 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,739 INFO Starting game
+2012-02-25 22:15:01,739 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,739 INFO A trecut de else
+2012-02-25 22:15:01,739 INFO A gasit closest_food
+2012-02-25 22:15:01,739 INFO Intra in Astar
+2012-02-25 22:15:01,739 INFO Trece de passable test
+2012-02-25 22:15:01,740 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,740 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,740 INFO 4
+2012-02-25 22:15:01,740 INFO Ajunge inainte de while
+2012-02-25 22:15:01,740 INFO Intra in while
+2012-02-25 22:15:01,740 INFO Intra inainte de if
+2012-02-25 22:15:01,740 INFO Ajunge inainte de for
+2012-02-25 22:15:01,740 INFO Intra in for
+2012-02-25 22:15:01,740 INFO Intra in primul if
+2012-02-25 22:15:01,740 INFO Intra in for
+2012-02-25 22:15:01,740 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,741 INFO Intra in for
+2012-02-25 22:15:01,741 INFO Intra in primul if
+2012-02-25 22:15:01,742 INFO Ajunge la finalul for
+2012-02-25 22:15:01,742 INFO Ajunge la finalul while
+2012-02-25 22:15:01,742 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,742 INFO A mers Astar
+2012-02-25 22:15:01,742 INFO Mergeee
+2012-02-25 22:15:01,742 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,761 INFO Starting game
+2012-02-25 22:15:01,761 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,762 INFO A trecut de else
+2012-02-25 22:15:01,762 INFO A gasit closest_food
+2012-02-25 22:15:01,762 INFO Intra in Astar
+2012-02-25 22:15:01,762 INFO Trece de passable test
+2012-02-25 22:15:01,762 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,762 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,762 INFO 4
+2012-02-25 22:15:01,762 INFO Ajunge inainte de while
+2012-02-25 22:15:01,762 INFO Intra in while
+2012-02-25 22:15:01,762 INFO Intra inainte de if
+2012-02-25 22:15:01,762 INFO Ajunge inainte de for
+2012-02-25 22:15:01,762 INFO Intra in for
+2012-02-25 22:15:01,762 INFO Intra in primul if
+2012-02-25 22:15:01,762 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Intra in for
+2012-02-25 22:15:01,763 INFO Intra in primul if
+2012-02-25 22:15:01,763 INFO Ajunge la finalul for
+2012-02-25 22:15:01,763 INFO Ajunge la finalul while
+2012-02-25 22:15:01,763 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,764 INFO A mers Astar
+2012-02-25 22:15:01,764 INFO Mergeee
+2012-02-25 22:15:01,764 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,783 INFO Starting game
+2012-02-25 22:15:01,783 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,784 INFO A trecut de else
+2012-02-25 22:15:01,784 INFO A gasit closest_food
+2012-02-25 22:15:01,784 INFO Intra in Astar
+2012-02-25 22:15:01,784 INFO Trece de passable test
+2012-02-25 22:15:01,784 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,784 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,784 INFO 4
+2012-02-25 22:15:01,784 INFO Ajunge inainte de while
+2012-02-25 22:15:01,784 INFO Intra in while
+2012-02-25 22:15:01,784 INFO Intra inainte de if
+2012-02-25 22:15:01,785 INFO Ajunge inainte de for
+2012-02-25 22:15:01,785 INFO Intra in for
+2012-02-25 22:15:01,785 INFO Intra in primul if
+2012-02-25 22:15:01,785 INFO Intra in for
+2012-02-25 22:15:01,785 INFO Intra in primul if
+2012-02-25 22:15:01,785 INFO Intra in for
+2012-02-25 22:15:01,785 INFO Intra in primul if
+2012-02-25 22:15:01,785 INFO Intra in for
+2012-02-25 22:15:01,785 INFO Intra in primul if
+2012-02-25 22:15:01,785 INFO Intra in for
+2012-02-25 22:15:01,785 INFO Intra in primul if
+2012-02-25 22:15:01,786 INFO Intra in for
+2012-02-25 22:15:01,786 INFO Intra in primul if
+2012-02-25 22:15:01,786 INFO Intra in for
+2012-02-25 22:15:01,786 INFO Intra in primul if
+2012-02-25 22:15:01,786 INFO Intra in for
+2012-02-25 22:15:01,786 INFO Intra in primul if
+2012-02-25 22:15:01,786 INFO Ajunge la finalul for
+2012-02-25 22:15:01,786 INFO Ajunge la finalul while
+2012-02-25 22:15:01,786 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,786 INFO A mers Astar
+2012-02-25 22:15:01,786 INFO Mergeee
+2012-02-25 22:15:01,786 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,905 INFO Starting game
+2012-02-25 22:15:01,905 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,905 INFO A trecut de else
+2012-02-25 22:15:01,905 INFO A gasit closest_food
+2012-02-25 22:15:01,906 INFO Intra in Astar
+2012-02-25 22:15:01,906 INFO Trece de passable test
+2012-02-25 22:15:01,906 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,906 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,906 INFO 4
+2012-02-25 22:15:01,906 INFO Ajunge inainte de while
+2012-02-25 22:15:01,906 INFO Intra in while
+2012-02-25 22:15:01,906 INFO Intra inainte de if
+2012-02-25 22:15:01,906 INFO Ajunge inainte de for
+2012-02-25 22:15:01,906 INFO Intra in for
+2012-02-25 22:15:01,906 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,907 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,907 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,907 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,907 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,907 INFO Intra in primul if
+2012-02-25 22:15:01,907 INFO Intra in for
+2012-02-25 22:15:01,908 INFO Intra in primul if
+2012-02-25 22:15:01,908 INFO Intra in for
+2012-02-25 22:15:01,908 INFO Intra in primul if
+2012-02-25 22:15:01,908 INFO Ajunge la finalul for
+2012-02-25 22:15:01,908 INFO Ajunge la finalul while
+2012-02-25 22:15:01,908 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,908 INFO A mers Astar
+2012-02-25 22:15:01,908 INFO Mergeee
+2012-02-25 22:15:01,908 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,938 INFO Starting game
+2012-02-25 22:15:01,938 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,938 INFO A trecut de else
+2012-02-25 22:15:01,938 INFO A gasit closest_food
+2012-02-25 22:15:01,939 INFO Intra in Astar
+2012-02-25 22:15:01,939 INFO Trece de passable test
+2012-02-25 22:15:01,939 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,939 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,939 INFO 4
+2012-02-25 22:15:01,939 INFO Ajunge inainte de while
+2012-02-25 22:15:01,939 INFO Intra in while
+2012-02-25 22:15:01,939 INFO Intra inainte de if
+2012-02-25 22:15:01,939 INFO Ajunge inainte de for
+2012-02-25 22:15:01,939 INFO Intra in for
+2012-02-25 22:15:01,939 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,940 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,940 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,940 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,940 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,940 INFO Intra in primul if
+2012-02-25 22:15:01,940 INFO Intra in for
+2012-02-25 22:15:01,941 INFO Intra in primul if
+2012-02-25 22:15:01,941 INFO Intra in for
+2012-02-25 22:15:01,941 INFO Intra in primul if
+2012-02-25 22:15:01,941 INFO Ajunge la finalul for
+2012-02-25 22:15:01,941 INFO Ajunge la finalul while
+2012-02-25 22:15:01,941 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,941 INFO A mers Astar
+2012-02-25 22:15:01,941 INFO Mergeee
+2012-02-25 22:15:01,941 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,960 INFO Starting game
+2012-02-25 22:15:01,961 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,961 INFO A trecut de else
+2012-02-25 22:15:01,961 INFO A gasit closest_food
+2012-02-25 22:15:01,961 INFO Intra in Astar
+2012-02-25 22:15:01,961 INFO Trece de passable test
+2012-02-25 22:15:01,961 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,961 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,961 INFO 4
+2012-02-25 22:15:01,961 INFO Ajunge inainte de while
+2012-02-25 22:15:01,961 INFO Intra in while
+2012-02-25 22:15:01,961 INFO Intra inainte de if
+2012-02-25 22:15:01,961 INFO Ajunge inainte de for
+2012-02-25 22:15:01,961 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,962 INFO Intra in primul if
+2012-02-25 22:15:01,962 INFO Intra in for
+2012-02-25 22:15:01,963 INFO Intra in primul if
+2012-02-25 22:15:01,963 INFO Ajunge la finalul for
+2012-02-25 22:15:01,963 INFO Ajunge la finalul while
+2012-02-25 22:15:01,963 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,963 INFO A mers Astar
+2012-02-25 22:15:01,963 INFO Mergeee
+2012-02-25 22:15:01,963 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:01,992 INFO Starting game
+2012-02-25 22:15:01,993 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:01,993 INFO A trecut de else
+2012-02-25 22:15:01,993 INFO A gasit closest_food
+2012-02-25 22:15:01,993 INFO Intra in Astar
+2012-02-25 22:15:01,993 INFO Trece de passable test
+2012-02-25 22:15:01,993 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:01,993 INFO Intra in heuristic_estimate
+2012-02-25 22:15:01,994 INFO 4
+2012-02-25 22:15:01,994 INFO Ajunge inainte de while
+2012-02-25 22:15:01,994 INFO Intra in while
+2012-02-25 22:15:01,994 INFO Intra inainte de if
+2012-02-25 22:15:01,994 INFO Ajunge inainte de for
+2012-02-25 22:15:01,994 INFO Intra in for
+2012-02-25 22:15:01,994 INFO Intra in primul if
+2012-02-25 22:15:01,994 INFO Intra in for
+2012-02-25 22:15:01,994 INFO Intra in primul if
+2012-02-25 22:15:01,994 INFO Intra in for
+2012-02-25 22:15:01,995 INFO Intra in primul if
+2012-02-25 22:15:01,995 INFO Intra in for
+2012-02-25 22:15:01,995 INFO Intra in primul if
+2012-02-25 22:15:01,995 INFO Intra in for
+2012-02-25 22:15:01,995 INFO Intra in primul if
+2012-02-25 22:15:01,995 INFO Intra in for
+2012-02-25 22:15:01,995 INFO Intra in primul if
+2012-02-25 22:15:01,995 INFO Intra in for
+2012-02-25 22:15:01,995 INFO Intra in primul if
+2012-02-25 22:15:01,995 INFO Intra in for
+2012-02-25 22:15:01,996 INFO Intra in primul if
+2012-02-25 22:15:01,996 INFO Ajunge la finalul for
+2012-02-25 22:15:01,996 INFO Ajunge la finalul while
+2012-02-25 22:15:01,996 INFO Ajunge la finalul Astar
+2012-02-25 22:15:01,996 INFO A mers Astar
+2012-02-25 22:15:01,996 INFO Mergeee
+2012-02-25 22:15:01,996 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,116 INFO Starting game
+2012-02-25 22:15:02,117 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,117 INFO A trecut de else
+2012-02-25 22:15:02,117 INFO A gasit closest_food
+2012-02-25 22:15:02,117 INFO Intra in Astar
+2012-02-25 22:15:02,117 INFO Trece de passable test
+2012-02-25 22:15:02,117 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,117 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,117 INFO 4
+2012-02-25 22:15:02,118 INFO Ajunge inainte de while
+2012-02-25 22:15:02,118 INFO Intra in while
+2012-02-25 22:15:02,118 INFO Intra inainte de if
+2012-02-25 22:15:02,118 INFO Ajunge inainte de for
+2012-02-25 22:15:02,118 INFO Intra in for
+2012-02-25 22:15:02,118 INFO Intra in primul if
+2012-02-25 22:15:02,118 INFO Intra in for
+2012-02-25 22:15:02,118 INFO Intra in primul if
+2012-02-25 22:15:02,118 INFO Intra in for
+2012-02-25 22:15:02,119 INFO Intra in primul if
+2012-02-25 22:15:02,119 INFO Intra in for
+2012-02-25 22:15:02,119 INFO Intra in primul if
+2012-02-25 22:15:02,119 INFO Intra in for
+2012-02-25 22:15:02,119 INFO Intra in primul if
+2012-02-25 22:15:02,119 INFO Intra in for
+2012-02-25 22:15:02,119 INFO Intra in primul if
+2012-02-25 22:15:02,119 INFO Intra in for
+2012-02-25 22:15:02,119 INFO Intra in primul if
+2012-02-25 22:15:02,119 INFO Intra in for
+2012-02-25 22:15:02,120 INFO Intra in primul if
+2012-02-25 22:15:02,120 INFO Ajunge la finalul for
+2012-02-25 22:15:02,120 INFO Ajunge la finalul while
+2012-02-25 22:15:02,120 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,120 INFO A mers Astar
+2012-02-25 22:15:02,120 INFO Mergeee
+2012-02-25 22:15:02,120 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,148 INFO Starting game
+2012-02-25 22:15:02,148 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,148 INFO A trecut de else
+2012-02-25 22:15:02,148 INFO A gasit closest_food
+2012-02-25 22:15:02,148 INFO Intra in Astar
+2012-02-25 22:15:02,148 INFO Trece de passable test
+2012-02-25 22:15:02,148 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,148 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,149 INFO 4
+2012-02-25 22:15:02,149 INFO Ajunge inainte de while
+2012-02-25 22:15:02,149 INFO Intra in while
+2012-02-25 22:15:02,149 INFO Intra inainte de if
+2012-02-25 22:15:02,149 INFO Ajunge inainte de for
+2012-02-25 22:15:02,149 INFO Intra in for
+2012-02-25 22:15:02,149 INFO Intra in primul if
+2012-02-25 22:15:02,149 INFO Intra in for
+2012-02-25 22:15:02,149 INFO Intra in primul if
+2012-02-25 22:15:02,149 INFO Intra in for
+2012-02-25 22:15:02,150 INFO Intra in primul if
+2012-02-25 22:15:02,150 INFO Intra in for
+2012-02-25 22:15:02,150 INFO Intra in primul if
+2012-02-25 22:15:02,150 INFO Intra in for
+2012-02-25 22:15:02,150 INFO Intra in primul if
+2012-02-25 22:15:02,150 INFO Intra in for
+2012-02-25 22:15:02,150 INFO Intra in primul if
+2012-02-25 22:15:02,150 INFO Intra in for
+2012-02-25 22:15:02,150 INFO Intra in primul if
+2012-02-25 22:15:02,150 INFO Intra in for
+2012-02-25 22:15:02,151 INFO Intra in primul if
+2012-02-25 22:15:02,151 INFO Ajunge la finalul for
+2012-02-25 22:15:02,151 INFO Ajunge la finalul while
+2012-02-25 22:15:02,151 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,151 INFO A mers Astar
+2012-02-25 22:15:02,151 INFO Mergeee
+2012-02-25 22:15:02,151 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,179 INFO Starting game
+2012-02-25 22:15:02,179 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,179 INFO A trecut de else
+2012-02-25 22:15:02,179 INFO A gasit closest_food
+2012-02-25 22:15:02,179 INFO Intra in Astar
+2012-02-25 22:15:02,179 INFO Trece de passable test
+2012-02-25 22:15:02,179 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,179 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,180 INFO 4
+2012-02-25 22:15:02,180 INFO Ajunge inainte de while
+2012-02-25 22:15:02,180 INFO Intra in while
+2012-02-25 22:15:02,180 INFO Intra inainte de if
+2012-02-25 22:15:02,180 INFO Ajunge inainte de for
+2012-02-25 22:15:02,180 INFO Intra in for
+2012-02-25 22:15:02,180 INFO Intra in primul if
+2012-02-25 22:15:02,180 INFO Intra in for
+2012-02-25 22:15:02,180 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,181 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,181 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,181 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,181 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,181 INFO Intra in primul if
+2012-02-25 22:15:02,181 INFO Intra in for
+2012-02-25 22:15:02,182 INFO Intra in primul if
+2012-02-25 22:15:02,182 INFO Ajunge la finalul for
+2012-02-25 22:15:02,182 INFO Ajunge la finalul while
+2012-02-25 22:15:02,182 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,182 INFO A mers Astar
+2012-02-25 22:15:02,182 INFO Mergeee
+2012-02-25 22:15:02,182 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,280 INFO Starting game
+2012-02-25 22:15:02,280 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,281 INFO A trecut de else
+2012-02-25 22:15:02,281 INFO A gasit closest_food
+2012-02-25 22:15:02,281 INFO Intra in Astar
+2012-02-25 22:15:02,281 INFO Trece de passable test
+2012-02-25 22:15:02,281 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,281 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,281 INFO 4
+2012-02-25 22:15:02,281 INFO Ajunge inainte de while
+2012-02-25 22:15:02,281 INFO Intra in while
+2012-02-25 22:15:02,282 INFO Intra inainte de if
+2012-02-25 22:15:02,282 INFO Ajunge inainte de for
+2012-02-25 22:15:02,282 INFO Intra in for
+2012-02-25 22:15:02,282 INFO Intra in primul if
+2012-02-25 22:15:02,282 INFO Intra in for
+2012-02-25 22:15:02,282 INFO Intra in primul if
+2012-02-25 22:15:02,282 INFO Intra in for
+2012-02-25 22:15:02,282 INFO Intra in primul if
+2012-02-25 22:15:02,282 INFO Intra in for
+2012-02-25 22:15:02,282 INFO Intra in primul if
+2012-02-25 22:15:02,283 INFO Intra in for
+2012-02-25 22:15:02,283 INFO Intra in primul if
+2012-02-25 22:15:02,283 INFO Intra in for
+2012-02-25 22:15:02,283 INFO Intra in primul if
+2012-02-25 22:15:02,283 INFO Intra in for
+2012-02-25 22:15:02,283 INFO Intra in primul if
+2012-02-25 22:15:02,283 INFO Intra in for
+2012-02-25 22:15:02,283 INFO Intra in primul if
+2012-02-25 22:15:02,283 INFO Ajunge la finalul for
+2012-02-25 22:15:02,283 INFO Ajunge la finalul while
+2012-02-25 22:15:02,283 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,284 INFO A mers Astar
+2012-02-25 22:15:02,284 INFO Mergeee
+2012-02-25 22:15:02,284 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,318 INFO Starting game
+2012-02-25 22:15:02,318 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,318 INFO A trecut de else
+2012-02-25 22:15:02,318 INFO A gasit closest_food
+2012-02-25 22:15:02,318 INFO Intra in Astar
+2012-02-25 22:15:02,318 INFO Trece de passable test
+2012-02-25 22:15:02,318 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,318 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,319 INFO 4
+2012-02-25 22:15:02,319 INFO Ajunge inainte de while
+2012-02-25 22:15:02,319 INFO Intra in while
+2012-02-25 22:15:02,319 INFO Intra inainte de if
+2012-02-25 22:15:02,319 INFO Ajunge inainte de for
+2012-02-25 22:15:02,319 INFO Intra in for
+2012-02-25 22:15:02,319 INFO Intra in primul if
+2012-02-25 22:15:02,319 INFO Intra in for
+2012-02-25 22:15:02,319 INFO Intra in primul if
+2012-02-25 22:15:02,319 INFO Intra in for
+2012-02-25 22:15:02,320 INFO Intra in primul if
+2012-02-25 22:15:02,320 INFO Intra in for
+2012-02-25 22:15:02,320 INFO Intra in primul if
+2012-02-25 22:15:02,320 INFO Intra in for
+2012-02-25 22:15:02,320 INFO Intra in primul if
+2012-02-25 22:15:02,320 INFO Intra in for
+2012-02-25 22:15:02,320 INFO Intra in primul if
+2012-02-25 22:15:02,320 INFO Intra in for
+2012-02-25 22:15:02,320 INFO Intra in primul if
+2012-02-25 22:15:02,320 INFO Intra in for
+2012-02-25 22:15:02,321 INFO Intra in primul if
+2012-02-25 22:15:02,321 INFO Ajunge la finalul for
+2012-02-25 22:15:02,321 INFO Ajunge la finalul while
+2012-02-25 22:15:02,321 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,321 INFO A mers Astar
+2012-02-25 22:15:02,321 INFO Mergeee
+2012-02-25 22:15:02,321 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,366 INFO Starting game
+2012-02-25 22:15:02,366 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,366 INFO A trecut de else
+2012-02-25 22:15:02,366 INFO A gasit closest_food
+2012-02-25 22:15:02,367 INFO Intra in Astar
+2012-02-25 22:15:02,367 INFO Trece de passable test
+2012-02-25 22:15:02,367 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,367 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,367 INFO 4
+2012-02-25 22:15:02,367 INFO Ajunge inainte de while
+2012-02-25 22:15:02,367 INFO Intra in while
+2012-02-25 22:15:02,367 INFO Intra inainte de if
+2012-02-25 22:15:02,367 INFO Ajunge inainte de for
+2012-02-25 22:15:02,367 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,368 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,368 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,368 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,368 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,368 INFO Intra in for
+2012-02-25 22:15:02,368 INFO Intra in primul if
+2012-02-25 22:15:02,369 INFO Intra in for
+2012-02-25 22:15:02,369 INFO Intra in primul if
+2012-02-25 22:15:02,369 INFO Intra in for
+2012-02-25 22:15:02,369 INFO Intra in primul if
+2012-02-25 22:15:02,369 INFO Ajunge la finalul for
+2012-02-25 22:15:02,369 INFO Ajunge la finalul while
+2012-02-25 22:15:02,369 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,369 INFO A mers Astar
+2012-02-25 22:15:02,369 INFO Mergeee
+2012-02-25 22:15:02,369 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,402 INFO Starting game
+2012-02-25 22:15:02,402 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,402 INFO A trecut de else
+2012-02-25 22:15:02,403 INFO A gasit closest_food
+2012-02-25 22:15:02,403 INFO Intra in Astar
+2012-02-25 22:15:02,403 INFO Trece de passable test
+2012-02-25 22:15:02,403 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,403 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,403 INFO 4
+2012-02-25 22:15:02,403 INFO Ajunge inainte de while
+2012-02-25 22:15:02,403 INFO Intra in while
+2012-02-25 22:15:02,403 INFO Intra inainte de if
+2012-02-25 22:15:02,403 INFO Ajunge inainte de for
+2012-02-25 22:15:02,403 INFO Intra in for
+2012-02-25 22:15:02,404 INFO Intra in primul if
+2012-02-25 22:15:02,404 INFO Intra in for
+2012-02-25 22:15:02,404 INFO Intra in primul if
+2012-02-25 22:15:02,404 INFO Intra in for
+2012-02-25 22:15:02,404 INFO Intra in primul if
+2012-02-25 22:15:02,404 INFO Intra in for
+2012-02-25 22:15:02,404 INFO Intra in primul if
+2012-02-25 22:15:02,404 INFO Intra in for
+2012-02-25 22:15:02,404 INFO Intra in primul if
+2012-02-25 22:15:02,404 INFO Intra in for
+2012-02-25 22:15:02,405 INFO Intra in primul if
+2012-02-25 22:15:02,405 INFO Intra in for
+2012-02-25 22:15:02,405 INFO Intra in primul if
+2012-02-25 22:15:02,405 INFO Intra in for
+2012-02-25 22:15:02,405 INFO Intra in primul if
+2012-02-25 22:15:02,405 INFO Ajunge la finalul for
+2012-02-25 22:15:02,405 INFO Ajunge la finalul while
+2012-02-25 22:15:02,405 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,405 INFO A mers Astar
+2012-02-25 22:15:02,405 INFO Mergeee
+2012-02-25 22:15:02,405 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,479 INFO Starting game
+2012-02-25 22:15:02,480 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,480 INFO A trecut de else
+2012-02-25 22:15:02,480 INFO A gasit closest_food
+2012-02-25 22:15:02,480 INFO Intra in Astar
+2012-02-25 22:15:02,480 INFO Trece de passable test
+2012-02-25 22:15:02,480 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,480 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,480 INFO 4
+2012-02-25 22:15:02,480 INFO Ajunge inainte de while
+2012-02-25 22:15:02,481 INFO Intra in while
+2012-02-25 22:15:02,481 INFO Intra inainte de if
+2012-02-25 22:15:02,481 INFO Ajunge inainte de for
+2012-02-25 22:15:02,481 INFO Intra in for
+2012-02-25 22:15:02,481 INFO Intra in primul if
+2012-02-25 22:15:02,481 INFO Intra in for
+2012-02-25 22:15:02,481 INFO Intra in primul if
+2012-02-25 22:15:02,481 INFO Intra in for
+2012-02-25 22:15:02,481 INFO Intra in primul if
+2012-02-25 22:15:02,481 INFO Intra in for
+2012-02-25 22:15:02,481 INFO Intra in primul if
+2012-02-25 22:15:02,481 INFO Intra in for
+2012-02-25 22:15:02,482 INFO Intra in primul if
+2012-02-25 22:15:02,482 INFO Intra in for
+2012-02-25 22:15:02,482 INFO Intra in primul if
+2012-02-25 22:15:02,482 INFO Intra in for
+2012-02-25 22:15:02,482 INFO Intra in primul if
+2012-02-25 22:15:02,482 INFO Intra in for
+2012-02-25 22:15:02,482 INFO Intra in primul if
+2012-02-25 22:15:02,482 INFO Ajunge la finalul for
+2012-02-25 22:15:02,482 INFO Ajunge la finalul while
+2012-02-25 22:15:02,482 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,482 INFO A mers Astar
+2012-02-25 22:15:02,483 INFO Mergeee
+2012-02-25 22:15:02,483 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,506 INFO Starting game
+2012-02-25 22:15:02,506 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,506 INFO A trecut de else
+2012-02-25 22:15:02,506 INFO A gasit closest_food
+2012-02-25 22:15:02,506 INFO Intra in Astar
+2012-02-25 22:15:02,506 INFO Trece de passable test
+2012-02-25 22:15:02,506 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,506 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,506 INFO 4
+2012-02-25 22:15:02,506 INFO Ajunge inainte de while
+2012-02-25 22:15:02,506 INFO Intra in while
+2012-02-25 22:15:02,506 INFO Intra inainte de if
+2012-02-25 22:15:02,506 INFO Ajunge inainte de for
+2012-02-25 22:15:02,506 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,507 INFO Intra in for
+2012-02-25 22:15:02,507 INFO Intra in primul if
+2012-02-25 22:15:02,508 INFO Ajunge la finalul for
+2012-02-25 22:15:02,508 INFO Ajunge la finalul while
+2012-02-25 22:15:02,508 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,508 INFO A mers Astar
+2012-02-25 22:15:02,508 INFO Mergeee
+2012-02-25 22:15:02,508 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,539 INFO Starting game
+2012-02-25 22:15:02,539 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,539 INFO A trecut de else
+2012-02-25 22:15:02,539 INFO A gasit closest_food
+2012-02-25 22:15:02,539 INFO Intra in Astar
+2012-02-25 22:15:02,539 INFO Trece de passable test
+2012-02-25 22:15:02,539 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,539 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,539 INFO 4
+2012-02-25 22:15:02,539 INFO Ajunge inainte de while
+2012-02-25 22:15:02,539 INFO Intra in while
+2012-02-25 22:15:02,540 INFO Intra inainte de if
+2012-02-25 22:15:02,540 INFO Ajunge inainte de for
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,540 INFO Intra in primul if
+2012-02-25 22:15:02,540 INFO Intra in for
+2012-02-25 22:15:02,541 INFO Intra in primul if
+2012-02-25 22:15:02,541 INFO Intra in for
+2012-02-25 22:15:02,541 INFO Intra in primul if
+2012-02-25 22:15:02,541 INFO Ajunge la finalul for
+2012-02-25 22:15:02,541 INFO Ajunge la finalul while
+2012-02-25 22:15:02,541 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,541 INFO A mers Astar
+2012-02-25 22:15:02,541 INFO Mergeee
+2012-02-25 22:15:02,541 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,572 INFO Starting game
+2012-02-25 22:15:02,572 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,572 INFO A trecut de else
+2012-02-25 22:15:02,572 INFO A gasit closest_food
+2012-02-25 22:15:02,572 INFO Intra in Astar
+2012-02-25 22:15:02,573 INFO Trece de passable test
+2012-02-25 22:15:02,573 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,573 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,573 INFO 4
+2012-02-25 22:15:02,573 INFO Ajunge inainte de while
+2012-02-25 22:15:02,573 INFO Intra in while
+2012-02-25 22:15:02,573 INFO Intra inainte de if
+2012-02-25 22:15:02,573 INFO Ajunge inainte de for
+2012-02-25 22:15:02,573 INFO Intra in for
+2012-02-25 22:15:02,573 INFO Intra in primul if
+2012-02-25 22:15:02,573 INFO Intra in for
+2012-02-25 22:15:02,573 INFO Intra in primul if
+2012-02-25 22:15:02,573 INFO Intra in for
+2012-02-25 22:15:02,573 INFO Intra in primul if
+2012-02-25 22:15:02,573 INFO Intra in for
+2012-02-25 22:15:02,573 INFO Intra in primul if
+2012-02-25 22:15:02,574 INFO Intra in for
+2012-02-25 22:15:02,574 INFO Intra in primul if
+2012-02-25 22:15:02,574 INFO Intra in for
+2012-02-25 22:15:02,574 INFO Intra in primul if
+2012-02-25 22:15:02,574 INFO Intra in for
+2012-02-25 22:15:02,574 INFO Intra in primul if
+2012-02-25 22:15:02,574 INFO Intra in for
+2012-02-25 22:15:02,574 INFO Intra in primul if
+2012-02-25 22:15:02,574 INFO Ajunge la finalul for
+2012-02-25 22:15:02,574 INFO Ajunge la finalul while
+2012-02-25 22:15:02,574 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,574 INFO A mers Astar
+2012-02-25 22:15:02,574 INFO Mergeee
+2012-02-25 22:15:02,574 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,661 INFO Starting game
+2012-02-25 22:15:02,661 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,661 INFO A trecut de else
+2012-02-25 22:15:02,662 INFO A gasit closest_food
+2012-02-25 22:15:02,662 INFO Intra in Astar
+2012-02-25 22:15:02,662 INFO Trece de passable test
+2012-02-25 22:15:02,662 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,662 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,662 INFO 4
+2012-02-25 22:15:02,662 INFO Ajunge inainte de while
+2012-02-25 22:15:02,662 INFO Intra in while
+2012-02-25 22:15:02,662 INFO Intra inainte de if
+2012-02-25 22:15:02,662 INFO Ajunge inainte de for
+2012-02-25 22:15:02,662 INFO Intra in for
+2012-02-25 22:15:02,662 INFO Intra in primul if
+2012-02-25 22:15:02,662 INFO Intra in for
+2012-02-25 22:15:02,662 INFO Intra in primul if
+2012-02-25 22:15:02,662 INFO Intra in for
+2012-02-25 22:15:02,662 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Intra in for
+2012-02-25 22:15:02,663 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Intra in for
+2012-02-25 22:15:02,663 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Intra in for
+2012-02-25 22:15:02,663 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Intra in for
+2012-02-25 22:15:02,663 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Intra in for
+2012-02-25 22:15:02,663 INFO Intra in primul if
+2012-02-25 22:15:02,663 INFO Ajunge la finalul for
+2012-02-25 22:15:02,663 INFO Ajunge la finalul while
+2012-02-25 22:15:02,663 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,663 INFO A mers Astar
+2012-02-25 22:15:02,663 INFO Mergeee
+2012-02-25 22:15:02,664 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,684 INFO Starting game
+2012-02-25 22:15:02,684 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,685 INFO A trecut de else
+2012-02-25 22:15:02,685 INFO A gasit closest_food
+2012-02-25 22:15:02,685 INFO Intra in Astar
+2012-02-25 22:15:02,685 INFO Trece de passable test
+2012-02-25 22:15:02,685 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,685 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,685 INFO 4
+2012-02-25 22:15:02,685 INFO Ajunge inainte de while
+2012-02-25 22:15:02,685 INFO Intra in while
+2012-02-25 22:15:02,685 INFO Intra inainte de if
+2012-02-25 22:15:02,685 INFO Ajunge inainte de for
+2012-02-25 22:15:02,685 INFO Intra in for
+2012-02-25 22:15:02,685 INFO Intra in primul if
+2012-02-25 22:15:02,685 INFO Intra in for
+2012-02-25 22:15:02,685 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Intra in for
+2012-02-25 22:15:02,686 INFO Intra in primul if
+2012-02-25 22:15:02,686 INFO Ajunge la finalul for
+2012-02-25 22:15:02,686 INFO Ajunge la finalul while
+2012-02-25 22:15:02,686 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,686 INFO A mers Astar
+2012-02-25 22:15:02,687 INFO Mergeee
+2012-02-25 22:15:02,687 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,718 INFO Starting game
+2012-02-25 22:15:02,719 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,719 INFO A trecut de else
+2012-02-25 22:15:02,719 INFO A gasit closest_food
+2012-02-25 22:15:02,719 INFO Intra in Astar
+2012-02-25 22:15:02,719 INFO Trece de passable test
+2012-02-25 22:15:02,719 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,719 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,719 INFO 4
+2012-02-25 22:15:02,719 INFO Ajunge inainte de while
+2012-02-25 22:15:02,719 INFO Intra in while
+2012-02-25 22:15:02,719 INFO Intra inainte de if
+2012-02-25 22:15:02,719 INFO Ajunge inainte de for
+2012-02-25 22:15:02,719 INFO Intra in for
+2012-02-25 22:15:02,719 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Intra in for
+2012-02-25 22:15:02,720 INFO Intra in primul if
+2012-02-25 22:15:02,720 INFO Ajunge la finalul for
+2012-02-25 22:15:02,721 INFO Ajunge la finalul while
+2012-02-25 22:15:02,721 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,721 INFO A mers Astar
+2012-02-25 22:15:02,721 INFO Mergeee
+2012-02-25 22:15:02,721 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,822 INFO Starting game
+2012-02-25 22:15:02,822 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,822 INFO A trecut de else
+2012-02-25 22:15:02,822 INFO A gasit closest_food
+2012-02-25 22:15:02,822 INFO Intra in Astar
+2012-02-25 22:15:02,822 INFO Trece de passable test
+2012-02-25 22:15:02,822 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,822 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,822 INFO 4
+2012-02-25 22:15:02,823 INFO Ajunge inainte de while
+2012-02-25 22:15:02,823 INFO Intra in while
+2012-02-25 22:15:02,823 INFO Intra inainte de if
+2012-02-25 22:15:02,823 INFO Ajunge inainte de for
+2012-02-25 22:15:02,823 INFO Intra in for
+2012-02-25 22:15:02,823 INFO Intra in primul if
+2012-02-25 22:15:02,823 INFO Intra in for
+2012-02-25 22:15:02,823 INFO Intra in primul if
+2012-02-25 22:15:02,823 INFO Intra in for
+2012-02-25 22:15:02,824 INFO Intra in primul if
+2012-02-25 22:15:02,824 INFO Intra in for
+2012-02-25 22:15:02,824 INFO Intra in primul if
+2012-02-25 22:15:02,824 INFO Intra in for
+2012-02-25 22:15:02,824 INFO Intra in primul if
+2012-02-25 22:15:02,824 INFO Intra in for
+2012-02-25 22:15:02,824 INFO Intra in primul if
+2012-02-25 22:15:02,824 INFO Intra in for
+2012-02-25 22:15:02,825 INFO Intra in primul if
+2012-02-25 22:15:02,825 INFO Intra in for
+2012-02-25 22:15:02,825 INFO Intra in primul if
+2012-02-25 22:15:02,825 INFO Ajunge la finalul for
+2012-02-25 22:15:02,825 INFO Ajunge la finalul while
+2012-02-25 22:15:02,825 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,826 INFO A mers Astar
+2012-02-25 22:15:02,826 INFO Mergeee
+2012-02-25 22:15:02,826 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,860 INFO Starting game
+2012-02-25 22:15:02,860 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,860 INFO A trecut de else
+2012-02-25 22:15:02,860 INFO A gasit closest_food
+2012-02-25 22:15:02,860 INFO Intra in Astar
+2012-02-25 22:15:02,860 INFO Trece de passable test
+2012-02-25 22:15:02,860 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,861 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,861 INFO 4
+2012-02-25 22:15:02,861 INFO Ajunge inainte de while
+2012-02-25 22:15:02,861 INFO Intra in while
+2012-02-25 22:15:02,861 INFO Intra inainte de if
+2012-02-25 22:15:02,861 INFO Ajunge inainte de for
+2012-02-25 22:15:02,861 INFO Intra in for
+2012-02-25 22:15:02,861 INFO Intra in primul if
+2012-02-25 22:15:02,861 INFO Intra in for
+2012-02-25 22:15:02,861 INFO Intra in primul if
+2012-02-25 22:15:02,861 INFO Intra in for
+2012-02-25 22:15:02,861 INFO Intra in primul if
+2012-02-25 22:15:02,861 INFO Intra in for
+2012-02-25 22:15:02,861 INFO Intra in primul if
+2012-02-25 22:15:02,861 INFO Intra in for
+2012-02-25 22:15:02,862 INFO Intra in primul if
+2012-02-25 22:15:02,862 INFO Intra in for
+2012-02-25 22:15:02,862 INFO Intra in primul if
+2012-02-25 22:15:02,862 INFO Intra in for
+2012-02-25 22:15:02,862 INFO Intra in primul if
+2012-02-25 22:15:02,862 INFO Intra in for
+2012-02-25 22:15:02,862 INFO Intra in primul if
+2012-02-25 22:15:02,862 INFO Ajunge la finalul for
+2012-02-25 22:15:02,862 INFO Ajunge la finalul while
+2012-02-25 22:15:02,862 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,862 INFO A mers Astar
+2012-02-25 22:15:02,862 INFO Mergeee
+2012-02-25 22:15:02,862 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,884 INFO Starting game
+2012-02-25 22:15:02,885 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,885 INFO A trecut de else
+2012-02-25 22:15:02,885 INFO A gasit closest_food
+2012-02-25 22:15:02,885 INFO Intra in Astar
+2012-02-25 22:15:02,885 INFO Trece de passable test
+2012-02-25 22:15:02,885 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,885 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,885 INFO 4
+2012-02-25 22:15:02,885 INFO Ajunge inainte de while
+2012-02-25 22:15:02,885 INFO Intra in while
+2012-02-25 22:15:02,885 INFO Intra inainte de if
+2012-02-25 22:15:02,885 INFO Ajunge inainte de for
+2012-02-25 22:15:02,885 INFO Intra in for
+2012-02-25 22:15:02,885 INFO Intra in primul if
+2012-02-25 22:15:02,885 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Intra in for
+2012-02-25 22:15:02,886 INFO Intra in primul if
+2012-02-25 22:15:02,886 INFO Ajunge la finalul for
+2012-02-25 22:15:02,886 INFO Ajunge la finalul while
+2012-02-25 22:15:02,887 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,887 INFO A mers Astar
+2012-02-25 22:15:02,887 INFO Mergeee
+2012-02-25 22:15:02,887 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:02,921 INFO Starting game
+2012-02-25 22:15:02,921 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:02,921 INFO A trecut de else
+2012-02-25 22:15:02,921 INFO A gasit closest_food
+2012-02-25 22:15:02,921 INFO Intra in Astar
+2012-02-25 22:15:02,921 INFO Trece de passable test
+2012-02-25 22:15:02,922 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:02,922 INFO Intra in heuristic_estimate
+2012-02-25 22:15:02,922 INFO 4
+2012-02-25 22:15:02,922 INFO Ajunge inainte de while
+2012-02-25 22:15:02,922 INFO Intra in while
+2012-02-25 22:15:02,922 INFO Intra inainte de if
+2012-02-25 22:15:02,922 INFO Ajunge inainte de for
+2012-02-25 22:15:02,922 INFO Intra in for
+2012-02-25 22:15:02,922 INFO Intra in primul if
+2012-02-25 22:15:02,922 INFO Intra in for
+2012-02-25 22:15:02,922 INFO Intra in primul if
+2012-02-25 22:15:02,922 INFO Intra in for
+2012-02-25 22:15:02,922 INFO Intra in primul if
+2012-02-25 22:15:02,922 INFO Intra in for
+2012-02-25 22:15:02,922 INFO Intra in primul if
+2012-02-25 22:15:02,922 INFO Intra in for
+2012-02-25 22:15:02,923 INFO Intra in primul if
+2012-02-25 22:15:02,923 INFO Intra in for
+2012-02-25 22:15:02,923 INFO Intra in primul if
+2012-02-25 22:15:02,923 INFO Intra in for
+2012-02-25 22:15:02,923 INFO Intra in primul if
+2012-02-25 22:15:02,923 INFO Intra in for
+2012-02-25 22:15:02,923 INFO Intra in primul if
+2012-02-25 22:15:02,923 INFO Ajunge la finalul for
+2012-02-25 22:15:02,923 INFO Ajunge la finalul while
+2012-02-25 22:15:02,923 INFO Ajunge la finalul Astar
+2012-02-25 22:15:02,923 INFO A mers Astar
+2012-02-25 22:15:02,923 INFO Mergeee
+2012-02-25 22:15:02,923 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,005 INFO Starting game
+2012-02-25 22:15:03,005 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,006 INFO A trecut de else
+2012-02-25 22:15:03,006 INFO A gasit closest_food
+2012-02-25 22:15:03,006 INFO Intra in Astar
+2012-02-25 22:15:03,006 INFO Trece de passable test
+2012-02-25 22:15:03,006 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,006 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,006 INFO 4
+2012-02-25 22:15:03,006 INFO Ajunge inainte de while
+2012-02-25 22:15:03,006 INFO Intra in while
+2012-02-25 22:15:03,007 INFO Intra inainte de if
+2012-02-25 22:15:03,007 INFO Ajunge inainte de for
+2012-02-25 22:15:03,007 INFO Intra in for
+2012-02-25 22:15:03,007 INFO Intra in primul if
+2012-02-25 22:15:03,007 INFO Intra in for
+2012-02-25 22:15:03,007 INFO Intra in primul if
+2012-02-25 22:15:03,007 INFO Intra in for
+2012-02-25 22:15:03,007 INFO Intra in primul if
+2012-02-25 22:15:03,007 INFO Intra in for
+2012-02-25 22:15:03,007 INFO Intra in primul if
+2012-02-25 22:15:03,007 INFO Intra in for
+2012-02-25 22:15:03,008 INFO Intra in primul if
+2012-02-25 22:15:03,008 INFO Intra in for
+2012-02-25 22:15:03,008 INFO Intra in primul if
+2012-02-25 22:15:03,008 INFO Intra in for
+2012-02-25 22:15:03,008 INFO Intra in primul if
+2012-02-25 22:15:03,008 INFO Intra in for
+2012-02-25 22:15:03,008 INFO Intra in primul if
+2012-02-25 22:15:03,008 INFO Ajunge la finalul for
+2012-02-25 22:15:03,008 INFO Ajunge la finalul while
+2012-02-25 22:15:03,008 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,009 INFO A mers Astar
+2012-02-25 22:15:03,009 INFO Mergeee
+2012-02-25 22:15:03,009 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,039 INFO Starting game
+2012-02-25 22:15:03,039 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,039 INFO A trecut de else
+2012-02-25 22:15:03,040 INFO A gasit closest_food
+2012-02-25 22:15:03,040 INFO Intra in Astar
+2012-02-25 22:15:03,040 INFO Trece de passable test
+2012-02-25 22:15:03,040 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,040 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,040 INFO 4
+2012-02-25 22:15:03,040 INFO Ajunge inainte de while
+2012-02-25 22:15:03,040 INFO Intra in while
+2012-02-25 22:15:03,040 INFO Intra inainte de if
+2012-02-25 22:15:03,040 INFO Ajunge inainte de for
+2012-02-25 22:15:03,040 INFO Intra in for
+2012-02-25 22:15:03,040 INFO Intra in primul if
+2012-02-25 22:15:03,040 INFO Intra in for
+2012-02-25 22:15:03,040 INFO Intra in primul if
+2012-02-25 22:15:03,040 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Intra in for
+2012-02-25 22:15:03,041 INFO Intra in primul if
+2012-02-25 22:15:03,041 INFO Ajunge la finalul for
+2012-02-25 22:15:03,041 INFO Ajunge la finalul while
+2012-02-25 22:15:03,041 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,041 INFO A mers Astar
+2012-02-25 22:15:03,041 INFO Mergeee
+2012-02-25 22:15:03,042 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,079 INFO Starting game
+2012-02-25 22:15:03,079 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,079 INFO A trecut de else
+2012-02-25 22:15:03,080 INFO A gasit closest_food
+2012-02-25 22:15:03,080 INFO Intra in Astar
+2012-02-25 22:15:03,080 INFO Trece de passable test
+2012-02-25 22:15:03,080 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,080 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,080 INFO 4
+2012-02-25 22:15:03,080 INFO Ajunge inainte de while
+2012-02-25 22:15:03,080 INFO Intra in while
+2012-02-25 22:15:03,080 INFO Intra inainte de if
+2012-02-25 22:15:03,080 INFO Ajunge inainte de for
+2012-02-25 22:15:03,080 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,081 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,081 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,081 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,081 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,081 INFO Intra in for
+2012-02-25 22:15:03,081 INFO Intra in primul if
+2012-02-25 22:15:03,082 INFO Intra in for
+2012-02-25 22:15:03,082 INFO Intra in primul if
+2012-02-25 22:15:03,082 INFO Intra in for
+2012-02-25 22:15:03,082 INFO Intra in primul if
+2012-02-25 22:15:03,082 INFO Ajunge la finalul for
+2012-02-25 22:15:03,082 INFO Ajunge la finalul while
+2012-02-25 22:15:03,082 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,082 INFO A mers Astar
+2012-02-25 22:15:03,082 INFO Mergeee
+2012-02-25 22:15:03,082 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,245 INFO Starting game
+2012-02-25 22:15:03,245 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,245 INFO A trecut de else
+2012-02-25 22:15:03,245 INFO A gasit closest_food
+2012-02-25 22:15:03,245 INFO Intra in Astar
+2012-02-25 22:15:03,246 INFO Trece de passable test
+2012-02-25 22:15:03,246 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,246 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,246 INFO 4
+2012-02-25 22:15:03,246 INFO Ajunge inainte de while
+2012-02-25 22:15:03,246 INFO Intra in while
+2012-02-25 22:15:03,246 INFO Intra inainte de if
+2012-02-25 22:15:03,246 INFO Ajunge inainte de for
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,247 INFO Intra in primul if
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,247 INFO Intra in primul if
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,247 INFO Intra in primul if
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,247 INFO Intra in primul if
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,247 INFO Intra in primul if
+2012-02-25 22:15:03,247 INFO Intra in for
+2012-02-25 22:15:03,248 INFO Intra in primul if
+2012-02-25 22:15:03,248 INFO Intra in for
+2012-02-25 22:15:03,248 INFO Intra in primul if
+2012-02-25 22:15:03,248 INFO Intra in for
+2012-02-25 22:15:03,248 INFO Intra in primul if
+2012-02-25 22:15:03,248 INFO Ajunge la finalul for
+2012-02-25 22:15:03,248 INFO Ajunge la finalul while
+2012-02-25 22:15:03,248 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,248 INFO A mers Astar
+2012-02-25 22:15:03,248 INFO Mergeee
+2012-02-25 22:15:03,248 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,269 INFO Starting game
+2012-02-25 22:15:03,269 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,269 INFO A trecut de else
+2012-02-25 22:15:03,269 INFO A gasit closest_food
+2012-02-25 22:15:03,269 INFO Intra in Astar
+2012-02-25 22:15:03,269 INFO Trece de passable test
+2012-02-25 22:15:03,269 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,270 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,270 INFO 4
+2012-02-25 22:15:03,270 INFO Ajunge inainte de while
+2012-02-25 22:15:03,270 INFO Intra in while
+2012-02-25 22:15:03,270 INFO Intra inainte de if
+2012-02-25 22:15:03,270 INFO Ajunge inainte de for
+2012-02-25 22:15:03,270 INFO Intra in for
+2012-02-25 22:15:03,270 INFO Intra in primul if
+2012-02-25 22:15:03,270 INFO Intra in for
+2012-02-25 22:15:03,270 INFO Intra in primul if
+2012-02-25 22:15:03,270 INFO Intra in for
+2012-02-25 22:15:03,270 INFO Intra in primul if
+2012-02-25 22:15:03,270 INFO Intra in for
+2012-02-25 22:15:03,270 INFO Intra in primul if
+2012-02-25 22:15:03,271 INFO Intra in for
+2012-02-25 22:15:03,271 INFO Intra in primul if
+2012-02-25 22:15:03,271 INFO Intra in for
+2012-02-25 22:15:03,271 INFO Intra in primul if
+2012-02-25 22:15:03,271 INFO Intra in for
+2012-02-25 22:15:03,271 INFO Intra in primul if
+2012-02-25 22:15:03,271 INFO Intra in for
+2012-02-25 22:15:03,271 INFO Intra in primul if
+2012-02-25 22:15:03,271 INFO Ajunge la finalul for
+2012-02-25 22:15:03,271 INFO Ajunge la finalul while
+2012-02-25 22:15:03,271 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,271 INFO A mers Astar
+2012-02-25 22:15:03,271 INFO Mergeee
+2012-02-25 22:15:03,271 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,303 INFO Starting game
+2012-02-25 22:15:03,303 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,303 INFO A trecut de else
+2012-02-25 22:15:03,303 INFO A gasit closest_food
+2012-02-25 22:15:03,303 INFO Intra in Astar
+2012-02-25 22:15:03,303 INFO Trece de passable test
+2012-02-25 22:15:03,304 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,304 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,304 INFO 4
+2012-02-25 22:15:03,304 INFO Ajunge inainte de while
+2012-02-25 22:15:03,304 INFO Intra in while
+2012-02-25 22:15:03,304 INFO Intra inainte de if
+2012-02-25 22:15:03,304 INFO Ajunge inainte de for
+2012-02-25 22:15:03,304 INFO Intra in for
+2012-02-25 22:15:03,304 INFO Intra in primul if
+2012-02-25 22:15:03,304 INFO Intra in for
+2012-02-25 22:15:03,304 INFO Intra in primul if
+2012-02-25 22:15:03,304 INFO Intra in for
+2012-02-25 22:15:03,304 INFO Intra in primul if
+2012-02-25 22:15:03,305 INFO Intra in for
+2012-02-25 22:15:03,305 INFO Intra in primul if
+2012-02-25 22:15:03,305 INFO Intra in for
+2012-02-25 22:15:03,305 INFO Intra in primul if
+2012-02-25 22:15:03,305 INFO Intra in for
+2012-02-25 22:15:03,305 INFO Intra in primul if
+2012-02-25 22:15:03,305 INFO Intra in for
+2012-02-25 22:15:03,306 INFO Intra in primul if
+2012-02-25 22:15:03,306 INFO Intra in for
+2012-02-25 22:15:03,306 INFO Intra in primul if
+2012-02-25 22:15:03,306 INFO Ajunge la finalul for
+2012-02-25 22:15:03,306 INFO Ajunge la finalul while
+2012-02-25 22:15:03,306 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,306 INFO A mers Astar
+2012-02-25 22:15:03,306 INFO Mergeee
+2012-02-25 22:15:03,306 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,430 INFO Starting game
+2012-02-25 22:15:03,431 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,431 INFO A trecut de else
+2012-02-25 22:15:03,431 INFO A gasit closest_food
+2012-02-25 22:15:03,431 INFO Intra in Astar
+2012-02-25 22:15:03,431 INFO Trece de passable test
+2012-02-25 22:15:03,431 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,431 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,431 INFO 4
+2012-02-25 22:15:03,431 INFO Ajunge inainte de while
+2012-02-25 22:15:03,431 INFO Intra in while
+2012-02-25 22:15:03,432 INFO Intra inainte de if
+2012-02-25 22:15:03,432 INFO Ajunge inainte de for
+2012-02-25 22:15:03,432 INFO Intra in for
+2012-02-25 22:15:03,432 INFO Intra in primul if
+2012-02-25 22:15:03,432 INFO Intra in for
+2012-02-25 22:15:03,432 INFO Intra in primul if
+2012-02-25 22:15:03,432 INFO Intra in for
+2012-02-25 22:15:03,432 INFO Intra in primul if
+2012-02-25 22:15:03,432 INFO Intra in for
+2012-02-25 22:15:03,432 INFO Intra in primul if
+2012-02-25 22:15:03,433 INFO Intra in for
+2012-02-25 22:15:03,433 INFO Intra in primul if
+2012-02-25 22:15:03,433 INFO Intra in for
+2012-02-25 22:15:03,433 INFO Intra in primul if
+2012-02-25 22:15:03,433 INFO Intra in for
+2012-02-25 22:15:03,433 INFO Intra in primul if
+2012-02-25 22:15:03,433 INFO Intra in for
+2012-02-25 22:15:03,433 INFO Intra in primul if
+2012-02-25 22:15:03,433 INFO Ajunge la finalul for
+2012-02-25 22:15:03,433 INFO Ajunge la finalul while
+2012-02-25 22:15:03,433 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,433 INFO A mers Astar
+2012-02-25 22:15:03,434 INFO Mergeee
+2012-02-25 22:15:03,434 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,458 INFO Starting game
+2012-02-25 22:15:03,458 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,458 INFO A trecut de else
+2012-02-25 22:15:03,458 INFO A gasit closest_food
+2012-02-25 22:15:03,458 INFO Intra in Astar
+2012-02-25 22:15:03,459 INFO Trece de passable test
+2012-02-25 22:15:03,459 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,459 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,459 INFO 4
+2012-02-25 22:15:03,459 INFO Ajunge inainte de while
+2012-02-25 22:15:03,459 INFO Intra in while
+2012-02-25 22:15:03,459 INFO Intra inainte de if
+2012-02-25 22:15:03,459 INFO Ajunge inainte de for
+2012-02-25 22:15:03,459 INFO Intra in for
+2012-02-25 22:15:03,459 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,460 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,460 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,460 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,460 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,460 INFO Intra in primul if
+2012-02-25 22:15:03,460 INFO Intra in for
+2012-02-25 22:15:03,461 INFO Intra in primul if
+2012-02-25 22:15:03,461 INFO Intra in for
+2012-02-25 22:15:03,461 INFO Intra in primul if
+2012-02-25 22:15:03,461 INFO Ajunge la finalul for
+2012-02-25 22:15:03,461 INFO Ajunge la finalul while
+2012-02-25 22:15:03,461 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,461 INFO A mers Astar
+2012-02-25 22:15:03,461 INFO Mergeee
+2012-02-25 22:15:03,461 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,486 INFO Starting game
+2012-02-25 22:15:03,486 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,486 INFO A trecut de else
+2012-02-25 22:15:03,486 INFO A gasit closest_food
+2012-02-25 22:15:03,486 INFO Intra in Astar
+2012-02-25 22:15:03,486 INFO Trece de passable test
+2012-02-25 22:15:03,486 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,486 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,486 INFO 4
+2012-02-25 22:15:03,487 INFO Ajunge inainte de while
+2012-02-25 22:15:03,487 INFO Intra in while
+2012-02-25 22:15:03,487 INFO Intra inainte de if
+2012-02-25 22:15:03,487 INFO Ajunge inainte de for
+2012-02-25 22:15:03,487 INFO Intra in for
+2012-02-25 22:15:03,487 INFO Intra in primul if
+2012-02-25 22:15:03,487 INFO Intra in for
+2012-02-25 22:15:03,487 INFO Intra in primul if
+2012-02-25 22:15:03,487 INFO Intra in for
+2012-02-25 22:15:03,487 INFO Intra in primul if
+2012-02-25 22:15:03,487 INFO Intra in for
+2012-02-25 22:15:03,488 INFO Intra in primul if
+2012-02-25 22:15:03,488 INFO Intra in for
+2012-02-25 22:15:03,488 INFO Intra in primul if
+2012-02-25 22:15:03,488 INFO Intra in for
+2012-02-25 22:15:03,488 INFO Intra in primul if
+2012-02-25 22:15:03,488 INFO Intra in for
+2012-02-25 22:15:03,488 INFO Intra in primul if
+2012-02-25 22:15:03,488 INFO Intra in for
+2012-02-25 22:15:03,488 INFO Intra in primul if
+2012-02-25 22:15:03,488 INFO Ajunge la finalul for
+2012-02-25 22:15:03,489 INFO Ajunge la finalul while
+2012-02-25 22:15:03,489 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,489 INFO A mers Astar
+2012-02-25 22:15:03,489 INFO Mergeee
+2012-02-25 22:15:03,489 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,520 INFO Starting game
+2012-02-25 22:15:03,520 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,521 INFO A trecut de else
+2012-02-25 22:15:03,521 INFO A gasit closest_food
+2012-02-25 22:15:03,521 INFO Intra in Astar
+2012-02-25 22:15:03,521 INFO Trece de passable test
+2012-02-25 22:15:03,521 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,521 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,521 INFO 4
+2012-02-25 22:15:03,521 INFO Ajunge inainte de while
+2012-02-25 22:15:03,521 INFO Intra in while
+2012-02-25 22:15:03,521 INFO Intra inainte de if
+2012-02-25 22:15:03,521 INFO Ajunge inainte de for
+2012-02-25 22:15:03,521 INFO Intra in for
+2012-02-25 22:15:03,521 INFO Intra in primul if
+2012-02-25 22:15:03,521 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Intra in for
+2012-02-25 22:15:03,522 INFO Intra in primul if
+2012-02-25 22:15:03,522 INFO Ajunge la finalul for
+2012-02-25 22:15:03,522 INFO Ajunge la finalul while
+2012-02-25 22:15:03,522 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,523 INFO A mers Astar
+2012-02-25 22:15:03,523 INFO Mergeee
+2012-02-25 22:15:03,523 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,679 INFO Starting game
+2012-02-25 22:15:03,679 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,679 INFO A trecut de else
+2012-02-25 22:15:03,679 INFO A gasit closest_food
+2012-02-25 22:15:03,679 INFO Intra in Astar
+2012-02-25 22:15:03,679 INFO Trece de passable test
+2012-02-25 22:15:03,679 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,680 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,680 INFO 4
+2012-02-25 22:15:03,680 INFO Ajunge inainte de while
+2012-02-25 22:15:03,680 INFO Intra in while
+2012-02-25 22:15:03,680 INFO Intra inainte de if
+2012-02-25 22:15:03,680 INFO Ajunge inainte de for
+2012-02-25 22:15:03,680 INFO Intra in for
+2012-02-25 22:15:03,680 INFO Intra in primul if
+2012-02-25 22:15:03,680 INFO Intra in for
+2012-02-25 22:15:03,680 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,681 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,681 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,681 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,681 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,681 INFO Intra in primul if
+2012-02-25 22:15:03,681 INFO Intra in for
+2012-02-25 22:15:03,682 INFO Intra in primul if
+2012-02-25 22:15:03,682 INFO Ajunge la finalul for
+2012-02-25 22:15:03,682 INFO Ajunge la finalul while
+2012-02-25 22:15:03,682 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,682 INFO A mers Astar
+2012-02-25 22:15:03,682 INFO Mergeee
+2012-02-25 22:15:03,682 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,706 INFO Starting game
+2012-02-25 22:15:03,707 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,707 INFO A trecut de else
+2012-02-25 22:15:03,707 INFO A gasit closest_food
+2012-02-25 22:15:03,707 INFO Intra in Astar
+2012-02-25 22:15:03,707 INFO Trece de passable test
+2012-02-25 22:15:03,707 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,707 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,707 INFO 4
+2012-02-25 22:15:03,707 INFO Ajunge inainte de while
+2012-02-25 22:15:03,707 INFO Intra in while
+2012-02-25 22:15:03,707 INFO Intra inainte de if
+2012-02-25 22:15:03,707 INFO Ajunge inainte de for
+2012-02-25 22:15:03,707 INFO Intra in for
+2012-02-25 22:15:03,707 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,708 INFO Intra in for
+2012-02-25 22:15:03,708 INFO Intra in primul if
+2012-02-25 22:15:03,709 INFO Ajunge la finalul for
+2012-02-25 22:15:03,709 INFO Ajunge la finalul while
+2012-02-25 22:15:03,709 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,709 INFO A mers Astar
+2012-02-25 22:15:03,709 INFO Mergeee
+2012-02-25 22:15:03,709 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,742 INFO Starting game
+2012-02-25 22:15:03,742 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,742 INFO A trecut de else
+2012-02-25 22:15:03,742 INFO A gasit closest_food
+2012-02-25 22:15:03,742 INFO Intra in Astar
+2012-02-25 22:15:03,742 INFO Trece de passable test
+2012-02-25 22:15:03,743 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,743 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,743 INFO 4
+2012-02-25 22:15:03,743 INFO Ajunge inainte de while
+2012-02-25 22:15:03,743 INFO Intra in while
+2012-02-25 22:15:03,743 INFO Intra inainte de if
+2012-02-25 22:15:03,743 INFO Ajunge inainte de for
+2012-02-25 22:15:03,743 INFO Intra in for
+2012-02-25 22:15:03,743 INFO Intra in primul if
+2012-02-25 22:15:03,743 INFO Intra in for
+2012-02-25 22:15:03,743 INFO Intra in primul if
+2012-02-25 22:15:03,743 INFO Intra in for
+2012-02-25 22:15:03,743 INFO Intra in primul if
+2012-02-25 22:15:03,743 INFO Intra in for
+2012-02-25 22:15:03,743 INFO Intra in primul if
+2012-02-25 22:15:03,744 INFO Intra in for
+2012-02-25 22:15:03,744 INFO Intra in primul if
+2012-02-25 22:15:03,744 INFO Intra in for
+2012-02-25 22:15:03,744 INFO Intra in primul if
+2012-02-25 22:15:03,744 INFO Intra in for
+2012-02-25 22:15:03,744 INFO Intra in primul if
+2012-02-25 22:15:03,744 INFO Intra in for
+2012-02-25 22:15:03,744 INFO Intra in primul if
+2012-02-25 22:15:03,744 INFO Ajunge la finalul for
+2012-02-25 22:15:03,744 INFO Ajunge la finalul while
+2012-02-25 22:15:03,745 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,745 INFO A mers Astar
+2012-02-25 22:15:03,745 INFO Mergeee
+2012-02-25 22:15:03,745 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,855 INFO Starting game
+2012-02-25 22:15:03,855 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,855 INFO A trecut de else
+2012-02-25 22:15:03,855 INFO A gasit closest_food
+2012-02-25 22:15:03,856 INFO Intra in Astar
+2012-02-25 22:15:03,856 INFO Trece de passable test
+2012-02-25 22:15:03,856 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,856 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,856 INFO 4
+2012-02-25 22:15:03,856 INFO Ajunge inainte de while
+2012-02-25 22:15:03,856 INFO Intra in while
+2012-02-25 22:15:03,856 INFO Intra inainte de if
+2012-02-25 22:15:03,856 INFO Ajunge inainte de for
+2012-02-25 22:15:03,856 INFO Intra in for
+2012-02-25 22:15:03,856 INFO Intra in primul if
+2012-02-25 22:15:03,856 INFO Intra in for
+2012-02-25 22:15:03,856 INFO Intra in primul if
+2012-02-25 22:15:03,856 INFO Intra in for
+2012-02-25 22:15:03,856 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Intra in for
+2012-02-25 22:15:03,857 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Intra in for
+2012-02-25 22:15:03,857 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Intra in for
+2012-02-25 22:15:03,857 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Intra in for
+2012-02-25 22:15:03,857 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Intra in for
+2012-02-25 22:15:03,857 INFO Intra in primul if
+2012-02-25 22:15:03,857 INFO Ajunge la finalul for
+2012-02-25 22:15:03,858 INFO Ajunge la finalul while
+2012-02-25 22:15:03,858 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,858 INFO A mers Astar
+2012-02-25 22:15:03,858 INFO Mergeee
+2012-02-25 22:15:03,858 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,891 INFO Starting game
+2012-02-25 22:15:03,891 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,891 INFO A trecut de else
+2012-02-25 22:15:03,891 INFO A gasit closest_food
+2012-02-25 22:15:03,891 INFO Intra in Astar
+2012-02-25 22:15:03,891 INFO Trece de passable test
+2012-02-25 22:15:03,891 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,891 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,891 INFO 4
+2012-02-25 22:15:03,891 INFO Ajunge inainte de while
+2012-02-25 22:15:03,891 INFO Intra in while
+2012-02-25 22:15:03,891 INFO Intra inainte de if
+2012-02-25 22:15:03,891 INFO Ajunge inainte de for
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,892 INFO Intra in primul if
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,892 INFO Intra in primul if
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,892 INFO Intra in primul if
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,892 INFO Intra in primul if
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,892 INFO Intra in primul if
+2012-02-25 22:15:03,892 INFO Intra in for
+2012-02-25 22:15:03,893 INFO Intra in primul if
+2012-02-25 22:15:03,893 INFO Intra in for
+2012-02-25 22:15:03,893 INFO Intra in primul if
+2012-02-25 22:15:03,893 INFO Intra in for
+2012-02-25 22:15:03,893 INFO Intra in primul if
+2012-02-25 22:15:03,893 INFO Ajunge la finalul for
+2012-02-25 22:15:03,893 INFO Ajunge la finalul while
+2012-02-25 22:15:03,893 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,893 INFO A mers Astar
+2012-02-25 22:15:03,893 INFO Mergeee
+2012-02-25 22:15:03,894 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:03,926 INFO Starting game
+2012-02-25 22:15:03,927 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:03,927 INFO A trecut de else
+2012-02-25 22:15:03,927 INFO A gasit closest_food
+2012-02-25 22:15:03,927 INFO Intra in Astar
+2012-02-25 22:15:03,927 INFO Trece de passable test
+2012-02-25 22:15:03,927 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:03,927 INFO Intra in heuristic_estimate
+2012-02-25 22:15:03,927 INFO 4
+2012-02-25 22:15:03,927 INFO Ajunge inainte de while
+2012-02-25 22:15:03,927 INFO Intra in while
+2012-02-25 22:15:03,928 INFO Intra inainte de if
+2012-02-25 22:15:03,928 INFO Ajunge inainte de for
+2012-02-25 22:15:03,928 INFO Intra in for
+2012-02-25 22:15:03,928 INFO Intra in primul if
+2012-02-25 22:15:03,928 INFO Intra in for
+2012-02-25 22:15:03,928 INFO Intra in primul if
+2012-02-25 22:15:03,928 INFO Intra in for
+2012-02-25 22:15:03,928 INFO Intra in primul if
+2012-02-25 22:15:03,928 INFO Intra in for
+2012-02-25 22:15:03,928 INFO Intra in primul if
+2012-02-25 22:15:03,928 INFO Intra in for
+2012-02-25 22:15:03,929 INFO Intra in primul if
+2012-02-25 22:15:03,929 INFO Intra in for
+2012-02-25 22:15:03,929 INFO Intra in primul if
+2012-02-25 22:15:03,929 INFO Intra in for
+2012-02-25 22:15:03,929 INFO Intra in primul if
+2012-02-25 22:15:03,929 INFO Intra in for
+2012-02-25 22:15:03,929 INFO Intra in primul if
+2012-02-25 22:15:03,929 INFO Ajunge la finalul for
+2012-02-25 22:15:03,929 INFO Ajunge la finalul while
+2012-02-25 22:15:03,929 INFO Ajunge la finalul Astar
+2012-02-25 22:15:03,930 INFO A mers Astar
+2012-02-25 22:15:03,930 INFO Mergeee
+2012-02-25 22:15:03,930 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,024 INFO Starting game
+2012-02-25 22:15:04,025 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,025 INFO A trecut de else
+2012-02-25 22:15:04,025 INFO A gasit closest_food
+2012-02-25 22:15:04,025 INFO Intra in Astar
+2012-02-25 22:15:04,025 INFO Trece de passable test
+2012-02-25 22:15:04,025 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,025 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,025 INFO 4
+2012-02-25 22:15:04,025 INFO Ajunge inainte de while
+2012-02-25 22:15:04,025 INFO Intra in while
+2012-02-25 22:15:04,025 INFO Intra inainte de if
+2012-02-25 22:15:04,026 INFO Ajunge inainte de for
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,026 INFO Intra in primul if
+2012-02-25 22:15:04,026 INFO Intra in for
+2012-02-25 22:15:04,027 INFO Intra in primul if
+2012-02-25 22:15:04,027 INFO Ajunge la finalul for
+2012-02-25 22:15:04,027 INFO Ajunge la finalul while
+2012-02-25 22:15:04,027 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,027 INFO A mers Astar
+2012-02-25 22:15:04,027 INFO Mergeee
+2012-02-25 22:15:04,027 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,060 INFO Starting game
+2012-02-25 22:15:04,060 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,061 INFO A trecut de else
+2012-02-25 22:15:04,061 INFO A gasit closest_food
+2012-02-25 22:15:04,061 INFO Intra in Astar
+2012-02-25 22:15:04,061 INFO Trece de passable test
+2012-02-25 22:15:04,061 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,061 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,061 INFO 4
+2012-02-25 22:15:04,061 INFO Ajunge inainte de while
+2012-02-25 22:15:04,061 INFO Intra in while
+2012-02-25 22:15:04,061 INFO Intra inainte de if
+2012-02-25 22:15:04,062 INFO Ajunge inainte de for
+2012-02-25 22:15:04,062 INFO Intra in for
+2012-02-25 22:15:04,062 INFO Intra in primul if
+2012-02-25 22:15:04,062 INFO Intra in for
+2012-02-25 22:15:04,062 INFO Intra in primul if
+2012-02-25 22:15:04,062 INFO Intra in for
+2012-02-25 22:15:04,062 INFO Intra in primul if
+2012-02-25 22:15:04,062 INFO Intra in for
+2012-02-25 22:15:04,062 INFO Intra in primul if
+2012-02-25 22:15:04,062 INFO Intra in for
+2012-02-25 22:15:04,062 INFO Intra in primul if
+2012-02-25 22:15:04,063 INFO Intra in for
+2012-02-25 22:15:04,063 INFO Intra in primul if
+2012-02-25 22:15:04,063 INFO Intra in for
+2012-02-25 22:15:04,063 INFO Intra in primul if
+2012-02-25 22:15:04,063 INFO Intra in for
+2012-02-25 22:15:04,063 INFO Intra in primul if
+2012-02-25 22:15:04,063 INFO Ajunge la finalul for
+2012-02-25 22:15:04,063 INFO Ajunge la finalul while
+2012-02-25 22:15:04,063 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,063 INFO A mers Astar
+2012-02-25 22:15:04,063 INFO Mergeee
+2012-02-25 22:15:04,063 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,090 INFO Starting game
+2012-02-25 22:15:04,090 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,091 INFO A trecut de else
+2012-02-25 22:15:04,091 INFO A gasit closest_food
+2012-02-25 22:15:04,091 INFO Intra in Astar
+2012-02-25 22:15:04,091 INFO Trece de passable test
+2012-02-25 22:15:04,091 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,091 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,091 INFO 4
+2012-02-25 22:15:04,091 INFO Ajunge inainte de while
+2012-02-25 22:15:04,091 INFO Intra in while
+2012-02-25 22:15:04,091 INFO Intra inainte de if
+2012-02-25 22:15:04,091 INFO Ajunge inainte de for
+2012-02-25 22:15:04,092 INFO Intra in for
+2012-02-25 22:15:04,092 INFO Intra in primul if
+2012-02-25 22:15:04,092 INFO Intra in for
+2012-02-25 22:15:04,092 INFO Intra in primul if
+2012-02-25 22:15:04,092 INFO Intra in for
+2012-02-25 22:15:04,092 INFO Intra in primul if
+2012-02-25 22:15:04,092 INFO Intra in for
+2012-02-25 22:15:04,092 INFO Intra in primul if
+2012-02-25 22:15:04,092 INFO Intra in for
+2012-02-25 22:15:04,092 INFO Intra in primul if
+2012-02-25 22:15:04,093 INFO Intra in for
+2012-02-25 22:15:04,093 INFO Intra in primul if
+2012-02-25 22:15:04,093 INFO Intra in for
+2012-02-25 22:15:04,093 INFO Intra in primul if
+2012-02-25 22:15:04,093 INFO Intra in for
+2012-02-25 22:15:04,093 INFO Intra in primul if
+2012-02-25 22:15:04,093 INFO Ajunge la finalul for
+2012-02-25 22:15:04,093 INFO Ajunge la finalul while
+2012-02-25 22:15:04,093 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,093 INFO A mers Astar
+2012-02-25 22:15:04,093 INFO Mergeee
+2012-02-25 22:15:04,093 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,201 INFO Starting game
+2012-02-25 22:15:04,201 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,201 INFO A trecut de else
+2012-02-25 22:15:04,201 INFO A gasit closest_food
+2012-02-25 22:15:04,201 INFO Intra in Astar
+2012-02-25 22:15:04,201 INFO Trece de passable test
+2012-02-25 22:15:04,201 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,201 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,202 INFO 4
+2012-02-25 22:15:04,202 INFO Ajunge inainte de while
+2012-02-25 22:15:04,202 INFO Intra in while
+2012-02-25 22:15:04,202 INFO Intra inainte de if
+2012-02-25 22:15:04,202 INFO Ajunge inainte de for
+2012-02-25 22:15:04,202 INFO Intra in for
+2012-02-25 22:15:04,202 INFO Intra in primul if
+2012-02-25 22:15:04,202 INFO Intra in for
+2012-02-25 22:15:04,202 INFO Intra in primul if
+2012-02-25 22:15:04,202 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,203 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,203 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,203 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,203 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,203 INFO Intra in for
+2012-02-25 22:15:04,203 INFO Intra in primul if
+2012-02-25 22:15:04,204 INFO Ajunge la finalul for
+2012-02-25 22:15:04,204 INFO Ajunge la finalul while
+2012-02-25 22:15:04,204 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,204 INFO A mers Astar
+2012-02-25 22:15:04,204 INFO Mergeee
+2012-02-25 22:15:04,204 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,230 INFO Starting game
+2012-02-25 22:15:04,230 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,231 INFO A trecut de else
+2012-02-25 22:15:04,231 INFO A gasit closest_food
+2012-02-25 22:15:04,231 INFO Intra in Astar
+2012-02-25 22:15:04,231 INFO Trece de passable test
+2012-02-25 22:15:04,231 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,231 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,231 INFO 4
+2012-02-25 22:15:04,231 INFO Ajunge inainte de while
+2012-02-25 22:15:04,231 INFO Intra in while
+2012-02-25 22:15:04,231 INFO Intra inainte de if
+2012-02-25 22:15:04,231 INFO Ajunge inainte de for
+2012-02-25 22:15:04,232 INFO Intra in for
+2012-02-25 22:15:04,232 INFO Intra in primul if
+2012-02-25 22:15:04,232 INFO Intra in for
+2012-02-25 22:15:04,232 INFO Intra in primul if
+2012-02-25 22:15:04,232 INFO Intra in for
+2012-02-25 22:15:04,232 INFO Intra in primul if
+2012-02-25 22:15:04,232 INFO Intra in for
+2012-02-25 22:15:04,232 INFO Intra in primul if
+2012-02-25 22:15:04,232 INFO Intra in for
+2012-02-25 22:15:04,232 INFO Intra in primul if
+2012-02-25 22:15:04,233 INFO Intra in for
+2012-02-25 22:15:04,233 INFO Intra in primul if
+2012-02-25 22:15:04,233 INFO Intra in for
+2012-02-25 22:15:04,233 INFO Intra in primul if
+2012-02-25 22:15:04,233 INFO Intra in for
+2012-02-25 22:15:04,233 INFO Intra in primul if
+2012-02-25 22:15:04,233 INFO Ajunge la finalul for
+2012-02-25 22:15:04,233 INFO Ajunge la finalul while
+2012-02-25 22:15:04,233 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,233 INFO A mers Astar
+2012-02-25 22:15:04,233 INFO Mergeee
+2012-02-25 22:15:04,234 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,260 INFO Starting game
+2012-02-25 22:15:04,261 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,261 INFO A trecut de else
+2012-02-25 22:15:04,261 INFO A gasit closest_food
+2012-02-25 22:15:04,261 INFO Intra in Astar
+2012-02-25 22:15:04,261 INFO Trece de passable test
+2012-02-25 22:15:04,261 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,261 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,261 INFO 4
+2012-02-25 22:15:04,261 INFO Ajunge inainte de while
+2012-02-25 22:15:04,261 INFO Intra in while
+2012-02-25 22:15:04,261 INFO Intra inainte de if
+2012-02-25 22:15:04,261 INFO Ajunge inainte de for
+2012-02-25 22:15:04,261 INFO Intra in for
+2012-02-25 22:15:04,261 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Intra in for
+2012-02-25 22:15:04,262 INFO Intra in primul if
+2012-02-25 22:15:04,262 INFO Ajunge la finalul for
+2012-02-25 22:15:04,262 INFO Ajunge la finalul while
+2012-02-25 22:15:04,263 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,263 INFO A mers Astar
+2012-02-25 22:15:04,263 INFO Mergeee
+2012-02-25 22:15:04,263 INFO Ajunge la ultimul for din program
+2012-02-25 22:15:04,312 INFO Starting game
+2012-02-25 22:15:04,312 INFO I am loooooping, coaieeeee
+2012-02-25 22:15:04,312 INFO A trecut de else
+2012-02-25 22:15:04,312 INFO A gasit closest_food
+2012-02-25 22:15:04,312 INFO Intra in Astar
+2012-02-25 22:15:04,312 INFO Trece de passable test
+2012-02-25 22:15:04,312 INFO Ajunge inainte de heuristic_cost
+2012-02-25 22:15:04,313 INFO Intra in heuristic_estimate
+2012-02-25 22:15:04,313 INFO 4
+2012-02-25 22:15:04,313 INFO Ajunge inainte de while
+2012-02-25 22:15:04,313 INFO Intra in while
+2012-02-25 22:15:04,313 INFO Intra inainte de if
+2012-02-25 22:15:04,313 INFO Ajunge inainte de for
+2012-02-25 22:15:04,313 INFO Intra in for
+2012-02-25 22:15:04,313 INFO Intra in primul if
+2012-02-25 22:15:04,313 INFO Intra in for
+2012-02-25 22:15:04,313 INFO Intra in primul if
+2012-02-25 22:15:04,313 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,314 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,314 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,314 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,314 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,314 INFO Intra in for
+2012-02-25 22:15:04,314 INFO Intra in primul if
+2012-02-25 22:15:04,315 INFO Ajunge la finalul for
+2012-02-25 22:15:04,315 INFO Ajunge la finalul while
+2012-02-25 22:15:04,315 INFO Ajunge la finalul Astar
+2012-02-25 22:15:04,315 INFO A mers Astar
+2012-02-25 22:15:04,315 INFO Mergeee
+2012-02-25 22:15:04,315 INFO Ajunge la ultimul for din program
