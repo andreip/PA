@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from random import shuffle
 from ants import *
-from math import abs
+#from math import abs
 from heapq import heappush, heappop
 
 class RandomBot:
