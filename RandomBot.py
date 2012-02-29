@@ -16,20 +16,25 @@ class RandomBot:
         self.logger.addHandler(hdlr) 
         self.logger.setLevel(logging.INFO)
 
-    def heuristic_cost_estimate(self, start, goal,ants):
+    def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
         '''Heuristic give estimated cost to goal'''
-        x = ants.distance(int(start[0]), int(start[1]), int(goal[0]), int(goal[1]))
-        return x
-
+        row1 = row1 % ants.height
+        row2 = row2 % ants.height
+        col1 = col1 % ants.width
+        col2 = col2 % ants.width
+        d_col = min(abs(col1 - col2), ants.width - abs(col1 - col2))
+        d_row = min(abs(row1 - row2), ants.height - abs(row1 - row2))
+        return d_col + d_row
+    
     def neighbor_nodes(self, current, ants):
         '''Return all neighbors for a given node'''
         l = []
-        l.append(((current[0] + 1)%ants.height , current[1]))
-        l.append(((current[0] - 1)%ants.height, current[1]))
-        l.append((current[0], (current[1] + 1)%ants.width))
-        l.append((current[0], (current[1] - 1)%ants.width))
+        l.append(( (current[0] + 1) % ants.height, current[1] ))
+        l.append(( (current[0] - 1) % ants.height, current[1] ))
+        l.append(( current[0], (current[1] + 1) % ants.width ))
+        l.append(( current[0], (current[1] - 1) % ants.width ))
         return l
-
+    
     def reconstruct_path(self, came_from, current_node):
         '''Construct path to target, from the beginning'''
         path = []
@@ -37,41 +42,42 @@ class RandomBot:
             path.insert(0, current_node)
             current_node = came_from[current_node]
         return path
-
+    
     def Astar(self, start, goal, ants):
         '''
         start, goal are tuples of the form (row, col);
-        obstacles is a function : (row, col) -> return Bool
+        obstacles is a dictionary : (row, col) -> return Bool
         '''
-        if (not ants.passable(start[0], start[1]) or not ants.passable(goal[0], goal[1])):
+        if (not ants.passable(start[0], start[1]) or not
+        ants.passable(goal[0], goal[1])):
             return None
-
+    
         closedset = {}      # The set of nodes already evaluated.
         openset = [start]   # The set of tentative nodes, to be evaluated.
         came_from = {}      # The map of navigated nodes.
         heap = []
         # Stats for starting node.
         g_score = 0
-        h_score = self.heuristic_cost_estimate(start, goal,ants)
+        h_score = self.heuristic_cost_estimate(start, goal, ants)
         f_score = g_score + h_score
-
+    
         came_from[start] = None
         heappush(heap, (f_score, start))    # Use heap to store by f_score.
-
-        while openset != [] and heap != []:
+    
+        while openset != []:
             _, current = heappop(heap)
             if current == goal:
                 return self.reconstruct_path(came_from, goal)
             closedset[current] = True       # True that current is in dict
-            
+    
             for neighbor in self.neighbor_nodes(current, ants):
                 if (not ants.passable(neighbor[0], neighbor[1]) or
-                    closedset.__contains__(neighbor)):
+                closedset.__contains__(neighbor)):
                     continue
                 if neighbor not in openset:
                     openset += [neighbor]
-                    h_score = self.heuristic_cost_estimate(neighbor,goal,ants)
-                    g_score = self.heuristic_cost_estimate(start,neighbor,ants)
+                    h_score = self.heuristic_cost_estimate(neighbor, goal, ants)
+                    g_score = self.heuristic_cost_estimate(start, neighbor, ants)
                     f_score = g_score + h_score
                     heappush(heap, (f_score, neighbor))
                     came_from[neighbor] = current
@@ -103,15 +109,16 @@ class RandomBot:
                         else:
                             destinations.append((a_row, a_col))
                             continue
-        if path != []:
-            (n_row, n_col) = path.pop(0)        # Get next move.
-            direction = ants.direction(a_row, a_col, n_row, n_col)
-            if(not (n_row, n_col) in destinations):
-                self.paths[(n_row, n_col)] = path;       # Update dict of paths.
-                ants.issue_order((a_row, a_col, direction[0]))
-                destinations.append((n_row, n_col))
-            else:
-                destinations.append((a_row, a_col))
+            if path != []:
+                (n_row, n_col) = path.pop(0)        # Get next move.
+                direction = ants.direction(a_row, a_col, n_row, n_col)
+                if(not (n_row, n_col) in destinations):
+                    self.paths[(n_row, n_col)] = path;       # Update dict of paths.
+                    ants.issue_order((a_row, a_col, direction[0]))
+                    destinations.append((n_row, n_col))
+                else:
+                    destinations.append((a_row, a_col))
+
 
 if __name__ == '__main__':
     try:
