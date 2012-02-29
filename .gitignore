@@ -1,2 +1,3 @@
 *.pyc
 lin/game_logs/
+*.sw*
