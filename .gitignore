@@ -1,10 +1,2 @@
 *.pyc
 lin/game_logs/
-<<<<<<< HEAD
-.project
-.pydevproject
-*.py.swp
-*.swp
-=======
-*.sw*
->>>>>>> f75a229cfe09d244909a3b9cd71a51a51de659f9

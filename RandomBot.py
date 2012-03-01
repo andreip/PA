@@ -4,19 +4,10 @@ from ants import *
 from heapq import heappush, heappop
 from math import floor, sqrt
 import logging
-from logging import *
-from logutils import *
-from sys import *
 
 class RandomBot:
     def __init__(self):
         self.paths = {}         # paths for ants
-        self.logger = logging.getLogger('myapp')
-        hdlr = logging.FileHandler('logFile.log')
-        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
-        hdlr.setFormatter(formatter)
-        self.logger.addHandler(hdlr) 
-        self.logger.setLevel(logging.INFO)
         self.logger = logging.getLogger('myapp')
         hdlr = logging.FileHandler('logFile.log')
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
@@ -53,8 +44,6 @@ class RandomBot:
                 ants.viewrange[view_row + ant_row][view_col + ant_col] = True
 
         crt_row, crt_col = current_location
-        
-        
 
         return ants.viewrange[crt_row][crt_col]
 
@@ -133,14 +122,18 @@ class RandomBot:
     def do_turn(self, ants):
         destinations = []
         path = []
+
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
+            self.logger.info(ants.viewrange)
             if self.paths.__contains__((a_row, a_col)):
                 path = self.paths.pop((a_row, a_col))    # Get path of this ant
             else:
                 closest_food = ants.closest_food(a_row, a_col)
                 if closest_food != None:
                     path = self.Astar((a_row, a_col), closest_food, ants)
+                    self.logger.info(self.find_view_range((a_row, a_col),ants))
+                    self.logger.info(ants.viewrange)
                 # Try all directions randomly until one is passable and not
                 # occupied.
                 else:
