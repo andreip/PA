@@ -3,7 +3,7 @@ from random import shuffle
 from ants import *
 from heapq import heappush, heappop
 from math import floor, sqrt
-
+import logging
 class RandomBot:
     def __init__(self):
         self.paths = {}         # paths for ants
