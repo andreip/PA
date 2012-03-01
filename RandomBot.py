@@ -2,10 +2,53 @@
 from random import shuffle
 from ants import *
 from heapq import heappush, heappop
+from math import floor, sqrt
 
 class RandomBot:
     def __init__(self):
         self.paths = {}         # paths for ants
+
+        self.logger = logging.getLogger('myapp')
+        hdlr = logging.FileHandler('logFile.log')
+        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+        hdlr.setFormatter(formatter)
+        self.logger.addHandler(hdlr) 
+        self.logger.setLevel(logging.INFO)
+
+    def find_view_range(self, current_location, ants):
+        """! \brief Plaseaza pe o matrice a hartii ce vede o furnica
+
+            \param Un obiect ants din care extragem informatiile necesare
+
+            \return Matricea hartii cu constantele definite in ants.py in
+            conformitate cu ceea ce poate vedea o furnica la un anumit moment 
+            de timp
+        """
+
+        limits = []
+
+        maxim = int(floor(sqrt(ants.viewradius2)))
+
+        for row in range(-maxim, maxim + 1):
+            for col in range(-maxim, maxim + 1):
+                crt_radius = row**2 + col**2
+                if crt_radius <= ants.viewradius2:
+                    limits.append((row % ants.height - ants.height, 
+                                 col % ants.width - ants.width))
+
+        ants.viewrange = [[False] * ants.width for row in range(ants.height)]
+
+        for ant in ants.my_ants():
+            ant_row, ant_col = ant
+            for view_row, view_col in limits:
+                ants.viewrange[view_row + ant_row][view_col + ant_col] = True
+
+        crt_row, crt_col = current_location
+        
+        
+
+        return ants.viewrange[crt_row][crt_col]
+
 
     def heuristic_cost_estimate(self, start, goal):
         '''Heuristic give estimated cost to goal'''
@@ -14,10 +57,10 @@ class RandomBot:
     def neighbor_nodes(self, current):
         '''Return all neighbors for a given node'''
         l = []
-        l += (current[0] + 1, current[1])
-        l += (current[0] - 1, current[1])
-        l += (current[0], current[1] + 1)
-        l += (current[0], current[1] - 1)
+        l.append((current[0] + 1, current[1]))
+        l.append( (current[0] - 1, current[1]))
+        l.append((current[0], current[1] + 1))
+        l.append((current[0], current[1] - 1))
         return l
 
     def reconstruct_path(came_from, current_node):

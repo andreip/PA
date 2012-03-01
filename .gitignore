@@ -1,2 +1,6 @@
 *.pyc
 lin/game_logs/
+.project
+.pydevproject
+*.py.swp
+*.swp

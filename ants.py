@@ -51,6 +51,11 @@ class Ants():
         self.dead_list = []
         self.hill_list = {}
 
+        #New members by BasculAnts defined:
+        self.viewradius2 = 0
+        self.viewrange = None
+        
+
     def setup(self, data):
         'parse initial input and setup starting game state'
         for line in data.split('\n'):
@@ -91,6 +96,9 @@ class Ants():
         for (row, col), owner in self.hill_list.items():
             self.map[row][col] = LAND
         self.hill_list = {}
+
+        #Also clear ant's view range
+        self.viewrange = None
 
         # update map and create new ant and food lists
         for line in data.split('\n'):
