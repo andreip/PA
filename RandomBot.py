@@ -87,7 +87,6 @@ class RandomBot:
         destinations = []
         path = []
         self.logger.info("nu vrea")
-        #ants.map_filter()
         ants.landmap()
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
@@ -97,14 +96,18 @@ class RandomBot:
                 closest_food = ants.closest_food(a_row, a_col)
                 if closest_food != None:
                     dist = self.heuristic_cost_estimate((a_row, a_col), closest_food,ants)
+                self.logger.info((dist,closest_food))
 
                 if closest_food != None and dist <=10:
                    path = self.Astar((a_row, a_col), closest_food, ants)
                 # Try all directions randomly until one is passable and not
                 # occupied.
                 elif dist >= 10:
+
                     unseen = ants.closest_unseen(a_row, a_col)
-                    path = self.Astar((a_row, a_col), unseen, ants)
+                    self.logger.info(unseen)
+                
+                    path = self.Astar((a_row, a_col),unseen, ants)
                 
                 else:
                     directions = AIM.keys()
@@ -123,12 +126,13 @@ class RandomBot:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
                 if(not (n_row, n_col) in destinations):
-                    self.paths[(n_row, n_col)] = path;       # Update dict of paths.
+                    if path != []:
+                        self.paths[(n_row, n_col)] = path;       # Update dict of paths.
                     ants.issue_order((a_row, a_col, direction[0]))
                     destinations.append((n_row, n_col))
                 else:
                     destinations.append((a_row, a_col))
-
+                self.logger.info(path)
 
 if __name__ == '__main__':
     try:

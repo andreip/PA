@@ -17,6 +17,7 @@ FOOD = -3
 WATER = -4
 UNSEEN = -5
 HILL = -6
+WASSEEN = -7
 
 PLAYER_ANT = 'abcdefghij'
 HILL_ANT = string = 'ABCDEFGHIJ'
@@ -78,7 +79,7 @@ class Ants():
                     self.attackradius2 = int(tokens[1])
                 elif key == 'spawnradius2':
                     self.spawnradius2 = int(tokens[1])
-        self.map = [[LAND for col in range(self.width)]
+        self.map = [[UNSEEN for col in range(self.width)]
                     for row in range(self.height)]
 
 
@@ -86,6 +87,7 @@ class Ants():
         for row in range(self.height):
             for col in range(self.width):
                 if self.map[row][col] != WATER:
+#                    if self.map[row][col] != UNSEEN:
                     self.map[row][col] = UNSEEN
         return None
 
