@@ -102,6 +102,10 @@ class RandomBot:
                    path = self.Astar((a_row, a_col), closest_food, ants)
                 # Try all directions randomly until one is passable and not
                 # occupied.
+                elif dist >= 10:
+                    unseen = ants.closest_unseen(a_row, a_col)
+                    path = self.Astar((a_row, a_col), unseen, ants)
+                
                 else:
                     directions = AIM.keys()
                     shuffle(directions)

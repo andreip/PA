@@ -82,21 +82,28 @@ class Ants():
                     for row in range(self.height)]
 
 
+    def clean(self):
+        for row in range(self.height):
+            for col in range(self.width):
+                if self.map[row][col] != WATER:
+                    self.map[row][col] = UNSEEN
+        return None
 
     def update(self, data):
         # clear ant and food data
+        self.clean();
         self.land_map = None
-        for (row, col), owner in self.ant_list.items():
-            self.map[row][col] = LAND
+        #for (row, col), owner in self.ant_list.items():
+        #    self.map[row][col] = LAND
         self.ant_list = {}
-        for row, col in self.food_list:
-            self.map[row][col] = LAND
+        #for row, col in self.food_list:
+        #    self.map[row][col] = LAND
         self.food_list = []
-        for row, col in self.dead_list:
-            self.map[row][col] = LAND
+        #for row, col in self.dead_list:
+        #    self.map[row][col] = LAND
         self.dead_list = []
-        for (row, col), owner in self.hill_list.items():
-            self.map[row][col] = LAND
+        #for (row, col), owner in self.hill_list.items():
+        #    self.map[row][col] = LAND
         self.hill_list = {}
 
         # update map and create new ant and food lists
@@ -179,11 +186,13 @@ class Ants():
     def landmap(self):
         if self.map_filter == []:
             self.mapfilter() 
-        self.land_map = [[UNSEEN for col in range(self.width)]
-                                for row in range(self.height)]
+        #self.land_map = [[UNSEEN for col in range(self.width)]
+        #                        for row in range(self.height)]
         for a_row, a_col in self.my_ants():
             for f_row, f_col in self.map_filter:
-                self.land_map[a_row + f_row][a_col + f_col] = LAND 
+                if(self.map[a_row + f_row][a_col + f_col]== UNSEEN):
+                #self.land_map[a_row + f_row][a_col + f_col] = LAND 
+                    self.map[a_row + f_row][a_col + f_col] = LAND
         return None
 
     def distance(self, row1, col1, row2, col2):
