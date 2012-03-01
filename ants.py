@@ -2,6 +2,7 @@
 import sys
 import traceback
 import random
+from math  import *
 
 try:
     from sys import maxint
@@ -50,6 +51,9 @@ class Ants():
         self.food_list = []
         self.dead_list = []
         self.hill_list = {}
+        self.map_filter = []
+        self.land_map = None
+
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -77,8 +81,11 @@ class Ants():
         self.map = [[LAND for col in range(self.width)]
                     for row in range(self.height)]
 
+
+
     def update(self, data):
         # clear ant and food data
+        self.land_map = None
         for (row, col), owner in self.ant_list.items():
             self.map[row][col] = LAND
         self.ant_list = {}
@@ -156,6 +163,28 @@ class Ants():
     def destination(self, row, col, direction):
         d_row, d_col = AIM[direction]
         return ((row + d_row) % self.height, (col + d_col) % self.width)        
+
+    def mapfilter(self):
+        self.map_filter = []
+        radius = int(sqrt(self.viewradius2))
+        for row  in range(-radius, radius+1):
+            for col in range(-radius, radius+1):
+                distance = row**2 + col**2
+                if distance <= self.viewradius2:
+                    self.map_filter.append((
+                        row%self.height - self.height,
+                        col%self.width - self.width))
+        return None
+
+    def landmap(self):
+        if self.map_filter == []:
+            self.mapfilter() 
+        self.land_map = [[UNSEEN for col in range(self.width)]
+                                for row in range(self.height)]
+        for a_row, a_col in self.my_ants():
+            for f_row, f_col in self.map_filter:
+                self.land_map[a_row + f_row][a_col + f_col] = LAND 
+        return None
 
     def distance(self, row1, col1, row2, col2):
         row1 = row1 % self.height

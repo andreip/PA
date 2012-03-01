@@ -86,6 +86,9 @@ class RandomBot:
     def do_turn(self, ants):
         destinations = []
         path = []
+        self.logger.info("nu vrea")
+        #ants.map_filter()
+        ants.landmap()
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
             if self.paths.__contains__((a_row, a_col)):
@@ -93,7 +96,10 @@ class RandomBot:
             else:
                 closest_food = ants.closest_food(a_row, a_col)
                 if closest_food != None:
-                    path = self.Astar((a_row, a_col), closest_food, ants)
+                    dist = self.heuristic_cost_estimate((a_row, a_col), closest_food,ants)
+
+                if closest_food != None and dist <=10:
+                   path = self.Astar((a_row, a_col), closest_food, ants)
                 # Try all directions randomly until one is passable and not
                 # occupied.
                 else:
