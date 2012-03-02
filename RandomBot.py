@@ -94,6 +94,10 @@ class RandomBot:
                 path = self.paths.pop((a_row, a_col))    # Get path of this ant
             else:
                 closest_food = ants.closest_food(a_row, a_col)
+                
+                dist = maxint
+                #dist = 0
+                
                 if closest_food != None:
                     dist = self.heuristic_cost_estimate((a_row, a_col), closest_food,ants)
                 self.logger.info((dist,closest_food))
