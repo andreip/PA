@@ -44,12 +44,12 @@ class RandomBot:
         return d_col + d_row
     
     def neighbor_nodes(self, current, ants):
-         """
+        """
          ! \brief Returneaza toti vecinii nodului curent.
 
-            \param current - un tuplu de forma (row, col)
-            \return Lista continand toti vecinii nodului
-        """
+            \param curent - un tuplu de forma (row, col)
+            \return Lista continand vecinii nodului
+         """
         l = []
         l.append(( (current[0] + 1) % ants.height, current[1] ))
         l.append(( (current[0] - 1) % ants.height, current[1] ))
