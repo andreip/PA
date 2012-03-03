@@ -7,8 +7,20 @@ from logutils import *
 from sys import *
 
 class RandomBot:
+    """
+    ! \brief Botul pentru prima etapa. Foloseste euristica A* 
+
+    	TODO @Andrei - desciere scurta pt algoritm si abordare a problemei
+    """
+    
     def __init__(self):
+        """
+        ! \brief Aici se face initializarea jurnalizarii
+    	
+		Utila pentru debug sau informatii despre desfasurarea jocului
+		"""        
         self.paths = {}         # paths for ants
+        
         self.logger = logging.getLogger('myapp')
         hdlr = logging.FileHandler('logFile.log')
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
@@ -17,7 +29,12 @@ class RandomBot:
         self.logger.setLevel(logging.INFO)
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
-        '''Heuristic give estimated cost to goal'''
+        """
+         ! \brief Obtine estimarea costului euristic.
+            \param start - punctul din care pleaca furnica. Este un tuplu de forma (row, col)
+            \param goal - puncul la care se doreste sa ajunga furnica. Este un tuplu de forma (row, col)
+            \return Distanta euclidiana dintre cele doua puncte
+        """
         row1 = row1 % ants.height
         row2 = row2 % ants.height
         col1 = col1 % ants.width
@@ -27,7 +44,12 @@ class RandomBot:
         return d_col + d_row
     
     def neighbor_nodes(self, current, ants):
-        '''Return all neighbors for a given node'''
+         """
+         ! \brief Returneaza toti vecinii nodului curent.
+
+            \param current - un tuplu de forma (row, col)
+            \return Lista continand toti vecinii nodului
+        """
         l = []
         l.append(( (current[0] + 1) % ants.height, current[1] ))
         l.append(( (current[0] - 1) % ants.height, current[1] ))
@@ -36,7 +58,13 @@ class RandomBot:
         return l
     
     def reconstruct_path(self, came_from, current_node):
-        '''Construct path to target, from the beginning'''
+        """
+        ! \brief Construct path to target, from the beginning
+            
+            TODO @Stana: pana la urma 
+            se mai foloseste functia asta la ceva 
+            sau o stergem?
+        """
         path = []
         while came_from[current_node] != None:
             path.insert(0, current_node)
@@ -44,10 +72,21 @@ class RandomBot:
         return path
     
     def Astar(self, start, goal, ants):
-        '''
-        start, goal are tuples of the form (row, col);
-        obstacles is a dictionary : (row, col) -> return Bool
-        '''
+        """
+        ! \brief Functia de explorare. 
+        
+        
+    	In cadrul acestei functii trebuie ca fiecare furnica sa aiba o anumita
+		tinta: sa mearga dupa mancare, sa omoare o furnica adversa etc.
+		Fiecare furnica are un punct de start
+        
+        TODO @toata_lumea: mai scriem ceva aici?
+
+	      \param start - tuplu de forma (row, col)
+	      \param goal - tuplu de forma (row, col)
+	      \param ants - furnicile botului nostru. E un list comprehension returnat din ants.py
+        """
+        
         if (not ants.passable(start[0], start[1]) or not
         ants.passable(goal[0], goal[1])):
             return None
