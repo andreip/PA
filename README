@@ -1,3 +1,64 @@
-PA project. The subject is the one from the AIChallenge.
+BasculAnts PA project.
 
-See here: http://ants.aichallenge.org/
+Membrii:
+Bărbulescu Mihai - 325 CA
+Petre Andrei - 325CA
+Stana Iulian - 325CA
+Traistă-Popescu Vlad - 325CA
+
+Mediu de dezvoltare: vim și/sau Eclipse cu PyDev/Egit
+Mod de compilare: Interpretor Python
+Versionare: repository privat pe github
+
+Abordarea algoritmică a etapei:
+
+-- TODO --
+
+Structura proiectului:
+
+-- TODO după rearanjare finală și copiat din Doxygen --
+
+Link către documentația generată de Doxygen: 
+http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/
+
+Contribuțiile membrilor echipei:
+
+Bărbulescu Mihai - a realizat documentația proiectului, 
+a adăugat posibilitatea de logging cu ajutorul căruia
+s-au putut testa codul și depana erorile. 
+
+Petre Andrei - a implementat explorarea A* și a pus bazele
+modului în care furnicile se deplasează pe hartă
+(TODO - de adăugat ce tutoriale de pe net a folosit la 
+surse de inspirație)
+
+Stana Iulian - a implementat funcțiile mapfilter și landmap
+și implicit a adus îmbunătățiri la modul de explorare a 
+furnicilor (bazate pe functia visible din [c1])
+
+Vlad Traistă-Popescu - a realizat unit-testing și a făcut
+debugging pe fiecare commit al membrilor.
+
+Surse de inspirație:
+
+[s1] Cristian A. Giumale – Introducere în Analiza Algoritmilor, 
+Polirom, 2004 (capitolul 7)
+[s2] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest 
+și Clifford Stein – Introduction to Algorithms, 
+Third Edition, MIT Press, 2009 
+[s3] http://swarm.cs.pub.ro/~adrian.sc/documentatie.pdf 
+
+Surse de cod:
+
+[c1] https://github.com/wraithan/aichallenge-ants/blob/master/ants.py
+
+
+-TODO - Extras din http://elf.cs.pub.ro/pa/wiki/regulament-proiect
+Dupa ce apare BIFAT la toate stergem aceste linii!!!
+README: mediu de dezvoltare folosit - BIFAT
+mod de compilare - BIFAT
+fiecare membru al echipei ce a facut - sort of
+structura proiectului (clase) - copiem din ce generează Doxygen!
+surse de inspiratie - sort of
+surse de cod (pentru structuri de date de exemplu) - sort of
+bordarea algoritmica a etapei (ce algoritmi ati folosit, cum i-ati combinat, de ce, complexitati, etc.) - TODO
