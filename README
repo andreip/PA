@@ -10,6 +10,9 @@ Mediu de dezvoltare: vim și/sau Eclipse cu PyDev/Egit
 Mod de compilare: Interpretor Python
 Versionare: repository privat pe github
 
+Rulare bot: python MyBot.py sau ./MyBot.py
+TODO - trebuie sa il redenumim din RandomBot in MyBot
+
 Abordarea algoritmică a etapei:
 
 -- TODO --
