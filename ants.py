@@ -174,6 +174,11 @@ class Ants():
         return ((row + d_row) % self.height, (col + d_col) % self.width)        
 
     def mapfilter(self):
+        """
+        ! \brief TODO @Stana - Descrie functia!!!! Ne-am chinuit
+        sa iti intelegem codul!!!!!!
+        
+        """
         self.map_filter = []
         radius = int(sqrt(self.viewradius2))
         for row  in range(-radius, radius+1):
@@ -186,6 +191,9 @@ class Ants():
         return None
 
     def landmap(self):
+        """
+        ! \brief TODO @STANA - Descrie functia!!! 
+        """
         if self.map_filter == []:
             self.mapfilter() 
         #self.land_map = [[UNSEEN for col in range(self.width)]
