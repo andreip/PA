@@ -7,7 +7,7 @@
 lin=lin
 # Presupunere: toti jucatorii se afla in directorul curent
 player1="MyBot.py"
-player2="./opponent"
+player2="./bot32"
 map="$lin/maps/cell_maze/cell_maze_p02_19.map"
 map1="$lin/maps/cell_maze/cell_maze_p02_20.map"
 map2="$lin/maps/random_walk/random_walk_p02_21.map"
