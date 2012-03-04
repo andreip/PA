@@ -150,25 +150,25 @@ class Ants():
     def enemy_hills(self):
         return [(loc, owner) for loc, owner in self.hill_list.items()
                     if owner != MY_ANT]
-        
+
     def food(self):
         return self.food_list[:]
 
     def passable(self, row, col):
         return self.map[row][col] != WATER
-    
+
     def unoccupied(self, row, col):
         return self.map[row][col] in (LAND, DEAD, UNSEEN)
 
     def destination(self, row, col, direction):
         d_row, d_col = AIM[direction]
-        return ((row + d_row) % self.height, (col + d_col) % self.width)        
+        return ((row + d_row) % self.height, (col + d_col) % self.width)
 
     def mapfilter(self):
         """! \brief Creaza un filtru de translatare.
 
-            Prin aplicarea filtrului asupra unei coordonate oarecare 
-            (row, col), acesta genereaza toate coordonatele din jurul 
+            Prin aplicarea filtrului asupra unei coordonate oarecare
+            (row, col), acesta genereaza toate coordonatele din jurul
             (row, col) cu raza^2 <= self.viewradius2.
         """
         self.map_filter = []
