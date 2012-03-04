@@ -63,7 +63,53 @@ class RandomBot:
       goal 	- coordonatele punctului la care dorim sa ajunga furnica
       ants 	- furnicile botului nostru. E un list comprehension returnat din ants.py
 
+Class Ants:
 
+Public Member Functions
+
+def 	__init__
+def 	setup
+def 	clean
+def 	update
+def 	issue_order
+def 	finish_turn
+def 	my_ants
+def 	enemy_ants
+def 	my_hills
+def 	enemy_hills
+def 	food
+def 	passable
+def 	unoccupied
+def 	destination
+def 	distance
+def 	direction
+def 	closest_food
+def 	closest_enemy_ant
+def 	closest_enemy_hill
+def 	closest_unseen
+def 	render_text_map
+def 	run
+
+Funcții noi, definite de noi:
+
+def 	mapfilter
+def 	landmap
+
+Public Attributes
+ 	width
+ 	height
+ 	map
+ 	ant_list
+ 	food_list
+ 	dead_list
+ 	hill_list
+ 	map_filter
+ 	land_map
+ 	turntime
+ 	loadtime
+ 	viewradius2
+ 	attackradius2
+ 	spawnradius2
 
 
 Contribuțiile membrilor echipei:
@@ -82,7 +128,8 @@ Stana Iulian - a implementat funcțiile mapfilter și landmap
 furnicilor (bazate pe functia visible din [c1])
 
 Vlad Traistă-Popescu - a realizat unit-testing și a făcut
-debugging pe fiecare commit al membrilor.
+debugging pe fiecare commit al membrilor atunci când 
+programul nu rula cum trebuie.
 
 Surse de inspirație:
 
