@@ -8,7 +8,7 @@ try:
     from sys import maxint
 except ImportError:
     from sys import maxsize as maxint
-        
+
 MY_ANT = 0
 ANTS = 0
 DEAD = -1
@@ -87,7 +87,6 @@ class Ants():
         for row in range(self.height):
             for col in range(self.width):
                 if self.map[row][col] != WATER:
-#                    if self.map[row][col] != UNSEEN:
                     self.map[row][col] = UNSEEN
         return None
 
@@ -95,17 +94,9 @@ class Ants():
         # clear ant and food data
         self.clean();
         self.land_map = None
-        #for (row, col), owner in self.ant_list.items():
-        #    self.map[row][col] = LAND
         self.ant_list = {}
-        #for row, col in self.food_list:
-        #    self.map[row][col] = LAND
         self.food_list = []
-        #for row, col in self.dead_list:
-        #    self.map[row][col] = LAND
         self.dead_list = []
-        #for (row, col), owner in self.hill_list.items():
-        #    self.map[row][col] = LAND
         self.hill_list = {}
 
         # update map and create new ant and food lists
@@ -139,7 +130,7 @@ class Ants():
     def issue_order(self, order):
         sys.stdout.write('o %s %s %s\n' % (order[0], order[1], order[2]))
         sys.stdout.flush()
-        
+
     def finish_turn(self):
         sys.stdout.write('go\n')
         sys.stdout.flush()
@@ -151,7 +142,7 @@ class Ants():
     def enemy_ants(self):
         return [(loc, owner) for loc, owner in self.ant_list.items()
                     if owner != MY_ANT]
-    
+
     def my_hills(self):
         return [loc for loc, owner in self.hill_list.items()
                     if owner == MY_ANT]
@@ -175,9 +166,11 @@ class Ants():
 
     def mapfilter(self):
         """
-        ! \brief TODO @Stana - Descrie functia!!!! Ne-am chinuit
-        sa iti intelegem codul!!!!!!
-        
+        ! \brief Creaza un filtru de translatare.
+
+            Prin aplicarea filtrului asupra unei coordonate oarecare (row, col),
+            acesta genereaza toate coordonatele din jurul (row, col) cu raza^2
+            <= self.viewradius2.
         """
         self.map_filter = []
         radius = int(sqrt(self.viewradius2))
@@ -188,22 +181,22 @@ class Ants():
                     self.map_filter.append((
                         row%self.height - self.height,
                         col%self.width - self.width))
-        return None
 
     def landmap(self):
         """
-        ! \brief TODO @STANA - Descrie functia!!! 
+        ! \brief Aplica filtrul mapfilter() asupra fiecarei furnici.
+
+            Translata pozitia furnicii la coordonate in jurul pozitiei
+            furnicii, obtinand astfel zona pe care o vede furnica, de raza r.
+            Pentru fiecare furnica, vom updata teritoriul neexplorat cu ceea
+            ce vede pe moment furnica.
         """
         if self.map_filter == []:
             self.mapfilter() 
-        #self.land_map = [[UNSEEN for col in range(self.width)]
-        #                        for row in range(self.height)]
         for a_row, a_col in self.my_ants():
             for f_row, f_col in self.map_filter:
-                if(self.map[a_row + f_row][a_col + f_col]== UNSEEN):
-                #self.land_map[a_row + f_row][a_col + f_col] = LAND 
+                if self.map[a_row + f_row][a_col + f_col] == UNSEEN:
                     self.map[a_row + f_row][a_col + f_col] = LAND
-        return None
 
     def distance(self, row1, col1, row2, col2):
         row1 = row1 % self.height
@@ -242,43 +235,43 @@ class Ants():
                 d.append('w')
         return d
 
-    def closest_food(self,row1,col1,filter=None):
+    def closest_food(self, row1, col1, filter = None):
         #find the closest food from this row/col
-        min_dist=maxint
+        min_dist = maxint
         closest_food = None
         for food in self.food_list:
             if filter is None or food not in filter:
-                dist = self.distance(row1,col1,food[0],food[1])
-                if dist<min_dist:
+                dist = self.distance(row1, col1, food[0], food[1])
+                if dist < min_dist:
                     min_dist = dist
                     closest_food = food
-        return closest_food    
+        return closest_food
 
-    def closest_enemy_ant(self,row1,col1,filter=None):
+    def closest_enemy_ant(self, row1, col1, filter = None):
         #find the closest enemy ant from this row/col
-        min_dist=maxint
+        min_dist = maxint
         closest_ant = None
         for ant in self.enemy_ants():
             if filter is None or ant not in filter:
-                dist = self.distance(row1,col1,ant[0][0],ant[0][1])
-                if dist<min_dist:
+                dist = self.distance(row1, col1, ant[0][0], ant[0][1])
+                if dist < min_dist:
                     min_dist = dist
                     closest_ant = ant[0]
-        return closest_ant    
+        return closest_ant
 
-    def closest_enemy_hill(self,row1,col1,filter=None):
+    def closest_enemy_hill(self, row1, col1, filter = None):
         #find the closest enemy hill from this row/col
-        min_dist=maxint
+        min_dist = maxint
         closest_hill = None
         for hill in self.enemy_hills():
             if filter is None or hill[0] not in filter:
-                dist = self.distance(row1,col1,hill[0][0],hill[0][1])
-                if dist<min_dist:
+                dist = self.distance(row1, col1, hill[0][0], hill[0][1])
+                if dist < min_dist:
                     min_dist = dist
                     closest_hill = hill[0]
-        return closest_hill   
+        return closest_hill
 
-    def closest_unseen(self,row1,col1,filter=None):
+    def closest_unseen(self, row1, col1, filter = None):
         #find the closest unseen from this row/col
         min_dist=maxint
         closest_unseen = None
@@ -286,8 +279,8 @@ class Ants():
             for col in range(self.width):
                 if filter is None or (row, col) not in filter:
                     if self.map[row][col] == UNSEEN:
-                        dist = self.distance(row1,col1,row,col)
-                        if dist<min_dist:
+                        dist = self.distance(row1, col1, row, col)
+                        if dist < min_dist:
                             min_dist = dist
                             closest_unseen = (row, col)
         return closest_unseen
