@@ -24,7 +24,7 @@ Abordarea algoritmică a etapei:
 Structura proiectului:
 (extrasa din [a1], am folosit Doxygen)
 
-class RandomBot:
+class MyBot:
 
   Public attributes:
       paths
