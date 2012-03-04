@@ -40,7 +40,7 @@ class MyBot:
 
             \param start - punctul din care pleaca furnica.
             \param goal - puncul la care se doreste sa ajunga furnica. 
-            \return Distanta euclidiana minima de patratele 
+            \return Distanta minima de patratele 
             pe care o parcurge furnica.
         """
         row1 %= ants.height
