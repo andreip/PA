@@ -53,50 +53,69 @@ class MyBot:
 
   Public member functions:
     def __init__(self)
-      Aici se face inițializarea jurnalizării.
-      Utila pentru debug sau informatii despre desfasurarea jocului
+      Initializeaza jurnalizaarea.
+      Utila pentru debug sau informatii despre desfasurarea jocului.
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
-      Obtine estimarea costului euristic pentru explorarea A*
+      Obtine estimarea costului; e optimista.
 
       Parameters:
-          start   - punctul din care pleaca furnica.
-          goal    - puncul la care se doreste sa ajunga furnica.
+        start     - punctul din care pleaca furnica.
+        goal      - puncul la care se doreste sa ajunga furnica.
       Returns:
-          Distanta minima pe care o parcurge furnica
+        Distanta euclidiana minima de patratele pe care o parcurge furnica.
 
 
     def neighbor_nodes(self, current, ants):
-    Returneaza toti vecinii nodului curent.
+      Returneaza toti vecinii nodului curent.
 
-    Parameters:
-    current   - coordonatele nodului curent
-    Returns:
-    Lista continand toti vecinii nodului
+      Parameters:
+        curent    - pozitia curenta, de forma (row, col).
+      Returns:
+        Lista continand vecinii nodului.
 
     def reconstruct_path(self, came_from, current_node):
+      Construieste drumul din parinte in parinte, pana la nodul initial (de la
+      sfarsit spre inceput).
+
+      Parameters:
+        current_node - nodul final, unde ajunge calea construita; e de forma
+                       unui tuplu (row, col).
+        came_from    - contine parintii nodurilor ce formeaza calea spre nodul
+                       final.
 
     def Astar(self, start, goal, ants):
-    Funcția care aplică explorarea A*
+      Intoarce o cale optima de la sursa la destinatie.
 
-    In cadrul acestei functii trebuie ca fiecare furnica sa aiba o anumita
-       tinta: sa mearga dupa mancare, sa omoare o furnica adversa etc.
-           Fiecare furnica are un punct de start
+      In prezent tine cont si de obstacole, dar trimite furnicile doar dupa
+      mancare sau puncte necunoscute
 
-    Parameters:
-      start - coordonatele punctului de start
-      goal - coordonatele punctului la care dorim sa ajunga furnica
-      ants - obiectul de furnici, creat in Ants.run()
-
+      Parameters:
+      start - punct de start, de forma (row, col).
+      goal  - punct destinatie, de forma (row, col).
+      ants  - obiectul furnici, construit in Ants.run().
 
 class Ants:
-  * Metode:
-      def  mapfilter
-      def  landmap
 
-  * Atribute:
+  Public attributes:
       map_filter
       land_map
+
+  Public member functions:
+    def  mapfilter
+      Creaza un filtru de translatare.
+
+      Prin aplicarea filtrului asupra unei coordonate oarecare (row, col),
+      acesta genereaza toate coordonatele din jurul (row, col) cu raza^2 <=
+      self.viewradius2.
+
+    def  landmap
+      Aplica filtrul mapfilter() asupra fiecarei furnici.
+
+      Translata pozitia furnicii la coordonate in jurul pozitiei furnicii,
+      obtinand astfel zona pe care o vede furnica, de raza r. Pentru fiecare
+      furnica, vom updata teritoriul neexplorat cu ceea ce vede pe moment
+      furnica.
 
 * Contribuțiile membrilor echipei:
     Bărbulescu Mihai - a realizat documentația proiectului,
