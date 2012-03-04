@@ -16,7 +16,7 @@ class MyBot:
     """
     ! \brief Botul pentru prima etapa, foloseste algoritmul A*.
 
-        Furnicile noastre, explorează cu A*, danduli-se o destinatie, care
+        Furnicile noastre, exploreaza cu A*, danduli-se o destinatie, care
         poate fi una din urmatoarele momentan: mancare sau teritoriu
         necunoscut. Totodata, salvam detaliile pe care le vad furnicile la un
         moment dat (pamant, mancare).
