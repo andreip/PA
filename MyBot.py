@@ -184,6 +184,6 @@ if __name__ == '__main__':
     except ImportError:
         pass
     try:
-        Ants.run(RandomBot())
+        Ants.run(MyBot())
     except KeyboardInterrupt:
         print('ctrl-c, leaving ...')

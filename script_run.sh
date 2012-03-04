@@ -1,9 +1,9 @@
-# run our bot with adversar
+#run our bot with adversar
 
 # path to your lin directory
 lin=lin
 # all players must be in this directory
-player1="RandomBot.py"		# our bot
+player1="MyBot.py"		# our bot
 player2="./opponent"			# our opponent
 map="$lin/maps/cell_maze/cell_maze_p02_19.map"	# running map
 map1="$lin/maps/cell_maze/cell_maze_p02_20.map"	# running map
