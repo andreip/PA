@@ -34,7 +34,7 @@ class MyBot:
         hdlr = logging.FileHandler('logFile.log')
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         hdlr.setFormatter(formatter)
-        self.logger.addHandler(hdlr) 
+        self.logger.addHandler(hdlr)
         self.logger.setLevel(logging.INFO)
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):

@@ -1,27 +1,48 @@
 BasculAnts PA project.
 
-Membrii:
-Bărbulescu Mihai - 325 CA
-Petre Andrei - 325CA
-Stana Iulian - 325CA
-Traistă-Popescu Vlad - 325CA
+* Membrii:
+    Bărbulescu Mihai - 325 CA
+    Petre Andrei - 325CA
+    Stana Iulian - 325CA
+    Traistă-Popescu Vlad - 325CA
 
-Mediu de dezvoltare: vim și/sau Eclipse cu PyDev/Egit
-Mod de compilare: Interpretor Python
-Versionare: repository privat pe github
+* Mediu de dezvoltare: vim și/sau Eclipse cu PyDev/Egit
+* Mod de compilare: Interpretor Python
+* Versionare: repository privat pe github
 
-Rulare bot: python MyBot.py sau ./MyBot.py
-(dacă se rulează cu a doua variantă trebuie 
-să dați chmod a+x la MyBot.py)
-În fișierul script_run.sh am adunat laolată 
-toate comenzile care rulează cele 4 hărți
-pentru prima etapă, pentru testarea botului.
+* Rulare bot:
+    Rularea hartilor pentru etapa 1 se face prin script_run.sh. Pt rulare bot,
+    folositi python MyBot.py sau ./MyBot.py (dacă se rulează cu a doua variantă
+    trebuie să dați chmod a+x la MyBot.py). În fișierul script_run.sh am adunat
+    laolată toate comenzile care rulează cele 4 hărți pentru prima etapă, pentru
+    testarea botului.
 
-Abordarea algoritmică a etapei:
+* Abordarea algoritmică a etapei:
+      Folosim A* pentru a trimite furnica spre o zona unde dorim noi. A*
+    functioneaza pe ideea clasica, cu un scor de estimare a drumului bazat pe
+    distanta de la inceput si pe cat mai are pana la destinatie (optimist).
+    Complexitatea A* este proportionala cu lungimea de la sursa la destinatie
+    (Theta(n)), doar ca spatiul folosit este mai mare. Pentru fiecare
+    nod din spatiul starilor, adaugam toti vecinii lui (maxim 4), deci crestere
+    exponentiala. Acestia sunt adaugati intr-un heap (complex. O(log(m)), m
+    fiind nr de elemente in heap, care creste exponential, deci m ~ 4^k, deci
+    complexitatea e cam O(k) pentru fiecare inserare) si extrasi in timp
+    constant. Deci ar fi cam Theta(n*k). Probabil e loc de imbunantatiri.
+      Pentru fiecare mutare, calculam pentru fiecare furnica (N furnici) noua
+    directie in care sa mearga. Daca vede mancare, ii calculam drumul cu A*
+    pana la mancare, altfel daca are deja un drum, continua pe el (drumurile le
+    pastram intr-un dictionar "paths", deci e timp constant verificare si
+    extragere / adaugare de o noua instanta). Daca nu vede mancare, o trimitem
+    spre cea mai apropiata zona neexplorata, tot cu A* calculand distanta.
+      Deci O(n*N*k) ~ O(n^3) complexitate pe mutare. Totodata, pentru fiecare
+    mutare, mai updatam harta cu ceea ce vede fiecare furnica in parte, prin
+    ants.landmap(). Asta dureaza O(N*viewradius2), unde N = nr de furnici.
+      Se executa mapfilter() in landmap() o singura data, deci O(viewradius2).
+      Complexitatea per mutare este O(n^3) + O(N*viewr2) + O(viewr2) = O(n^3).
+      Am vrut sa folosim un A* pentru ca e mai exact decat un simplu bfs,
+    conduce spre solutie mai rapid.
 
--- TODO --
-
-Structura proiectului:
+* Structura proiectului:
 (extrasa din [a1], am folosit Doxygen)
 
 class MyBot:
@@ -32,19 +53,19 @@ class MyBot:
 
   Public member functions:
     def __init__(self)
-    Aici se face inițializarea jurnalizării.
-    Utila pentru debug sau informatii despre desfasurarea jocului
+      Aici se face inițializarea jurnalizării.
+      Utila pentru debug sau informatii despre desfasurarea jocului
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
-    Obtine estimarea costului euristic pentru explorarea A*
+      Obtine estimarea costului euristic pentru explorarea A*
 
-    Parameters:
-        start   - punctul din care pleaca furnica. 
-        goal 	- puncul la care se doreste sa ajunga furnica. 
-    Returns:
-        Distanta euclidiana dintre cele doua puncte
+      Parameters:
+          start   - punctul din care pleaca furnica.
+          goal    - puncul la care se doreste sa ajunga furnica.
+      Returns:
+          Distanta minima pe care o parcurge furnica
 
-    
+
     def neighbor_nodes(self, current, ants):
     Returneaza toti vecinii nodului curent.
 
@@ -59,106 +80,53 @@ class MyBot:
     Funcția care aplică explorarea A*
 
     In cadrul acestei functii trebuie ca fiecare furnica sa aiba o anumita
-  	tinta: sa mearga dupa mancare, sa omoare o furnica adversa etc.
-		Fiecare furnica are un punct de start
+       tinta: sa mearga dupa mancare, sa omoare o furnica adversa etc.
+           Fiecare furnica are un punct de start
 
     Parameters:
       start - coordonatele punctului de start
       goal - coordonatele punctului la care dorim sa ajunga furnica
-      ants - un list comprehension returnat din ants.py (furnicile noastre)
-
-class Ants():
-
-Public Member Functions
-
-def 	__init__
-def 	setup
-def 	clean
-def 	update
-def 	issue_order
-def 	finish_turn
-def 	my_ants
-def 	enemy_ants
-def 	my_hills
-def 	enemy_hills
-def 	food
-def 	passable
-def 	unoccupied
-def 	destination
-def 	distance
-def 	direction
-def 	closest_food
-def 	closest_enemy_ant
-def 	closest_enemy_hill
-def 	closest_unseen
-def 	render_text_map
-def 	run
-
-Funcții noi, definite de noi:
-
-def 	mapfilter
-def 	landmap
-
-Public Attributes
- 	width
- 	height
- 	map
- 	ant_list
- 	food_list
- 	dead_list
- 	hill_list
- 	map_filter
- 	land_map
- 	turntime
- 	loadtime
- 	viewradius2
- 	attackradius2
- 	spawnradius2
+      ants - obiectul de furnici, creat in Ants.run()
 
 
-Contribuțiile membrilor echipei:
+class Ants:
+  * Metode:
+      def  mapfilter
+      def  landmap
 
-Bărbulescu Mihai - a realizat documentația proiectului, 
-a adăugat posibilitatea de logging cu ajutorul căruia
-s-au putut testa codul și depana erorile. 
+  * Atribute:
+      map_filter
+      land_map
 
-Petre Andrei - a implementat explorarea A* și a pus bazele
-modului în care furnicile se deplasează pe hartă
-(TODO - de adăugat ce tutoriale de pe net a folosit la 
-surse de inspirație)
+* Contribuțiile membrilor echipei:
+    Bărbulescu Mihai - a realizat documentația proiectului,
+    a adăugat posibilitatea de logging cu ajutorul căruia
+    s-au putut testa codul și depana erorile.
 
-Stana Iulian - a implementat funcțiile mapfilter și landmap
-și implicit a adus îmbunătățiri la modul de explorare a 
-furnicilor (bazate pe functia visible din [c1])
+    Petre Andrei - a implementat explorarea A* și a pus bazele
+    modului în care furnicile se deplasează pe hartă
+    (TODO - de adăugat ce tutoriale de pe net a folosit la
+    surse de inspirație)
 
-Vlad Traistă-Popescu - a realizat unit-testing și a făcut
-debugging pe fiecare commit al membrilor atunci când 
-programul nu rula cum trebuie.
+    Stana Iulian - a implementat funcțiile mapfilter și landmap
+    și implicit a adus îmbunătățiri la modul de explorare a
+    furnicilor (bazate pe functia visible din [c1])
 
-Surse de inspirație:
+    Vlad Traistă-Popescu - a realizat unit-testing și a făcut
+    debugging pe fiecare commit al membrilor atunci când
+    programul nu rula cum trebuie.
 
-[s1] Cristian A. Giumale – Introducere în Analiza Algoritmilor, 
-Polirom, 2004 (capitolul 7)
-[s2] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest 
-și Clifford Stein – Introduction to Algorithms, 
-Third Edition, MIT Press, 2009 
-[s3] http://swarm.cs.pub.ro/~adrian.sc/documentatie.pdf 
+* Surse de inspirație:
+    [s1] Cristian A. Giumale – Introducere în Analiza Algoritmilor,
+         Polirom, 2004 (capitolul 7)
+    [s2] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest
+         și Clifford Stein – Introduction to Algorithms,
+         Third Edition, MIT Press, 2009
+    [s3] http://swarm.cs.pub.ro/~adrian.sc/documentatie.pdf
+    [s4] http://en.wikipedia.org/wiki/A*_search_algorithm
 
-Surse de cod:
+* Surse de cod:
+    [c1] https://github.com/wraithan/aichallenge-ants/blob/master/ants.py
 
-[c1] https://github.com/wraithan/aichallenge-ants/blob/master/ants.py
-
-Alte linkuri:
-
-[a1] http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/
-
-
--TODO - Extras din http://elf.cs.pub.ro/pa/wiki/regulament-proiect
-Dupa ce apare BIFAT la toate stergem aceste linii!!!
-README: mediu de dezvoltare folosit - BIFAT
-mod de compilare - BIFAT
-fiecare membru al echipei ce a facut - sort of
-structura proiectului (clase) - BIFAT (dar Stana refuză să-și descrie funcțiile)
-surse de inspiratie - sort of
-surse de cod (pentru structuri de date de exemplu) - sort of
-bordarea algoritmica a etapei (ce algoritmi ati folosit, cum i-ati combinat, de ce, complexitati, etc.) - TODO
+* Alte linkuri:
+    [a1] http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/

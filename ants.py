@@ -192,7 +192,7 @@ class Ants():
             ce vede pe moment furnica.
         """
         if self.map_filter == []:
-            self.mapfilter() 
+            self.mapfilter()
         for a_row, a_col in self.my_ants():
             for f_row, f_col in self.map_filter:
                 if self.map[a_row + f_row][a_col + f_col] == UNSEEN:
