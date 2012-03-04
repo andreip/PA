@@ -11,7 +11,11 @@ Mod de compilare: Interpretor Python
 Versionare: repository privat pe github
 
 Rulare bot: python MyBot.py sau ./MyBot.py
-TODO - trebuie sa il redenumim din RandomBot in MyBot
+(dacă se rulează cu a doua variantă trebuie 
+să dați chmod a+x la MyBot.py)
+În fișierul script_run.sh am adunat laolată 
+toate comenzile care rulează cele 4 hărți
+pentru prima etapă, pentru testarea botului.
 
 Abordarea algoritmică a etapei:
 
@@ -59,11 +63,11 @@ class RandomBot:
 		Fiecare furnica are un punct de start
 
     Parameters:
-      start   - coordonatele punctului de start
-      goal 	- coordonatele punctului la care dorim sa ajunga furnica
-      ants 	- furnicile botului nostru. E un list comprehension returnat din ants.py
+      start - coordonatele punctului de start
+      goal - coordonatele punctului la care dorim sa ajunga furnica
+      ants - un list comprehension returnat din ants.py (furnicile noastre)
 
-Class Ants:
+class Ants():
 
 Public Member Functions
 
@@ -154,7 +158,7 @@ Dupa ce apare BIFAT la toate stergem aceste linii!!!
 README: mediu de dezvoltare folosit - BIFAT
 mod de compilare - BIFAT
 fiecare membru al echipei ce a facut - sort of
-structura proiectului (clase) - copiem din ce generează Doxygen!
+structura proiectului (clase) - BIFAT (dar Stana refuză să-și descrie funcțiile)
 surse de inspiratie - sort of
 surse de cod (pentru structuri de date de exemplu) - sort of
 bordarea algoritmica a etapei (ce algoritmi ati folosit, cum i-ati combinat, de ce, complexitati, etc.) - TODO
