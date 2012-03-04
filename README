@@ -40,9 +40,31 @@ class RandomBot:
     Returns:
         Distanta euclidiana dintre cele doua puncte
 
+    
+    def neighbor_nodes(self, current, ants):
+    Returneaza toti vecinii nodului curent.
 
-Link către documentația generată de Doxygen: 
-http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/
+    Parameters:
+    current   - coordonatele nodului curent
+    Returns:
+    Lista continand toti vecinii nodului
+
+    def reconstruct_path(self, came_from, current_node):
+
+    def Astar(self, start, goal, ants):
+    Funcția care aplică explorarea A*
+
+    In cadrul acestei functii trebuie ca fiecare furnica sa aiba o anumita
+  	tinta: sa mearga dupa mancare, sa omoare o furnica adversa etc.
+		Fiecare furnica are un punct de start
+
+    Parameters:
+      start   - coordonatele punctului de start
+      goal 	- coordonatele punctului la care dorim sa ajunga furnica
+      ants 	- furnicile botului nostru. E un list comprehension returnat din ants.py
+
+
+
 
 Contribuțiile membrilor echipei:
 
@@ -77,7 +99,7 @@ Surse de cod:
 
 Alte linkuri:
 
-[a1] http://swarm.cs.pub.ro/~mbarbulescu/.secret/html
+[a1] http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/
 
 
 -TODO - Extras din http://elf.cs.pub.ro/pa/wiki/regulament-proiect
