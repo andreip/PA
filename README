@@ -18,8 +18,28 @@ Abordarea algoritmică a etapei:
 -- TODO --
 
 Structura proiectului:
+(extrasa din [a1], am folosit Doxygen)
 
--- TODO după rearanjare finală și copiat din Doxygen --
+class RandomBot:
+
+  Public attributes:
+      paths
+      logger
+
+  Public member functions:
+    def __init__(self)
+    Aici se face inițializarea jurnalizării.
+    Utila pentru debug sau informatii despre desfasurarea jocului
+
+    def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
+    Obtine estimarea costului euristic pentru explorarea A*
+
+    Parameters:
+        start   - punctul din care pleaca furnica. 
+        goal 	- puncul la care se doreste sa ajunga furnica. 
+    Returns:
+        Distanta euclidiana dintre cele doua puncte
+
 
 Link către documentația generată de Doxygen: 
 http://swarm.cs.pub.ro/~mbarbulescu/.secret/html/
@@ -54,6 +74,10 @@ Third Edition, MIT Press, 2009
 Surse de cod:
 
 [c1] https://github.com/wraithan/aichallenge-ants/blob/master/ants.py
+
+Alte linkuri:
+
+[a1] http://swarm.cs.pub.ro/~mbarbulescu/.secret/html
 
 
 -TODO - Extras din http://elf.cs.pub.ro/pa/wiki/regulament-proiect
