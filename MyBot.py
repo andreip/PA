@@ -13,8 +13,7 @@ except ImportError:
 DEFAULT_FOOD_DISTANCE = 10
 
 class MyBot:
-    """
-    ! \brief Botul pentru prima etapa, foloseste algoritmul A*.
+    """! \brief Botul pentru prima etapa, foloseste algoritmul A*.
 
         Furnicile noastre, exploreaza cu A*, danduli-se o destinatie, care
         poate fi una din urmatoarele momentan: mancare sau teritoriu
@@ -23,8 +22,7 @@ class MyBot:
     """
 
     def __init__(self):
-        """
-        ! \brief Initializeaza jurnalizaarea.
+        """! \brief Initializeaza jurnalizaarea.
 
             Utila pentru debug sau informatii despre desfasurarea jocului.
         """
@@ -38,14 +36,12 @@ class MyBot:
         self.logger.setLevel(logging.INFO)
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
-        """
-         ! \brief Obtine estimarea costului; e optimista.
+        """! \brief Obtine estimarea costului; e optimista.
 
-            \param start - punctul din care pleaca furnica. Este un tuplu de
-            forma (row, col).
-            \param goal - puncul la care se doreste sa ajunga furnica. Este un
-            tuplu de forma (row, col).
-            \return Distanta minima de patratele pe care o parcurge furnica.
+            \param start - punctul din care pleaca furnica.
+            \param goal - puncul la care se doreste sa ajunga furnica. 
+            \return Distanta euclidiana minima de patratele 
+            pe care o parcurge furnica.
         """
         row1 %= ants.height
         row2 %= ants.height
@@ -56,8 +52,7 @@ class MyBot:
         return d_col + d_row
 
     def neighbor_nodes(self, current, ants):
-        """
-         ! \brief Returneaza toti vecinii nodului curent.
+        """! \brief Returneaza toti vecinii nodului curent.
 
             \param curent - pozitia curenta, de forma (row, col).
             \return Lista continand vecinii nodului.
@@ -70,8 +65,7 @@ class MyBot:
         return l
 
     def reconstruct_path(self, came_from, current_node):
-        """
-        ! \brief Construieste drumul din parinte in parinte, pana la nodul
+        """! \brief Construieste drumul din parinte in parinte, pana la nodul
         initial (de la sfarsit spre inceput).
 
             \param current_node - nodul final, unde ajunge calea construita; e
@@ -86,9 +80,11 @@ class MyBot:
         return path
 
     def Astar(self, start, goal, ants):
-        """
-        ! \brief Intoarce o cale optima de la sursa la destinatie. Tine cont
-        si de obstacole.
+        """! \brief Intoarce o cale optima de la sursa la destinatie. 
+        
+                In prezent tine cont si de obstacole, dar trimite
+                furnicile doar dupa mancare sau puncte 
+                necunoscute
 
             \param start - punct de start, de forma (row, col).
             \param goal - punct destinatie, de forma (row, col).

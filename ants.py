@@ -165,12 +165,11 @@ class Ants():
         return ((row + d_row) % self.height, (col + d_col) % self.width)        
 
     def mapfilter(self):
-        """
-        ! \brief Creaza un filtru de translatare.
+        """! \brief Creaza un filtru de translatare.
 
-            Prin aplicarea filtrului asupra unei coordonate oarecare (row, col),
-            acesta genereaza toate coordonatele din jurul (row, col) cu raza^2
-            <= self.viewradius2.
+            Prin aplicarea filtrului asupra unei coordonate oarecare 
+            (row, col), acesta genereaza toate coordonatele din jurul 
+            (row, col) cu raza^2 <= self.viewradius2.
         """
         self.map_filter = []
         radius = int(sqrt(self.viewradius2))
@@ -183,8 +182,7 @@ class Ants():
                         col%self.width - self.width))
 
     def landmap(self):
-        """
-        ! \brief Aplica filtrul mapfilter() asupra fiecarei furnici.
+        """! \brief Aplica filtrul mapfilter() asupra fiecarei furnici.
 
             Translata pozitia furnicii la coordonate in jurul pozitiei
             furnicii, obtinand astfel zona pe care o vede furnica, de raza r.
