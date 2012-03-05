@@ -147,12 +147,13 @@ class MyBot:
                                                         closest_food, ants)
                 if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
                    path = self.Astar((a_row, a_col), closest_food, ants)
-                # Try all directions randomly until one is passable and not
-                # occupied.
                 elif dist >= DEFAULT_FOOD_DISTANCE:
                     unseen = ants.closest_unseen(a_row, a_col)
                     path = self.Astar((a_row, a_col), unseen, ants)
+<<<<<<< HEAD
             
+=======
+>>>>>>> 79e68e3ef272e5f1cbccb9db4fe827703a15dae1
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
