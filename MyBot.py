@@ -34,6 +34,7 @@ class MyBot:
         hdlr.setFormatter(formatter)
         self.logger.addHandler(hdlr)
         self.logger.setLevel(logging.INFO)
+        self.mancare = []
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
         """! \brief Obtine estimarea costului; e optimista.
@@ -130,6 +131,12 @@ class MyBot:
         destinations = []
         path = []
         ants.landmap()
+        for food in self.mancare:
+            if food in ants.food_list:
+                ants.food_list.remove(food)
+        
+        self.logger.info(ants.dead_list)
+        
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
             if self.paths.__contains__((a_row, a_col)):
@@ -142,14 +149,22 @@ class MyBot:
                     dist = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_food, ants)
                 if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
-                   path = self.Astar((a_row, a_col), closest_food, ants)
+                    path = self.Astar((a_row, a_col), closest_food, ants)
+                    ants.food_list.remove(closest_food)
+                    self.mancare.append(closest_food)
+
                 elif dist >= DEFAULT_FOOD_DISTANCE:
                     unseen = ants.closest_unseen(a_row, a_col)
                     path = self.Astar((a_row, a_col), unseen, ants)
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
+                
+
                 if not (n_row, n_col) in destinations:
+                    if len(path) == 1:
+                        if path[0] in self.mancare:
+                            self.mancare.remove(path[0])
                     if path != []:
                         # Update dict of paths with new coords for ant.
                         self.paths[(n_row, n_col)] = path;
