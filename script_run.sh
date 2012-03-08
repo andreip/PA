@@ -18,6 +18,6 @@ chmod a+x $player1
 chmod a+x $player2
 
 ./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map "python $player1" $player2|java -jar $lin/visualizer.jar
-./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map1 "python $player1" $player2|java -jar $lin/visualizer.jar
-./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map2 "python $player1" $player2|java -jar $lin/visualizer.jar
-./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map3 "python $player1" $player2|java -jar $lin/visualizer.jar
+#./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map1 "python $player1" $player2|java -jar $lin/visualizer.jar
+#./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map2 "python $player1" $player2|java -jar $lin/visualizer.jar
+#./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 100 --map_file $map3 "python $player1" $player2|java -jar $lin/visualizer.jar

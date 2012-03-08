@@ -16,7 +16,7 @@ class MyBot:
     """
     ! \brief Botul pentru prima etapa, foloseste algoritmul A*.
 
-        Furnicile noastre, exploreaza cu A*, danduli-se o destinatie, care
+        iFurnicile noastre, exploreaza cu A*, danduli-se o destinatie, care
         poate fi una din urmatoarele momentan: mancare sau teritoriu
         necunoscut. Totodata, salvam detaliile pe care le vad furnicile la un
         moment dat (pamant, mancare).
@@ -150,10 +150,7 @@ class MyBot:
                 elif dist >= DEFAULT_FOOD_DISTANCE:
                     unseen = ants.closest_unseen(a_row, a_col)
                     path = self.Astar((a_row, a_col), unseen, ants)
-<<<<<<< HEAD
             
-=======
->>>>>>> 79e68e3ef272e5f1cbccb9db4fe827703a15dae1
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
