@@ -11,6 +11,7 @@ except ImportError:
     from sys import maxsize as maxint
 
 DEFAULT_FOOD_DISTANCE = 10
+DEFAULT_HILL_DISTANCE = 70
 
 class MyBot:
     """! \brief Botul pentru prima etapa, foloseste algoritmul A*.
@@ -35,6 +36,8 @@ class MyBot:
         self.logger.addHandler(hdlr)
         self.logger.setLevel(logging.INFO)
         self.mancare = []
+        self.drum_explorare = []
+        self.hills = None
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
         """! \brief Obtine estimarea costului; e optimista.
@@ -128,9 +131,12 @@ class MyBot:
         return None
 
     def do_turn(self, ants):
+        directions = AIM
         destinations = []
         path = []
         ants.landmap()
+        if (self.hills == None):
+            self.hills = ants.my_hills()
         for food in self.mancare:
             if food in ants.food_list:
                 ants.food_list.remove(food)
@@ -155,11 +161,19 @@ class MyBot:
 
                 elif dist >= DEFAULT_FOOD_DISTANCE:
                     unseen = ants.closest_unseen(a_row, a_col)
-                    path = self.Astar((a_row, a_col), unseen, ants)
+                    dist2 = self.heuristic_cost_estimate((a_row, a_col),
+                                                        unseen, ants)
+                    if ((a_row, a_col) in self.hills and
+                        dist2 >= DEFAULT_HILL_DISTANCE):
+                        if (drum_explorare == None):
+                            drum_explorare = self.Astar((a_row, a_col), unseen, ants)
+                        else:
+                            path = drum_explorare
+                    else:
+                        path = self.Astar((a_row, a_col), unseen, ants)
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
-                
 
                 if not (n_row, n_col) in destinations:
                     if len(path) == 1:
