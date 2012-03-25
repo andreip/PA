@@ -36,7 +36,7 @@ class MyBot:
         self.logger.addHandler(hdlr)
         self.logger.setLevel(logging.INFO)
         self.mancare = []
-        self.drum_explorare = []
+        self.drum_explorare = None
         self.hills = None
         self.trimit = 1;
 
@@ -174,7 +174,7 @@ class MyBot:
                 if closest_hill != None:
                     hill = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_hill, ants)
-                if closest_hill != None and hill <= 15:
+                if closest_hill != None and hill <= 10:
                     path = self.Astar((a_row, a_col), closest_hill, ants)
 
                 #elif ants_number >= 100 and closest_hill != None:
@@ -198,18 +198,32 @@ class MyBot:
                     dist2 = self.heuristic_cost_estimate((a_row, a_col),
                                                         unseen, ants)
                     if ((a_row, a_col) in self.hills and
-                        dist2 >= DEFAULT_HILL_DISTANCE):
-                        if (drum_explorare == None):
-                            drum_explorare = self.Astar((a_row, a_col), unseen, ants)
-                        elif ants_number >= 80 and closest_hill != None and self.trimit == 1:
-                            drum_explorare = self.Astar((a_row, a_col),
+                        dist2 >= 70):
+                        if (self.drum_explorare == None):
+                            self.drum_explorare = self.Astar((a_row, a_col), unseen, ants)
+                        elif ants_number >= 100 and closest_hill != None and self.trimit == 1:
+                            self.drum_explorare = self.Astar((a_row, a_col),
                                         cloest_hill, ants)
                             self.trimit = 0;
                         else:
                             path = drum_explorare
 
+                    #elif dist2 >= 100:
+                    #    directions = AIM.keys()
+                    #    shuffle(directions)
+                    #    for direction in directions:
+                    #        (n_row, n_col) = ants.destination(a_row, a_col,
+                    #        direction)
+                    #        if(not (n_row, n_col) in destinations and
+                    #                    ants.passble(n_row, n_col)):
+                    #            ants.issue_order((a_row, a_col, direction))
+                    #            destinations.append((n_row, n_col))
+                    #            break
+                    #        else:
+                    #            destinations.append((a_row, a_col))
                     else:
                         path = self.Astar((a_row, a_col), unseen, ants)
+            
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
