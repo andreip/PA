@@ -97,7 +97,7 @@ class Ants():
         self.ant_list = {}
         self.food_list = []
         self.dead_list = []
-        self.hill_list = {}
+        #self.hill_list = {}
 
         # update map and create new ant and food lists
         for line in data.split('\n'):

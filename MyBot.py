@@ -38,6 +38,7 @@ class MyBot:
         self.mancare = []
         self.drum_explorare = []
         self.hills = None
+        self.trimit = 1;
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
         """! \brief Obtine estimarea costului; e optimista.
@@ -142,16 +143,49 @@ class MyBot:
                 ants.food_list.remove(food)
         
         self.logger.info(ants.dead_list)
-        
+        ants_number = len(ants.my_ants())
+
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
+            path = []
             if self.paths.__contains__((a_row, a_col)):
                 path = self.paths.pop((a_row, a_col))    # Get path of this ant
-            else:
+                
                 closest_food = ants.closest_food(a_row, a_col)
-
                 dist = maxint
-                if closest_food != None:
+                if path[len(path) - 1] not in self.mancare:
+                
+                    if closest_food != None:
+                        dist = self.heuristic_cost_estimate((a_row, a_col),
+                                                        closest_food, ants)
+                    if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
+                        path = self.Astar((a_row, a_col), closest_food, ants)
+                        ants.food_list.remove(closest_food)
+                        self.mancare.append(closest_food)
+
+
+
+            else:
+
+                hill = maxint
+                closest_hill = ants.closest_enemy_hill(a_row, a_col)
+                
+
+                if closest_hill != None:
+                    hill = self.heuristic_cost_estimate((a_row, a_col),
+                                                        closest_hill, ants)
+                if closest_hill != None and hill <= 15:
+                    path = self.Astar((a_row, a_col), closest_hill, ants)
+
+                #elif ants_number >= 100 and closest_hill != None:
+                #    path = self.Astar((a_row, a_col), closest_hill, ants)
+                    
+
+                if path == []:
+                    closest_food = ants.closest_food(a_row, a_col)
+                
+                dist = maxint
+                if closest_food != None and path == []:
                     dist = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_food, ants)
                 if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
@@ -159,7 +193,7 @@ class MyBot:
                     ants.food_list.remove(closest_food)
                     self.mancare.append(closest_food)
 
-                elif dist >= DEFAULT_FOOD_DISTANCE:
+                elif dist >= DEFAULT_FOOD_DISTANCE and path == []:
                     unseen = ants.closest_unseen(a_row, a_col)
                     dist2 = self.heuristic_cost_estimate((a_row, a_col),
                                                         unseen, ants)
@@ -167,8 +201,13 @@ class MyBot:
                         dist2 >= DEFAULT_HILL_DISTANCE):
                         if (drum_explorare == None):
                             drum_explorare = self.Astar((a_row, a_col), unseen, ants)
+                        elif ants_number >= 80 and closest_hill != None and self.trimit == 1:
+                            drum_explorare = self.Astar((a_row, a_col),
+                                        cloest_hill, ants)
+                            self.trimit = 0;
                         else:
                             path = drum_explorare
+
                     else:
                         path = self.Astar((a_row, a_col), unseen, ants)
             if path != []:
