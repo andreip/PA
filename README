@@ -11,11 +11,27 @@ BasculAnts PA project.
 * Versionare: repository privat pe github
 
 * Rulare bot:
-    Rularea hartilor pentru etapa 1 se face prin script_run.sh. Pt rulare bot,
-    folositi python MyBot.py sau ./MyBot.py (dacă se rulează cu a doua variantă
-    trebuie să dați chmod a+x la MyBot.py). În fișierul script_run.sh am adunat
-    laolată toate comenzile care rulează cele 4 hărți pentru prima etapă, pentru
-    testarea botului.
+    Pt rulare bot, folositi python MyBot.py sau ./MyBot.py 
+    (dacă se rulează cu a doua variantă trebuie să dați chmod a+x
+    in prealabil la MyBot.py).
+
+* Îmbunătățiri față de prima etapă
+
+    - am optimizat explorarea către necunoscut (către closest_unseen)
+    - pentru a evita timeoutul care apărea la prima etapă am încercat
+    să trimitem mai multe furnici într-o direcție, cu același scop, 
+    astfel pentru o singură furnică vom calcula distanțele prin A*,
+    iar pentru cele care o urmează aceste calcule exhaustive dispar,
+    ele vor urma ”orbește” o cale gata calculată
+    - la fiecare pas verificăm dacă în jurul unei furnici a apărut o
+    mâncare pe care nu a văzut-o până atunci. Asta ne ajută să ne facem 
+    colonia mai puternică și mai mare
+    - dacă în raza vizuală a unei furnici apare mușuroiul advers îi ordonăm
+    să se ducă spre acela fără să se mai gândească la ce e în jur! Atenție,
+    nu se duce doar una singură, există posibilitatea ca unele să o urmeze,
+    așa cum am precizat la a doua liniuță (deci vor exista niște rute
+    descoperite cu ajutorul A* pe care merg mai multe furnici, nu se mai 
+    dispersează ca la prima etapă, nu mai merg chiar haotic către mâncare)
 
 * Abordarea algoritmică a etapei:
       Folosim A* pentru a trimite furnica spre o zona unde dorim noi. A*
@@ -118,23 +134,12 @@ class Ants:
       furnica.
 
 * Contribuțiile membrilor echipei:
-    Bărbulescu Mihai - a realizat documentația proiectului,
-    a adăugat posibilitatea de logging cu ajutorul căruia
-    s-au putut testa codul și depana erorile.
+   
+    Toate aceste optimizări au fost făcute în cadrul hackatonului organizat
+    de ROSEdu sâmbătă, 24 martie prin EG-uri, așa că membrii au lucrat 
+    împreună!
 
-    Petre Andrei - a implementat explorarea A* și a pus bazele
-    modului în care furnicile se deplasează pe hartă
-    (TODO - de adăugat ce tutoriale de pe net a folosit la
-    surse de inspirație)
-
-    Stana Iulian - a implementat funcțiile mapfilter și landmap
-    și implicit a adus îmbunătățiri la modul de explorare a
-    furnicilor (bazate pe functia visible din [c1])
-
-    Vlad Traistă-Popescu - a realizat unit-testing și a făcut
-    debugging pe fiecare commit al membrilor atunci când
-    programul nu rula cum trebuie.
-
+ 
 * Surse de inspirație:
     [s1] Cristian A. Giumale – Introducere în Analiza Algoritmilor,
          Polirom, 2004 (capitolul 7)
