@@ -208,20 +208,7 @@ class MyBot:
                         else:
                             path = drum_explorare
 
-                    #elif dist2 >= 100:
-                    #    directions = AIM.keys()
-                    #    shuffle(directions)
-                    #    for direction in directions:
-                    #        (n_row, n_col) = ants.destination(a_row, a_col,
-                    #        direction)
-                    #        if(not (n_row, n_col) in destinations and
-                    #                    ants.passble(n_row, n_col)):
-                    #            ants.issue_order((a_row, a_col, direction))
-                    #            destinations.append((n_row, n_col))
-                    #            break
-                    #        else:
-                    #            destinations.append((a_row, a_col))
-                    else:
+                   else:
                         path = self.Astar((a_row, a_col), unseen, ants)
             
             if path != []:
