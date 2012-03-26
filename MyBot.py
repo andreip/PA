@@ -208,7 +208,7 @@ class MyBot:
                         else:
                             path = drum_explorare
 
-                   else:
+                    else:
                         path = self.Astar((a_row, a_col), unseen, ants)
             
             if path != []:
