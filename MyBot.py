@@ -4,7 +4,7 @@ from ants import *
 from heapq import heappush, heappop
 from logging import *
 from logutils import *
-
+from collections import deque
 try:
     from sys import maxint
 except ImportError:
@@ -39,6 +39,7 @@ class MyBot:
         self.drum_explorare = None
         self.hills = None
         self.trimit = 1;
+        self.send_ants = []
 
     def heuristic_cost_estimate(self, (row1, col1), (row2, col2), ants):
         """! \brief Obtine estimarea costului; e optimista.
@@ -83,6 +84,22 @@ class MyBot:
             path.insert(0, current_node)
             current_node = came_from[current_node]
         return path
+
+    def reconstruct_path2(self, came_from, current_node):
+        """! \brief Construieste drumul din parinte in parinte, pana la nodul
+        initial (de la sfarsit spre inceput).
+
+            \param current_node - nodul final, unde ajunge calea construita; e
+            de forma unui tuplu (row, col).
+            \param came_from - contine parintii nodurilor ce formeaza calea
+            spre nodul final.
+        """
+        path = []
+        while current_node != None:
+            path.append(current_node[1])
+            current_node = came_from[current_node]
+        return path
+
 
     def Astar(self, start, goal, ants):
         """! \brief Intoarce o cale optima de la sursa la destinatie. 
@@ -131,98 +148,106 @@ class MyBot:
                     came_from[neighbor] = current
         return None
 
+    def bfs(self, foods, my_ants, ants):
+        
+        q = []
+        came_from = {}
+        closedset = {}
+        openset = []
+        count  = 0
+        
+        #pun in coada pozitia mancarii si mancarea.
+        for food in foods:
+            q.insert(0, (food, food, count))
+            openset += [(food, food)]
+            came_from [(food, food)]  = None
+        
+       # self.logger.info(q)
+        while q != [] and my_ants != []:
+            current = q.pop(0)
+            #daca mancarea a ajuns la furnica
+            #creez calea si sterg furnica si mancarea din liste.
+
+            if current[1] in my_ants:
+                path = self.reconstruct_path2(came_from, (current[0],
+                current[1]))
+                my_ants.remove(current[1])
+                foods.remove(current[0])
+                self.logger.info(current[0])
+                self.logger.info(my_ants)
+                self.logger.info(path)
+                path.pop(0)
+                self.paths[current[1]] = path
+                self.send_ants.append(current[1])
+                self.mancare.append(current[0])
+            #daca manacarea a fost deja tintita o sterg din lista.
+            if current[0] not in foods:
+                self.logger.info("nu e ")
+                continue
+            if current[2] >= 15:
+                self.logger.info("distanta prea mare")
+                continue
+
+            closedset[(current[0],current[1])] = True
+            #iau toti vecinii punctului curent.
+            
+            
+            for neighbor in self.neighbor_nodes(current[1], ants):
+                #verific daca se poate realiza miscarea.
+                if(not ants.passable(neighbor[0], neighbor[1]) or
+                closedset.__contains__(neighbor) or 
+                (ants.map[neighbor[0]][neighbor[1]] == UNSEEN)):
+                    continue
+                #verific daca mancarea asociata cu vecinul se mai afla in lista 
+                
+                if (current[0], neighbor) not in openset:
+                    openset += [(current[0], neighbor)]
+                    q.append((current[0], neighbor, current[2] + 1 ))
+                    came_from[(current[0], neighbor)] = (current[0],
+                    current[1])
+                
+        return None
     def do_turn(self, ants):
         directions = AIM
         destinations = []
         path = []
         ants.landmap()
-        if (self.hills == None):
-            self.hills = ants.my_hills()
+        self.logger.info("Round")
+        
+        my_ants = ants.my_ants()
+        foods = ants.food_list
+        self.logger.info(my_ants)
+        self.logger.info(self.send_ants)
+        for ant in self.send_ants:
+            if ant in my_ants:
+                my_ants.remove(ant)
         for food in self.mancare:
-            if food in ants.food_list:
-                ants.food_list.remove(food)
+            if food in foods:
+                foods.remove(food)
+
+        self.logger.info(my_ants)
+        if my_ants != []:
+            self.bfs(foods, my_ants, ants)
+        self.logger.info(self.send_ants)
         
         self.logger.info(ants.dead_list)
-        ants_number = len(ants.my_ants())
-
+        #ants_number = len(ants.my_ants())
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.
             path = []
             if self.paths.__contains__((a_row, a_col)):
                 path = self.paths.pop((a_row, a_col))    # Get path of this ant
-                
-                closest_food = ants.closest_food(a_row, a_col)
-                dist = maxint
-                if path[len(path) - 1] not in self.mancare:
-                
-                    if closest_food != None:
-                        dist = self.heuristic_cost_estimate((a_row, a_col),
-                                                        closest_food, ants)
-                    if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
-                        path = self.Astar((a_row, a_col), closest_food, ants)
-                        ants.food_list.remove(closest_food)
-                        self.mancare.append(closest_food)
-
-
+                self.logger.info("mama")
 
             else:
 
-                hill = maxint
-                closest_hill = ants.closest_enemy_hill(a_row, a_col)
-                
+                self.logger.info("astar")
 
-                if closest_hill != None:
-                    hill = self.heuristic_cost_estimate((a_row, a_col),
-                                                        closest_hill, ants)
-                if closest_hill != None and hill <= 10:
-                    path = self.Astar((a_row, a_col), closest_hill, ants)
 
-                #elif ants_number >= 100 and closest_hill != None:
-                #    path = self.Astar((a_row, a_col), closest_hill, ants)
-                    
 
-                if path == []:
-                    closest_food = ants.closest_food(a_row, a_col)
-                
-                dist = maxint
-                if closest_food != None and path == []:
-                    dist = self.heuristic_cost_estimate((a_row, a_col),
-                                                        closest_food, ants)
-                if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
-                    path = self.Astar((a_row, a_col), closest_food, ants)
-                    ants.food_list.remove(closest_food)
-                    self.mancare.append(closest_food)
+                unseen = ants.closest_unseen(a_row, a_col)
+                path = self.Astar((a_row, a_col), unseen, ants)
 
-                elif dist >= DEFAULT_FOOD_DISTANCE and path == []:
-                    unseen = ants.closest_unseen(a_row, a_col)
-                    dist2 = self.heuristic_cost_estimate((a_row, a_col),
-                                                        unseen, ants)
-                    if ((a_row, a_col) in self.hills and
-                        dist2 >= 70):
-                        if (self.drum_explorare == None):
-                            self.drum_explorare = self.Astar((a_row, a_col), unseen, ants)
-                        elif ants_number >= 100 and closest_hill != None and self.trimit == 1:
-                            self.drum_explorare = self.Astar((a_row, a_col),
-                                        cloest_hill, ants)
-                            self.trimit = 0;
-                        else:
-                            path = drum_explorare
-
-                    #elif dist2 >= 100:
-                    #    directions = AIM.keys()
-                    #    shuffle(directions)
-                    #    for direction in directions:
-                    #        (n_row, n_col) = ants.destination(a_row, a_col,
-                    #        direction)
-                    #        if(not (n_row, n_col) in destinations and
-                    #                    ants.passble(n_row, n_col)):
-                    #            ants.issue_order((a_row, a_col, direction))
-                    #            destinations.append((n_row, n_col))
-                    #            break
-                    #        else:
-                    #            destinations.append((a_row, a_col))
-                    else:
-                        path = self.Astar((a_row, a_col), unseen, ants)
             
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
@@ -234,7 +259,11 @@ class MyBot:
                             self.mancare.remove(path[0])
                     if path != []:
                         # Update dict of paths with new coords for ant.
-                        self.paths[(n_row, n_col)] = path;
+                        self.paths[(n_row, n_col)] = path
+                        self.send_ants.append((n_row, n_col))
+
+                    if (a_row, a_col) in self.send_ants:
+                        self.send_ants.remove((a_row, a_col))
                     ants.issue_order((a_row, a_col, direction[0]))
                     destinations.append((n_row, n_col))
                 else:
