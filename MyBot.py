@@ -163,16 +163,17 @@ class MyBot:
             came_from [(food, food)]  = None
         
        # self.logger.info(q)
-        while q != [] and my_ants != []:
+        while q != [] and my_ants != [] and foods !=[]:
             current = q.pop(0)
             #daca mancarea a ajuns la furnica
             #creez calea si sterg furnica si mancarea din liste.
-
-            if current[1] in my_ants:
+            if current[1] in my_ants and current[0] in foods:
                 path = self.reconstruct_path2(came_from, (current[0],
                 current[1]))
                 my_ants.remove(current[1])
+                self.logger.info("oare?")
                 foods.remove(current[0])
+                self.logger.info("oare?")
                 self.logger.info(current[0])
                 self.logger.info(my_ants)
                 self.logger.info(path)
@@ -226,7 +227,7 @@ class MyBot:
                 foods.remove(food)
 
         self.logger.info(my_ants)
-        if my_ants != []:
+        if my_ants != [] and foods!=[]:
             self.bfs(foods, my_ants, ants)
         self.logger.info(self.send_ants)
         
@@ -240,15 +241,23 @@ class MyBot:
                 self.logger.info("mama")
 
             else:
-
-                self.logger.info("astar")
-
-
-
-                unseen = ants.closest_unseen(a_row, a_col)
-                path = self.Astar((a_row, a_col), unseen, ants)
-
-            
+                self.logger.info("end")
+                directions = AIM.keys()
+                self.logger.info("end")
+                shuffle(directions)
+                for direction in directions:
+                    (n_row, n_col) = ants.destination(a_row, a_col,direction)
+                    self.logger.info(direction)
+                    if(not (n_row, n_col) in destinations ):
+                        self.logger.info(direction)
+                        ants.issue_order((a_row, a_col, direction))
+                        self.logger.info("end")
+                        destinations.append((n_row, n_col))
+                        break
+                    else:
+                        destinations.append((a_row, a_col))
+                        self.logger.info("end")
+                    
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
@@ -265,6 +274,7 @@ class MyBot:
                     if (a_row, a_col) in self.send_ants:
                         self.send_ants.remove((a_row, a_col))
                     ants.issue_order((a_row, a_col, direction[0]))
+                    self.logger.info(direction[0])
                     destinations.append((n_row, n_col))
                 else:
                     destinations.append((a_row, a_col))
