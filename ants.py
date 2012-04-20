@@ -54,7 +54,7 @@ class Ants():
         self.hill_list = {}
         self.map_filter = []
         self.land_map = None
-
+        self.land_count = None
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -81,7 +81,8 @@ class Ants():
                     self.spawnradius2 = int(tokens[1])
         self.map = [[UNSEEN for col in range(self.width)]
                     for row in range(self.height)]
-
+        self.land_count = [[0 for col in range(self.width)]
+                    for row in range(self.height)]
 
     def clean(self):
         for row in range(self.height):
