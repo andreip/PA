@@ -55,6 +55,7 @@ class Ants():
         self.map_filter = []
         self.land_map = None
         self.land_count = None
+        self.my_ants_list = None            # list with ants in this turn
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -93,7 +94,7 @@ class Ants():
 
     def update(self, data):
         # clear ant and food data
-        self.clean();
+        #self.clean();
         self.land_map = None
         self.ant_list = {}
         self.food_list = []
@@ -192,7 +193,7 @@ class Ants():
         """
         if self.map_filter == []:
             self.mapfilter()
-        for a_row, a_col in self.my_ants():
+        for a_row, a_col in self.my_ants_list:
             for f_row, f_col in self.map_filter:
                 if self.map[a_row + f_row][a_col + f_col] == UNSEEN:
                     self.map[a_row + f_row][a_col + f_col] = LAND

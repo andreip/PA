@@ -13,7 +13,6 @@ except ImportError:
 DEFAULT_FOOD_DISTANCE = 10
 DEFAULT_HILL_DISTANCE = 70
 
-
 class Ant:
     def __init__(self):
         self.dist = 0
@@ -21,10 +20,6 @@ class Ant:
         self.position = None
         self.next_position = None
         self.moved = False
-        
-
-
-
 
 class MyBot:
     """! \brief Botul pentru prima etapa, foloseste algoritmul A*.
@@ -53,6 +48,7 @@ class MyBot:
         self.hills = None
         self.trimit = 1;
         self.send_ants = []
+        self.turn_number = 0
 
         self.destinations = []
 
@@ -116,10 +112,9 @@ class MyBot:
             current_node = came_from[current_node]
         return path
 
-
     def Astar(self, start, goal, ants):
         """! \brief Intoarce o cale optima de la sursa la destinatie. 
-        
+
                 In prezent tine cont si de obstacole, dar trimite
                 furnicile doar dupa mancare sau puncte 
                 necunoscute
@@ -164,66 +159,39 @@ class MyBot:
                     came_from[neighbor] = current
         return None
 
-
-
-
-
-
-
-
-
-
-
     def move_ant(self, next_coord, ant, ants):
-                (n_row, n_col) = next_coord        # Get next move.
-                (a_row, a_col) = ant
-                direction = ants.direction(a_row, a_col, n_row, n_col)
+        (n_row, n_col) = next_coord        # Get next move.
+        (a_row, a_col) = ant
+        direction = ants.direction(a_row, a_col, n_row, n_col)
 
-                if not (n_row, n_col) in self.destinations:
-                    ants.issue_order((a_row, a_col, direction[0]))
-                    self.destinations.append((n_row, n_col))
-                    ants.land_count[n_row][n_col] +=1
-                else:
-                    self.destinations.append((a_row, a_col))
-                    ants.land_count[a_row][a_col] += 1
-
-
-
-
-
-
-
-
-
-
-
+        if not (n_row, n_col) in self.destinations:
+            ants.issue_order((a_row, a_col, direction[0]))
+            self.destinations.append((n_row, n_col))
+            ants.land_count[n_row][n_col] +=1
+        else:
+            self.destinations.append((a_row, a_col))
+            ants.land_count[a_row][a_col] += 1
 
     def bfs(self, foods, my_ants, ants):
-        
         q = []
         came_from = {}
         closedset = {}
-        openset = []
+        openset = {}
         count  = 0
         creat_ants = []
         #pun in coada pozitia mancarii si mancarea.
         for food in foods:
-            
             ant = Ant()
             ant.source = food
             ant.position = food
             ant.dist = 0
             self.logger.info("Formez furnici")
             q.insert(0, ant)
-            #q.insert(0, (food, food, count))
-            openset += [(food, food)]
-       # self.logger.info(q)
+            openset[(food, food)] = True
         while q != [] and my_ants != [] and foods !=[]:
             current = q.pop(0)
-            #self.logger.info(current.dist)
             #daca mancarea a ajuns la furnica
             #creez calea si sterg furnica si mancarea din liste.
-            #self.logger.info("point 1")
             if current.position in my_ants and current.source in foods:
                 self.logger.info("rebuild")
                 #path = self.reconstruct_path2(came_from, (current.source,
@@ -231,46 +199,34 @@ class MyBot:
                 #just move
                 self.move_ant(current.next_position, current.position, ants)
                 my_ants.remove(current.position)
-                #self.logger.info("rebuild1")
                 foods.remove(current.source)
                 self.send_ants.append(current.position)
                 self.mancare.append(current.source)
-                
+
                 #ant = Ant()
                 #ant.position = current.position
                 #ant.moved = True
                 creat_ants.append(current)
-            #daca manacarea a fost deja tintita o sterg din lista.
-            #self.logger.info("point 2")
             if current.source not in foods:
-                #self.logger.info("nu e")
                 continue
             if current.dist >= 10:
-                #self.logger.info("distanta prea mare")
                 continue
-            #self.logger.info("point 3")
             closedset[(current.source,current.position)] = True
-            #iau toti vecinii punctului curent.
-            #self.logger.info("neighbors 1") 
- 
+            # iau toti vecinii punctului curent.
             for neighbor in self.neighbor_nodes(current.position, ants):
-                #verific daca se poate realiza miscarea.
+                # verific daca se poate realiza miscarea.
                 if(not ants.passable(neighbor[0], neighbor[1]) or
-                closedset.__contains__(neighbor) or 
-                (ants.map[neighbor[0]][neighbor[1]] == UNSEEN)):
+                   closedset.__contains__(neighbor)):
                     continue
                 #verific daca mancarea asociata cu vecinul se mai afla in lista 
-                #self.logger.info("here")
                 if (current.source, neighbor) not in openset:
-                    #self.logger.info(neighbor)
-                    openset += [(current.source, neighbor)]
+                    openset[(current.source, neighbor)] = True
                     ant = Ant()
                     ant.source = current.source
                     ant.position = neighbor
                     ant.next_position = current.position
                     ant.moved = True
                     ant.dist = current.dist + 1
-                    #self.logger.info(ant.dist)
                     q.append(ant)
 
         for ant in my_ants:
@@ -280,14 +236,27 @@ class MyBot:
 
         return creat_ants
         #return None 
+
+    def initTurn(self, ants):
+        # save the ants list for this given turn
+        ants.my_ants_list = ants.my_ants()
+        #ants.landmap()
+        self.turn_number += 1
+
+        self.logger.info("turn #" + str(self.turn_number) + ":")
+        self.logger.info("my_ants: " + str(ants.my_ants_list))
+
     def do_turn(self, ants):
         path = []
         directions = AIM.keys()
-        ants.landmap()
         self.logger.info("Round")
-        
-        my_ants = ants.my_ants()
+        self.initTurn(ants)
+        self.logger.info("initTurn exit")
+
+        my_ants = ants.my_ants_list
+
         foods = ants.food_list
+        self.logger.info("food: " + str(ants.food_list))
         #for ant in self.send_ants:
         #    if ant in my_ants:
         #        my_ants.remove(ant)
@@ -298,11 +267,12 @@ class MyBot:
         #    creat_ant = Ant()
         #    creat_ant.source = ant
         #    my_ants.append(creat_ant)
+
         new_ants = []
-        if my_ants != [] and foods!=[]:
+        if my_ants != []:# and foods != []:
             new_ants = self.bfs(foods, my_ants, ants)
         #ants_number = len(ants.my_ants())
-        
+        self.logger.info("new ants: " + str(new_ants))
 
         for ant in new_ants:
             if not ant.moved:
