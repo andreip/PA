@@ -2,6 +2,7 @@
 import sys
 import traceback
 import random
+import time
 from math  import *
 
 try:
@@ -43,6 +44,16 @@ BEHIND = {'n': 's',
           'e': 'w',
           'w': 'e'}
 
+
+class Square():
+    def __init__(self):
+        self.center = None
+        self.vizitat = False
+        self.occupide = False
+        self.path = []
+        
+
+
 class Ants():
     def __init__(self):
         self.width = None
@@ -53,9 +64,12 @@ class Ants():
         self.dead_list = []
         self.hill_list = {}
         self.map_filter = []
-        self.land_map = None
+        self.time = None
         self.land_count = None
         self.my_ants_list = None            # list with ants in this turn
+
+        self.cluster = None
+
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -84,6 +98,31 @@ class Ants():
                     for row in range(self.height)]
         self.land_count = [[0 for col in range(self.width)]
                     for row in range(self.height)]
+        self.cluster = [[Square() for col in range(self.width)]
+                    for row in range(self.height)]
+
+        for col in range(self.width / 10 + 1) :
+            for row in range(self.height / 10 + 1):
+                point = Square()
+                point.center = ((col + 1)*10/2, (row + 1)*10/2)
+                self.cluster[col][row] = 0
+    
+    def where_i_am(self, coord):
+        return (coord[0]/10, coord[1]/10)
+
+
+    def is_visited(self, coord):
+        return self.cluster[coord[0]/10][coord[1]/10].vizitat
+
+    def set_visited(self, coord):
+        self.cluster[coord[0]/10][coord[1]/10].vizitat = True
+
+    def is_occupide(self, coord):
+        return self.cluster[coord[0]/10][coord[1]/10].occupide
+    
+    def set_path(self, coord, path):
+        self.cluster[coord[0]/10][coord[1]/10].path = path
+
 
     def clean(self):
         for row in range(self.height):
@@ -128,7 +167,7 @@ class Ants():
                     elif tokens[0] == 'h':
                         owner = int(tokens[3])
                         self.hill_list[(row, col)] = owner
-
+                        self.map[row][col] = MY_ANT
     def issue_order(self, order):
         sys.stdout.write('o %s %s %s\n' % (order[0], order[1], order[2]))
         sys.stdout.flush()
@@ -258,6 +297,19 @@ class Ants():
                     min_dist = dist
                     closest_ant = ant[0]
         return closest_ant
+
+    def closest_my_hill(self, row1, col1, filter = None):
+        #find the closest enemy hill from this row/col
+        min_dist = maxint
+        closest_hill = None
+        for hill in self.my_hills():
+            #closest_hill = hill
+            dist = self.distance(row1, col1, hill[0], hill[1])
+            if dist < min_dist:
+                min_dist = dist
+                closest_hill = hill
+        return closest_hill
+        
 
     def closest_enemy_hill(self, row1, col1, filter = None):
         #find the closest enemy hill from this row/col

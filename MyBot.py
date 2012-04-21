@@ -279,6 +279,17 @@ class MyBot:
                 self.logger.info("doare")
                 minim = 1000
                 next_node = None
+                self.logger.info(ant.source)
+                self.logger.info(ants.is_visited(ant.source))
+                if not ants.is_visited(ant.source):
+                    ants.set_visited(ant.source)
+                    self.logger.info("print")
+                    closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
+                    self.logger.info(ants.my_hills())
+                    self.logger.info(ant.source)
+                    self.logger.info(closest_my)
+                    path = Astar(closest_my, ant.source, ants) 
+                    self.logger.info(path)
                 for neighbor in self.neighbor_nodes(ant.source, ants):
                     if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
                         minim = ants.land_count[neighbor[0]][neighbor[1]]
@@ -296,8 +307,7 @@ class MyBot:
                     self.logger.info("here")
                     (n_row, n_col) = ants.destination(a_row, a_col,direction)
                     
-                    self.logger.info(direction)
-                    if(not (n_row, n_col) in self.destinations) and ants.passable(n_row, n_col):
+                    self.logger.info    if(not (n_row, n_col) in self.destinations) and ants.passable(n_row, n_col):
 
                         self.logger.info(direction)
                         ants.issue_order((a_row, a_col, direction))
