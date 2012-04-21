@@ -105,7 +105,9 @@ class Ants():
             for row in range(self.height / 10 + 1):
                 point = Square()
                 point.center = ((col + 1)*10/2, (row + 1)*10/2)
-                self.cluster[col][row] = 0
+                #point.vizitat = False
+                #point.occupide = False
+                self.cluster[col][row] = point
     
     def where_i_am(self, coord):
         return (coord[0]/10, coord[1]/10)

@@ -288,7 +288,7 @@ class MyBot:
                     self.logger.info(ants.my_hills())
                     self.logger.info(ant.source)
                     self.logger.info(closest_my)
-                    path = Astar(closest_my, ant.source, ants) 
+                    path = self.Astar(closest_my, ant.source, ants) 
                     self.logger.info(path)
                 for neighbor in self.neighbor_nodes(ant.source, ants):
                     if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
