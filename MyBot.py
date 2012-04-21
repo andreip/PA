@@ -12,6 +12,7 @@ except ImportError:
 
 DEFAULT_FOOD_DISTANCE = 10
 DEFAULT_HILL_DISTANCE = 70
+DEFAULT_MINIM = 10000
 
 class Ant:
     def __init__(self):
@@ -167,10 +168,10 @@ class MyBot:
         if not (n_row, n_col) in self.destinations:
             ants.issue_order((a_row, a_col, direction[0]))
             self.destinations.append((n_row, n_col))
-            ants.land_count[n_row][n_col] +=1
+            ants.map_weight[n_row][n_col] +=1
         else:
             self.destinations.append((a_row, a_col))
-            ants.land_count[a_row][a_col] += 1
+            ants.map_weight[a_row][a_col] += 1
 
     def bfs(self, foods, my_ants, ants):
         q = []
@@ -194,18 +195,12 @@ class MyBot:
             #creez calea si sterg furnica si mancarea din liste.
             if current.position in my_ants and current.source in foods:
                 self.logger.info("rebuild")
-                #path = self.reconstruct_path2(came_from, (current.source,
-                #current.position))
                 #just move
                 self.move_ant(current.next_position, current.position, ants)
                 my_ants.remove(current.position)
                 foods.remove(current.source)
                 self.send_ants.append(current.position)
                 self.mancare.append(current.source)
-
-                #ant = Ant()
-                #ant.position = current.position
-                #ant.moved = True
                 creat_ants.append(current)
             if current.source not in foods:
                 continue
@@ -228,14 +223,11 @@ class MyBot:
                     ant.moved = True
                     ant.dist = current.dist + 1
                     q.append(ant)
-
         for ant in my_ants:
             creat_ant = Ant()
             creat_ant.source = ant
             creat_ants.append(creat_ant)
-
         return creat_ants
-        #return None 
 
     def initTurn(self, ants):
         # save the ants list for this given turn
@@ -248,6 +240,7 @@ class MyBot:
 
     def do_turn(self, ants):
         path = []
+        self.destinations = []
         directions = AIM.keys()
         self.logger.info("Round")
         self.initTurn(ants)
@@ -257,34 +250,21 @@ class MyBot:
 
         foods = ants.food_list
         self.logger.info("food: " + str(ants.food_list))
-        #for ant in self.send_ants:
-        #    if ant in my_ants:
-        #        my_ants.remove(ant)
-        #for food in self.mancare:
-        #    if food in foods:
-        #        foods.remove(food)
-        #for ant in ants.my_ants():
-        #    creat_ant = Ant()
-        #    creat_ant.source = ant
-        #    my_ants.append(creat_ant)
 
         new_ants = []
-        if my_ants != []:# and foods != []:
+        if my_ants != []:
             new_ants = self.bfs(foods, my_ants, ants)
-        #ants_number = len(ants.my_ants())
         self.logger.info("new ants: " + str(new_ants))
 
         for ant in new_ants:
             if not ant.moved:
                 self.logger.info("doare")
-                minim = 1000
+                minim = DEFAULT_MINIM
                 next_node = None
                 for neighbor in self.neighbor_nodes(ant.source, ants):
-                    if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
-                        minim = ants.land_count[neighbor[0]][neighbor[1]]
+                    if ants.map_weight[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
+                        minim = ants.map_weight[neighbor[0]][neighbor[1]]
                         next_node = neighbor
-
-
                 self.move_ant(next_node, ant.source, ants)
                 """
                 self.logger.info(ant.moved)
@@ -306,7 +286,6 @@ class MyBot:
                     else:
                         self.destinations.append((a_row, a_col))
                 """ 
-        self.destinations = []
         """
         for a_row, a_col in ants.my_ants():
             # If ant has a path to follow, follow it.

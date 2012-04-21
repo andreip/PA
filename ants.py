@@ -4,6 +4,9 @@ import traceback
 import random
 from math  import *
 
+from logging import *
+from logutils import *
+
 try:
     from sys import maxint
 except ImportError:
@@ -18,6 +21,8 @@ WATER = -4
 UNSEEN = -5
 HILL = -6
 WASSEEN = -7
+
+WEIGHT_WATER = 1000
 
 PLAYER_ANT = 'abcdefghij'
 HILL_ANT = string = 'ABCDEFGHIJ'
@@ -48,14 +53,21 @@ class Ants():
         self.width = None
         self.height = None
         self.map = None
+        self.map_weight = None
         self.ant_list = {}
         self.food_list = []
         self.dead_list = []
         self.hill_list = {}
         self.map_filter = []
         self.land_map = None
-        self.land_count = None
         self.my_ants_list = None            # list with ants in this turn
+
+        self.logger = logging.getLogger('myapp')
+        hdlr = logging.FileHandler('logFile.log')
+        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+        hdlr.setFormatter(formatter)
+        self.logger.addHandler(hdlr)
+        self.logger.setLevel(logging.INFO)
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -82,7 +94,7 @@ class Ants():
                     self.spawnradius2 = int(tokens[1])
         self.map = [[UNSEEN for col in range(self.width)]
                     for row in range(self.height)]
-        self.land_count = [[0 for col in range(self.width)]
+        self.map_weight = [[0 for col in range(self.width)]
                     for row in range(self.height)]
 
     def clean(self):
@@ -92,9 +104,21 @@ class Ants():
                     self.map[row][col] = UNSEEN
         return None
 
+    def update_weights(self, row, col, weight, dist):
+        for i in range(row - dist, row + dist + 1):
+            for j in range(col - dist, col + dist + 1):
+                if i > 0:
+                    i %= self.height
+                elif i < 0:
+                    i += self.height
+                if j > 0:
+                    j %= self.width
+                elif j < 0:
+                    j += self.width
+                self.map_weight[i][j] = weight
+
     def update(self, data):
         # clear ant and food data
-        #self.clean();
         self.land_map = None
         self.ant_list = {}
         self.food_list = []
@@ -118,6 +142,7 @@ class Ants():
                         self.food_list.append((row, col))
                     elif tokens[0] == 'w':
                         self.map[row][col] = WATER
+                        self.update_weights(row, col, WEIGHT_WATER, 3)
                     elif tokens[0] == 'd':
                         # food could spawn on a spot where an ant just died
                         # don't overwrite the space unless it is land
