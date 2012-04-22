@@ -185,7 +185,7 @@ class MyBot:
             ant.source = food
             ant.position = food
             ant.dist = 0
-            self.logger.info("Formez furnici")
+            #self.logger.info("Formez furnici")
             q.insert(0, ant)
             openset[(food, food)] = True
         while q != [] and my_ants != [] and foods !=[]:
@@ -193,7 +193,7 @@ class MyBot:
             #daca mancarea a ajuns la furnica
             #creez calea si sterg furnica si mancarea din liste.
             if current.position in my_ants and current.source in foods:
-                self.logger.info("rebuild")
+                #self.logger.info("rebuild")
                 #path = self.reconstruct_path2(came_from, (current.source,
                 #current.position))
                 #just move
@@ -252,11 +252,11 @@ class MyBot:
         self.logger.info("Round")
         self.initTurn(ants)
         self.logger.info("initTurn exit")
-
+        border = ants.find_cluster_border()
         my_ants = ants.my_ants_list
 
         foods = ants.food_list
-        self.logger.info("food: " + str(ants.food_list))
+        #self.logger.info("food: " + str(ants.food_list))
         #for ant in self.send_ants:
         #    if ant in my_ants:
         #        my_ants.remove(ant)
@@ -272,36 +272,38 @@ class MyBot:
         if my_ants != []:# and foods != []:
             new_ants = self.bfs(foods, my_ants, ants)
         #ants_number = len(ants.my_ants())
-        self.logger.info("new ants: " + str(new_ants))
+        #self.logger.info("new ants: " + str(new_ants))
 
         for ant in new_ants:
             if not ant.moved:
-                self.logger.info("doare")
-                minim = 1000
-                next_node = None
-                self.logger.info(ant.source)
-                self.logger.info(ants.is_visited(ant.source))
-                if not ants.is_visited(ant.source):
-                    ants.set_visited(ant.source)
-                    self.logger.info("print")
-                    self.logger.info("Unde sunt:" + str(ant.source))
-                    self.logger.info("Vecinii sunt:")
-                    self.logger.info(ants.cluster_neighbor(ants.where_i_am(ant.source)))
+                    if ant.source in ants.my_hills() and border != []:
+                        self.logger.info("doare")
+                        self.logger.info(ant.source)
+                        next_coord = ants.get_next_coord(ant.source, border)
+                        self.logger.info("----> next")
+                        self.logger.info(next_coord)
+                    #self.move_ant(next_node.pop(0), ant.source, ants)
                     
-                    closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
-                    self.logger.info("Centru cluster:")
-                    self.logger.info(ants.get_center(ant.source))
- 
-                    path = self.Astar(closest_my, ant.source, ants) 
-                    self.logger.info(path)
-                for neighbor in self.neighbor_nodes(ant.source, ants):
-                    if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
-                        minim = ants.land_count[neighbor[0]][neighbor[1]]
-                        next_node = neighbor
+                #else:
+                    minim = 1000
+                    next_node = None
+                    if not ants.is_visited(ant.source):
+                        ants.set_visited(ant.source)
+                        closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
+                        self.logger.info("Centru cluster:")
+                        self.logger.info(ants.get_center(ant.source))
+                         
+                        path = self.Astar(closest_my, ant.source, ants) 
+                        ants.set_path(ant.source , path)
+                        ants.set_source(ant.source, closest_my)
+                    for neighbor in self.neighbor_nodes(ant.source, ants):
+                        if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
+                            minim = ants.land_count[neighbor[0]][neighbor[1]]
+                            next_node = neighbor
 
 
-                self.move_ant(next_node, ant.source, ants)
-                """
+                    self.move_ant(next_node, ant.source, ants)
+                    """
                 self.logger.info(ant.moved)
                 (a_row, a_col) = ant.source
                 directions = AIM.keys()
@@ -319,7 +321,7 @@ class MyBot:
                         break
                     else:
                         self.destinations.append((a_row, a_col))
-                """ 
+                    """ 
         self.destinations = []
         """
         for a_row, a_col in ants.my_ants():

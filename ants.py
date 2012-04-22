@@ -51,7 +51,7 @@ class Square():
         self.vizitat = False
         self.occupide = False
         self.path = []
-        
+        self.source = None
 
 
 class Ants():
@@ -67,7 +67,7 @@ class Ants():
         self.time = None
         self.land_count = None
         self.my_ants_list = None            # list with ants in this turn
-
+        self.cluster_count = None
         self.cluster = None
         self.cwidth = None
         self.cheight = None
@@ -104,7 +104,8 @@ class Ants():
 
         self.cluster = [[Square() for col in range(self.cwidth)]
                     for row in range(self.cheight)]
-        
+        self.cluster_count =  [[0 for col in range(self.cwidth)]
+                    for row in range(self.cheight)]
         for col in range(self.cwidth) :
             for row in range(self.cheight):
                 point = Square()
@@ -133,11 +134,33 @@ class Ants():
         return l
 
 
+    def find_cluster_border(self):
+        border = []
+        for row in range(self.cheight - 1):
+            for col in range(self.cwidth - 1):
+                if (self.cluster[row][col].vizitat and not
+                    self.cluster[row][col+1].vizitat) or (
+                    self.cluster[row][col].vizitat and not
+                    self.cluster[row][col-1].vizitat):
+                        border.append((row,col))
+        return border
 
+    def get_next_coord(self, what_hill, border):
+        minim = 1000
+        next_coord = None
+        for coord in border:
+            pond = self.cluster_count[coord[0]][coord[1]] 
+            if pond < minim and self.cluster[coord[0]][coord[1]].path !=[] and what_hill == self.cluster[coord[0]][coord[1]].source:
+                minim = pond
+                next_coord = coord
+        if next_coord == None:
+            return next_coord
+        else:
+            return self.cluster[next_coord[0]][next_coord[1]].path
 
     def where_i_am(self, coord):
         return (coord[0]/10, coord[1]/10)
-
+    
     def get_center(self, coord):
         return self.cluster[coord[0]/10][coord[1]/10].center
 
@@ -153,6 +176,8 @@ class Ants():
     def set_path(self, coord, path):
         self.cluster[coord[0]/10][coord[1]/10].path = path
 
+    def set_source(self, coord, hill):
+        self.cluster[coord[0]/10][coord[1]/10].source = hill
 
     def clean(self):
         for row in range(self.height):
