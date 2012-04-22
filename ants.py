@@ -139,9 +139,9 @@ class Ants():
         for row in range(self.cheight - 1):
             for col in range(self.cwidth - 1):
                 if (self.cluster[row][col].vizitat and not
-                    self.cluster[row][col+1].vizitat) or (
+                    self.cluster[row][(col+1)%self.cwidth].vizitat) or (
                     self.cluster[row][col].vizitat and not
-                    self.cluster[row][col-1].vizitat):
+                    self.cluster[row][(col-1)%self.cwidth].vizitat):
                         border.append((row,col))
         return border
 
@@ -156,7 +156,9 @@ class Ants():
         if next_coord == None:
             return next_coord
         else:
+            self.cluster_count[next_coord[0]][next_coord[1]] +=1
             return self.cluster[next_coord[0]][next_coord[1]].path
+
 
     def where_i_am(self, coord):
         return (coord[0]/10, coord[1]/10)

@@ -276,15 +276,21 @@ class MyBot:
 
         for ant in new_ants:
             if not ant.moved:
-                    if ant.source in ants.my_hills() and border != []:
+                next_coord = None
+                path = []
+                if ant.source in ants.my_hills() and border != []:
                         self.logger.info("doare")
                         self.logger.info(ant.source)
                         next_coord = ants.get_next_coord(ant.source, border)
                         self.logger.info("----> next")
                         self.logger.info(next_coord)
-                    #self.move_ant(next_node.pop(0), ant.source, ants)
-                    
-                #else:
+                 
+                if next_coord != None:
+                    path = next_coord
+
+                elif self.paths.__contains__(ant.source):
+                    path = self.paths.pop(ant.source)
+                else:
                     minim = 1000
                     next_node = None
                     if not ants.is_visited(ant.source):
@@ -293,8 +299,8 @@ class MyBot:
                         self.logger.info("Centru cluster:")
                         self.logger.info(ants.get_center(ant.source))
                          
-                        path = self.Astar(closest_my, ant.source, ants) 
-                        ants.set_path(ant.source , path)
+                        path_square = self.Astar(closest_my, ant.source, ants) 
+                        ants.set_path(ant.source , path_square)
                         ants.set_source(ant.source, closest_my)
                     for neighbor in self.neighbor_nodes(ant.source, ants):
                         if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
@@ -303,6 +309,25 @@ class MyBot:
 
 
                     self.move_ant(next_node, ant.source, ants)
+                self.logger.info("here")
+                if path != []:
+                    (n_row, n_col) = path.pop(0)        # Get next move.
+                    direction = ants.direction(ant.source[0], ant.source[1], n_row, n_col)
+
+                    if not (n_row, n_col) in destinations:
+                        if path != []:
+                            # Update dict of paths with new coords for ant.
+                            self.paths[(n_row, n_col)] = path;
+                        ants.issue_order((ant.source[0], ant.source[1], direction[0]))
+                        destinations.append((n_row, n_col))
+                    else:
+                        destinations.append(ant.source)
+
+
+               
+               
+               
+               
                     """
                 self.logger.info(ant.moved)
                 (a_row, a_col) = ant.source
