@@ -195,6 +195,15 @@ class MyBot:
                 self.move_ant(current.next_position, current.position, ants)
                 my_ants.remove(current.position)
                 foods.remove(current.source)
+                if not ants.is_visited(ant.source):
+                        ants.set_visited(ant.source)
+                        closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
+                        self.logger.info("Centru cluster:")
+                        self.logger.info(ants.get_center(ant.source))
+
+                        path_square = self.Astar(closest_my, ant.source, ants) 
+                        ants.set_path(ant.source , path_square)
+                        ants.set_source(ant.source, closest_my)
                 creat_ants.append(current)
             if current.source not in foods:
                 continue
@@ -284,14 +293,14 @@ class MyBot:
                 if path != []:
                     (n_row, n_col) = path.pop(0)        # Get next move.
                     direction = ants.direction(ant.source[0], ant.source[1], n_row, n_col)
-                    if not (n_row, n_col) in destinations:
+                    if not (n_row, n_col) in self.destinations:
                         if path != []:
                             # Update dict of paths with new coords for ant.
                             self.paths[(n_row, n_col)] = path;
                         ants.issue_order((ant.source[0], ant.source[1], direction[0]))
-                        destinations.append((n_row, n_col))
+                        self.destinations.append((n_row, n_col))
                     else:
-                        destinations.append(ant.source)
+                        self.destinations.append(ant.source)
 
 if __name__ == '__main__':
     try:
