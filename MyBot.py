@@ -4,6 +4,7 @@ from ants import *
 from heapq import heappush, heappop
 from logging import *
 from logutils import *
+from time import time
 
 try:
     from sys import maxint
@@ -107,9 +108,14 @@ class MyBot:
         g_score = 0
         h_score = self.heuristic_cost_estimate(start, goal, ants)
         f_score = g_score + h_score
+        stop_ceas = 0
+        alarm = 0
+        turntime = ants.turntime * 10**(-3)
 
         came_from[start] = None
         heappush(heap, (f_score, start))    # Use heap to store by f_score.
+
+        start_ceas = time()
 
         while openset != []:
             _, current = heappop(heap)
@@ -117,7 +123,19 @@ class MyBot:
                 return self.reconstruct_path(came_from, goal)
             closedset[current] = True       # True that current is in dict
 
+            stop_ceas = time()
+
+            if( (stop_ceas - start_ceas) >= turntime):
+                alarm = 1
+                return None
+
             for neighbor in self.neighbor_nodes(current, ants):
+
+                stop_ceas = time()
+                if( (stop_ceas - start_ceas) >= turntime):
+                    alarm = 1
+                    return None
+
                 if (not ants.passable(neighbor[0], neighbor[1]) or
                 closedset.__contains__(neighbor)):
                     continue
@@ -130,11 +148,18 @@ class MyBot:
                     came_from[neighbor] = current
         return None
 
-    def do_turn(self, ants):
+    def do_turn(self, ants, start_ceas):
         directions = AIM
         destinations = []
         path = []
         ants.landmap()
+        stop_ceas = 0
+        nenorocire = 0
+        delay = 0.40 * ants.turntime * 10**(-3) #convert from ms to s
+        self.logger.info(delay)
+        self.logger.info(ants.turntime)
+        loopctr = 0
+
         if (self.hills == None):
             self.hills = ants.my_hills()
         for food in self.mancare:
@@ -144,7 +169,16 @@ class MyBot:
         self.logger.info(ants.dead_list)
         
         for a_row, a_col in ants.my_ants():
-            # If ant has a path to follow, follow it.
+            # If ant has a path to follow, follow
+            
+            #Dupa a cata furnica se blocheaza totul?
+            loopctr = loopctr + 1
+            
+            stop_ceas = time()
+            if( (stop_ceas - start_ceas) >= delay ):
+                nenorocire = 1
+                break
+
             if self.paths.__contains__((a_row, a_col)):
                 path = self.paths.pop((a_row, a_col))    # Get path of this ant
             else:
@@ -155,7 +189,18 @@ class MyBot:
                     dist = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_food, ants)
                 if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
+                    stop_ceas = time()
+                    
+                    if( (stop_ceas - start_ceas) >= delay ):
+                        nenorocire = 1
+                        break
+                    
                     path = self.Astar((a_row, a_col), closest_food, ants)
+                    stop_ceas = time()
+                    if( (stop_ceas - start_ceas) >= delay ):
+                        nenorocire = 1
+                        break
+
                     ants.food_list.remove(closest_food)
                     self.mancare.append(closest_food)
 
@@ -166,12 +211,56 @@ class MyBot:
                     if ((a_row, a_col) in self.hills and
                         dist2 >= DEFAULT_HILL_DISTANCE):
                         if (drum_explorare == None):
+                            stop_ceas = time()
+                            if( (stop_ceas - start_ceas) >= delay ):
+                                nenorocire = 1
+                                break 
                             drum_explorare = self.Astar((a_row, a_col), unseen, ants)
+                            stop_ceas = time()
+                            if( (stop_ceas - start_ceas) >= delay ):
+                                nenorocire = 1
+                                break
+
                         else:
                             path = drum_explorare
                     else:
+                        stop_ceas = time()
+                        if( (stop_ceas - start_ceas) >= delay ):
+                            nenorocire = 1
+                            break
+
                         path = self.Astar((a_row, a_col), unseen, ants)
-            if path != []:
+
+                        stop_ceas = time()
+                        if( (stop_ceas - start_ceas) >= delay ):
+                            nenorocire = 1
+                            break
+           
+           #Daca a avut loc un timeout mutam toate furnicile nord
+           #In loc de acest cod poate fi pusa mutarea random sau 
+           #cautarea path-urilor cu BFS 
+            if(nenorocire == 1):
+                self.logger.info("Furnica sabotoare")
+                self.logger.info(loopctr)
+
+                destinations = []
+                for a_row, a_col in ants.my_ants():
+                # try all directions randomly until one is passable and not occupied
+                    directions = (-1, 0)
+                    for direction in directions:
+                        (n_row, n_col) = ants.destination(a_row, a_col, direction)
+                        if (not (n_row, n_col) in destinations and
+                            ants.passable(n_row, n_col)):
+                                ants.issue_order((a_row, a_col, direction))
+                                destinations.append((n_row, n_col))
+                                break
+                        else:
+                            destinations.append((a_row, a_col))
+
+
+            #Ce era si inainte, doar ca nenorocirea (timeout-ul) se prespune
+            # ca n-a avut loc
+            if path != [] and nenorocire == 0:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
 
@@ -186,6 +275,7 @@ class MyBot:
                     destinations.append((n_row, n_col))
                 else:
                     destinations.append((a_row, a_col))
+           
 
 if __name__ == '__main__':
     try:

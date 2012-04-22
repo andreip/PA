@@ -3,6 +3,7 @@ import sys
 import traceback
 import random
 from math  import *
+from time import time
 
 try:
     from sys import maxint
@@ -54,6 +55,7 @@ class Ants():
         self.hill_list = {}
         self.map_filter = []
         self.land_map = None
+        self.time = time()
 
 
     def setup(self, data):
@@ -90,6 +92,13 @@ class Ants():
                     self.map[row][col] = UNSEEN
         return None
 
+    def is_time_left(self):
+        stopwatch = time()
+        alarm = True
+        if( (stopwatch - self.time) < self.turntime):
+            alarm = False
+        return alarm
+
     def update(self, data):
         # clear ant and food data
         self.clean();
@@ -98,6 +107,7 @@ class Ants():
         self.food_list = []
         self.dead_list = []
         self.hill_list = {}
+        self.time = time()
 
         # update map and create new ant and food lists
         for line in data.split('\n'):
@@ -301,8 +311,10 @@ class Ants():
                     ants.finish_turn()
                     map_data = ''
                 elif current_line.lower() == 'go':
+                    start_ceas = time()
                     ants.update(map_data)
-                    bot.do_turn(ants)
+                    start_ceas = time()
+                    bot.do_turn(ants, start_ceas)
                     ants.finish_turn()
                     map_data = ''
                 else:
