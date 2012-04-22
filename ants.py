@@ -5,6 +5,9 @@ import random
 import time
 from math  import *
 
+from logging import *
+from logutils import *
+
 try:
     from sys import maxint
 except ImportError:
@@ -44,7 +47,6 @@ BEHIND = {'n': 's',
           'e': 'w',
           'w': 'e'}
 
-
 class Square():
     def __init__(self):
         self.center = None
@@ -53,9 +55,15 @@ class Square():
         self.path = []
         self.source = None
 
-
 class Ants():
     def __init__(self):
+        self.logger = logging.getLogger('myapp')
+        hdlr = logging.FileHandler('logFile.log')
+        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+        hdlr.setFormatter(formatter)
+        self.logger.addHandler(hdlr)
+        self.logger.setLevel(logging.INFO)
+
         self.width = None
         self.height = None
         self.map = None
@@ -114,7 +122,6 @@ class Ants():
                 #point.occupide = False
                 self.cluster[row][col]= point
 
-   
     def cluster_neighbor(self, current):
         """! \brief Returneaza toti vecinii nodului curent.
 
@@ -130,9 +137,7 @@ class Ants():
         l.append(((current[0] + 1) % self.cheight, (current[1] + 1) % self.cwidth ))
         l.append(((current[0] + 1) % self.cheight, (current[1] - 1) % self.cwidth ))
         l.append(((current[0] - 1) % self.cheight, (current[1] + 1) % self.cwidth ))
-        
         return l
-
 
     def find_cluster_border(self):
         border = []
@@ -150,7 +155,9 @@ class Ants():
         next_coord = None
         for coord in border:
             pond = self.cluster_count[coord[0]][coord[1]] 
-            if pond < minim and self.cluster[coord[0]][coord[1]].path !=[] and what_hill == self.cluster[coord[0]][coord[1]].source:
+            if (pond < minim and
+                self.cluster[coord[0]][coord[1]].path !=[] and
+                what_hill == self.cluster[coord[0]][coord[1]].source):
                 minim = pond
                 next_coord = coord
         if next_coord == None:
@@ -159,10 +166,9 @@ class Ants():
             self.cluster_count[next_coord[0]][next_coord[1]] +=1
             return self.cluster[next_coord[0]][next_coord[1]].path
 
-
     def where_i_am(self, coord):
         return (coord[0]/10, coord[1]/10)
-    
+
     def get_center(self, coord):
         return self.cluster[coord[0]/10][coord[1]/10].center
 
@@ -174,7 +180,7 @@ class Ants():
 
     def is_occupide(self, coord):
         return self.cluster[coord[0]/10][coord[1]/10].occupide
-    
+
     def set_path(self, coord, path):
         self.cluster[coord[0]/10][coord[1]/10].path = path
 
@@ -356,7 +362,7 @@ class Ants():
         return closest_ant
 
     def closest_my_hill(self, row1, col1, filter = None):
-        #find the closest enemy hill from this row/col
+        #find my closest hill from this row/col
         min_dist = maxint
         closest_hill = None
         for hill in self.my_hills():
@@ -366,7 +372,6 @@ class Ants():
                 min_dist = dist
                 closest_hill = hill
         return closest_hill
-        
 
     def closest_enemy_hill(self, row1, col1, filter = None):
         #find the closest enemy hill from this row/col

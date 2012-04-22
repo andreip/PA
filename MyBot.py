@@ -43,11 +43,9 @@ class MyBot:
         hdlr.setFormatter(formatter)
         self.logger.addHandler(hdlr)
         self.logger.setLevel(logging.INFO)
-        self.mancare = []
         self.drum_explorare = None
         self.hills = None
         self.trimit = 1;
-        self.send_ants = []
         self.turn_number = 0
 
         self.destinations = []
@@ -179,7 +177,7 @@ class MyBot:
         openset = {}
         count  = 0
         creat_ants = []
-        #pun in coada pozitia mancarii si mancarea.
+        # pun in coada pozitia mancarii si mancarea.
         for food in foods:
             ant = Ant()
             ant.source = food
@@ -190,22 +188,13 @@ class MyBot:
             openset[(food, food)] = True
         while q != [] and my_ants != [] and foods !=[]:
             current = q.pop(0)
-            #daca mancarea a ajuns la furnica
-            #creez calea si sterg furnica si mancarea din liste.
+            # daca mancarea a ajuns la furnica
+            # creez calea si sterg furnica si mancarea din liste.
             if current.position in my_ants and current.source in foods:
-                #self.logger.info("rebuild")
-                #path = self.reconstruct_path2(came_from, (current.source,
-                #current.position))
                 #just move
                 self.move_ant(current.next_position, current.position, ants)
                 my_ants.remove(current.position)
                 foods.remove(current.source)
-                self.send_ants.append(current.position)
-                self.mancare.append(current.source)
-
-                #ant = Ant()
-                #ant.position = current.position
-                #ant.moved = True
                 creat_ants.append(current)
             if current.source not in foods:
                 continue
@@ -218,7 +207,7 @@ class MyBot:
                 if(not ants.passable(neighbor[0], neighbor[1]) or
                    closedset.__contains__(neighbor)):
                     continue
-                #verific daca mancarea asociata cu vecinul se mai afla in lista 
+                # verific daca mancarea asociata cu vecinul se mai afla in lista 
                 if (current.source, neighbor) not in openset:
                     openset[(current.source, neighbor)] = True
                     ant = Ant()
@@ -240,7 +229,6 @@ class MyBot:
     def initTurn(self, ants):
         # save the ants list for this given turn
         ants.my_ants_list = ants.my_ants()
-        #ants.landmap()
         self.turn_number += 1
 
         self.logger.info("turn #" + str(self.turn_number) + ":")
@@ -248,6 +236,7 @@ class MyBot:
 
     def do_turn(self, ants):
         path = []
+        self.destinations = []
         directions = AIM.keys()
         self.logger.info("Round")
         self.initTurn(ants)
@@ -256,23 +245,9 @@ class MyBot:
         my_ants = ants.my_ants_list
 
         foods = ants.food_list
-        #self.logger.info("food: " + str(ants.food_list))
-        #for ant in self.send_ants:
-        #    if ant in my_ants:
-        #        my_ants.remove(ant)
-        #for food in self.mancare:
-        #    if food in foods:
-        #        foods.remove(food)
-        #for ant in ants.my_ants():
-        #    creat_ant = Ant()
-        #    creat_ant.source = ant
-        #    my_ants.append(creat_ant)
-
         new_ants = []
-        if my_ants != []:# and foods != []:
+        if my_ants != []:
             new_ants = self.bfs(foods, my_ants, ants)
-        #ants_number = len(ants.my_ants())
-        #self.logger.info("new ants: " + str(new_ants))
 
         for ant in new_ants:
             if not ant.moved:
@@ -284,21 +259,19 @@ class MyBot:
                         next_coord = ants.get_next_coord(ant.source, border)
                         self.logger.info("----> next")
                         self.logger.info(next_coord)
-                 
                 if next_coord != None:
                     path = next_coord
-
                 elif self.paths.__contains__(ant.source):
                     path = self.paths.pop(ant.source)
                 else:
-                    minim = 1000
+                    minim = maxint
                     next_node = None
                     if not ants.is_visited(ant.source):
                         ants.set_visited(ant.source)
                         closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
                         self.logger.info("Centru cluster:")
                         self.logger.info(ants.get_center(ant.source))
-                         
+
                         path_square = self.Astar(closest_my, ant.source, ants) 
                         ants.set_path(ant.source , path_square)
                         ants.set_source(ant.source, closest_my)
@@ -306,14 +279,11 @@ class MyBot:
                         if ants.land_count[neighbor[0]][neighbor[1]] < minim and ants.passable(neighbor[0], neighbor[1]):
                             minim = ants.land_count[neighbor[0]][neighbor[1]]
                             next_node = neighbor
-
-
                     self.move_ant(next_node, ant.source, ants)
                 self.logger.info("here")
                 if path != []:
                     (n_row, n_col) = path.pop(0)        # Get next move.
                     direction = ants.direction(ant.source[0], ant.source[1], n_row, n_col)
-
                     if not (n_row, n_col) in destinations:
                         if path != []:
                             # Update dict of paths with new coords for ant.
@@ -323,73 +293,6 @@ class MyBot:
                     else:
                         destinations.append(ant.source)
 
-
-               
-               
-               
-               
-                    """
-                self.logger.info(ant.moved)
-                (a_row, a_col) = ant.source
-                directions = AIM.keys()
-                shuffle(directions)
-                self.logger.info("shuffle")
-                for direction in directions:
-                    self.logger.info("here")
-                    (n_row, n_col) = ants.destination(a_row, a_col,direction)
-                    
-                    self.logger.info    if(not (n_row, n_col) in self.destinations) and ants.passable(n_row, n_col):
-
-                        self.logger.info(direction)
-                        ants.issue_order((a_row, a_col, direction))
-                        self.destinations.append((n_row, n_col))
-                        break
-                    else:
-                        self.destinations.append((a_row, a_col))
-                    """ 
-        self.destinations = []
-        """
-        for a_row, a_col in ants.my_ants():
-            # If ant has a path to follow, follow it.
-            path = []
-
-            if self.paths.__contains__((a_row, a_col)):
-                path = self.paths.pop((a_row, a_col))    # Get path of this ant
-
-            else:
-                directions = AIM.keys()
-                shuffle(directions)
-                for direction in directions:
-                    (n_row, n_col) = ants.destination(a_row, a_col,direction)
-                    self.logger.info(direction)
-                    if(not (n_row, n_col) in destinations ):
-                        self.logger.info(direction)
-                        ants.issue_order((a_row, a_col, direction))
-                        destinations.append((n_row, n_col))
-                        break
-                    else:
-                        destinations.append((a_row, a_col))
-                    
-            if path != []:
-                (n_row, n_col) = path.pop(0)        # Get next move.
-                direction = ants.direction(a_row, a_col, n_row, n_col)
-
-                if not (n_row, n_col) in destinations:
-                    if len(path) == 1:
-                        if path[0] in self.mancare:
-                            self.mancare.remove(path[0])
-                    if path != []:
-                        # Update dict of paths with new coords for ant.
-                        self.paths[(n_row, n_col)] = path
-                        self.send_ants.append((n_row, n_col))
-
-                    if (a_row, a_col) in self.send_ants:
-                        self.send_ants.remove((a_row, a_col))
-                    ants.issue_order((a_row, a_col, direction[0]))
-                    destinations.append((n_row, n_col))
-                else:
-                    destinations.append((a_row, a_col))
-        """
 if __name__ == '__main__':
     try:
         import psyco
