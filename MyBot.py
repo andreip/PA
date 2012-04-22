@@ -284,10 +284,14 @@ class MyBot:
                 if not ants.is_visited(ant.source):
                     ants.set_visited(ant.source)
                     self.logger.info("print")
+                    self.logger.info("Unde sunt:" + str(ant.source))
+                    self.logger.info("Vecinii sunt:")
+                    self.logger.info(ants.cluster_neighbor(ants.where_i_am(ant.source)))
+                    
                     closest_my =  ants.closest_my_hill(ant.source[0], ant.source[1])
-                    self.logger.info(ants.my_hills())
-                    self.logger.info(ant.source)
-                    self.logger.info(closest_my)
+                    self.logger.info("Centru cluster:")
+                    self.logger.info(ants.get_center(ant.source))
+ 
                     path = self.Astar(closest_my, ant.source, ants) 
                     self.logger.info(path)
                 for neighbor in self.neighbor_nodes(ant.source, ants):

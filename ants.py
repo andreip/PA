@@ -69,7 +69,8 @@ class Ants():
         self.my_ants_list = None            # list with ants in this turn
 
         self.cluster = None
-
+        self.cwidth = None
+        self.cheight = None
 
     def setup(self, data):
         'parse initial input and setup starting game state'
@@ -98,20 +99,47 @@ class Ants():
                     for row in range(self.height)]
         self.land_count = [[0 for col in range(self.width)]
                     for row in range(self.height)]
-        self.cluster = [[Square() for col in range(self.width)]
-                    for row in range(self.height)]
+        self.cwidth = self.width /10 + 1
+        self.cheight = self.height /10 + 1
 
-        for col in range(self.width / 10 + 1) :
-            for row in range(self.height / 10 + 1):
+        self.cluster = [[Square() for col in range(self.cwidth)]
+                    for row in range(self.cheight)]
+        
+        for col in range(self.cwidth) :
+            for row in range(self.cheight):
                 point = Square()
-                point.center = ((col + 1)*10/2, (row + 1)*10/2)
+                point.center = (row*10 + 5, col*10 + 5)
                 #point.vizitat = False
                 #point.occupide = False
-                self.cluster[col][row] = point
-    
+                self.cluster[row][col]= point
+
+   
+    def cluster_neighbor(self, current):
+        """! \brief Returneaza toti vecinii nodului curent.
+
+            \param curent - pozitia curenta, de forma (row, col).
+            \return Lista continand vecinii nodului.
+         """
+        l = []
+        l.append(((current[0] + 1) % self.cheight, current[1] ))
+        l.append(((current[0] - 1) % self.cheight, current[1] ))
+        l.append(( current[0], (current[1] + 1) % self.cwidth ))
+        l.append(( current[0], (current[1] - 1) % self.cwidth ))
+        l.append(((current[0] - 1) % self.cheight, (current[1] - 1) % self.cwidth ))
+        l.append(((current[0] + 1) % self.cheight, (current[1] + 1) % self.cwidth ))
+        l.append(((current[0] + 1) % self.cheight, (current[1] - 1) % self.cwidth ))
+        l.append(((current[0] - 1) % self.cheight, (current[1] + 1) % self.cwidth ))
+        
+        return l
+
+
+
+
     def where_i_am(self, coord):
         return (coord[0]/10, coord[1]/10)
 
+    def get_center(self, coord):
+        return self.cluster[coord[0]/10][coord[1]/10].center
 
     def is_visited(self, coord):
         return self.cluster[coord[0]/10][coord[1]/10].vizitat
