@@ -17,7 +17,7 @@ map3="$lin/maps/random_walk/random_walk_p02_11.map"
 chmod a+x $player1
 chmod a+x $player2
 
-#./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map $player1 "python $player2"|java -jar $lin/visualizer.jar
+./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map $player1 "python $player2"|java -jar $lin/visualizer.jar
 ./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map1 $player1 "python $player2"|java -jar $lin/visualizer.jar
-#./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map2 $player1 "python $player2"|java -jar $lin/visualizer.jar
+./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map2 $player1 "python $player2"|java -jar $lin/visualizer.jar
 ./$lin/playgame.py --log_dir $lin/game_logs -So --verbose --engine_seed 42 --player_seed 0 --turns 1000 --map_file $map3 $player1 "python $player2"|java -jar $lin/visualizer.jar
