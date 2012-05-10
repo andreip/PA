@@ -29,12 +29,11 @@ class MyBot:
         """
         self.paths = {}         # paths for ants
 
-        self.logger = logging.getLogger('myapp')
-        hdlr = logging.FileHandler('logFile.log')
-        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
-        hdlr.setFormatter(formatter)
-        self.logger.addHandler(hdlr)
-        self.logger.setLevel(logging.INFO)
+        #self.logger = logging.getLogger('myapp')
+        #hdlr = logging.FileHandler('logFile.log')
+        #formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+        #hdlr.setFormatter(formatter)
+        #self.logger.addHandler(hdlr)
         self.mancare = []
         self.drum_explorare = None
         self.hills = None
@@ -229,11 +228,9 @@ class MyBot:
                     #            destinations.append((a_row, a_col))
                     else:
                         path = self.Astar((a_row, a_col), unseen, ants)
-                self.logger.info("2")
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
-                self.logger.info("3")
                 if not (n_row, n_col) in destinations:
                     if len(path) == 1:
                         if path[0] in self.mancare:
