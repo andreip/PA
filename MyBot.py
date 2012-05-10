@@ -110,15 +110,18 @@ class MyBot:
         f_score = g_score + h_score
 
         came_from[start] = None
-        heappush(heap, (f_score, start))    # Use heap to store by f_score.
+        heappush(heap, (f_score, (start, 0)))    # Use heap to store by f_score.
 
         while openset != []:
             _, current = heappop(heap)
-            if current == goal:
+            if current[0] == goal:
                 return self.reconstruct_path(came_from, goal)
-            closedset[current] = True       # True that current is in dict
+            closedset[current[0]] = True       # True that current is in dict
 
-            for neighbor in self.neighbor_nodes(current, ants):
+            if current[1] >= 35:
+                return self.reconstruct_path(came_from, current[0])
+
+            for neighbor in self.neighbor_nodes(current[0], ants):
                 if (not ants.passable(neighbor[0], neighbor[1]) or
                 closedset.__contains__(neighbor)):
                     continue
@@ -127,8 +130,8 @@ class MyBot:
                     h_score = self.heuristic_cost_estimate(neighbor, goal, ants)
                     g_score = self.heuristic_cost_estimate(start, neighbor, ants)
                     f_score = g_score + h_score
-                    heappush(heap, (f_score, neighbor))
-                    came_from[neighbor] = current
+                    heappush(heap, (f_score, (neighbor, current[1] + 1)))
+                    came_from[neighbor] = current[0]
         return None
 
     def do_turn(self, ants):
