@@ -145,7 +145,6 @@ class MyBot:
             if food in ants.food_list:
                 ants.food_list.remove(food)
         
-        self.logger.info(ants.dead_list)
         ants_number = len(ants.my_ants())
 
         for a_row, a_col in ants.my_ants():
@@ -171,19 +170,22 @@ class MyBot:
             else:
 
                 hill = maxint
-                closest_hill = ants.closest_enemy_hill(a_row, a_col)
-                
+                closest_hill = None
+                if path == []:
+                    closest_hill = ants.closest_enemy_hill(a_row, a_col)
+                    #self.logger.info("paht_hill")
+                    #self.logger.info(closest_hill) 
 
                 if closest_hill != None:
                     hill = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_hill, ants)
-                if closest_hill != None and hill <= 10:
-                    path = self.Astar((a_row, a_col), closest_hill, ants)
-
+                    if closest_hill != None and hill <= 9:
+                        path = self.Astar((a_row, a_col), closest_hill, ants)
                 #elif ants_number >= 100 and closest_hill != None:
                 #    path = self.Astar((a_row, a_col), closest_hill, ants)
                     
 
+                closest_food = None
                 if path == []:
                     closest_food = ants.closest_food(a_row, a_col)
                 
@@ -191,7 +193,8 @@ class MyBot:
                 if closest_food != None and path == []:
                     dist = self.heuristic_cost_estimate((a_row, a_col),
                                                         closest_food, ants)
-                if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE:
+                if closest_food != None and dist <= DEFAULT_FOOD_DISTANCE and path == []:
+
                     path = self.Astar((a_row, a_col), closest_food, ants)
                     ants.food_list.remove(closest_food)
                     self.mancare.append(closest_food)
@@ -226,11 +229,11 @@ class MyBot:
                     #            destinations.append((a_row, a_col))
                     else:
                         path = self.Astar((a_row, a_col), unseen, ants)
-            
+                self.logger.info("2")
             if path != []:
                 (n_row, n_col) = path.pop(0)        # Get next move.
                 direction = ants.direction(a_row, a_col, n_row, n_col)
-
+                self.logger.info("3")
                 if not (n_row, n_col) in destinations:
                     if len(path) == 1:
                         if path[0] in self.mancare:
